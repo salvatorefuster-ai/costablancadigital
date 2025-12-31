@@ -1,0 +1,29 @@
+{
+  "name": "Helados Sirvent",
+  "originalUrl": "http://www.heladossirvent.com/",
+  "category": "heladerías",
+  "title": "Inicio",
+  "description": "Encuentra una gran variedad de sabores en nuestro catálogo de helados artesanales, granizados y otros productos creados por la marca Helados Sirvent Benidorm",
+  "h1": "Helados Sirvent",
+  "paragraphs": [
+    "Usamos cookies para una mejor experiencia de usuario, si continua navegando acepta las condiciones especificadas en nuestra Política de Cookies."
+  ],
+  "headings": [
+    "Calidad Garantizada",
+    "Atención Personalizada",
+    "Experiencia Profesional"
+  ],
+  "images": [
+    "https://www.heladossirvent.com/assets/images/sirvent-retocado-113x75.webp",
+    "https://www.heladossirvent.com/assets/images/tradicin-y-calidad-helados-sirvent-benidorm.webp",
+    "https://www.heladossirvent.com/assets/images/sirvent-2-596x748.webp",
+    "https://www.heladossirvent.com/assets/images/sirvent-4-596x748.webp",
+    "https://www.heladossirvent.com/assets/images/sirvent-6-596x748.webp",
+    "https://www.heladossirvent.com/assets/images/sirvent-9-596x748.webp",
+    "https://www.heladossirvent.com/assets/images/sirvent-mesa-de-trabajo-1-816x1024.webp",
+    "https://www.heladossirvent.com/assets/images/sirvent-7-816x1024.webp",
+    "https://www.heladossirvent.com/assets/images/globo-iv-viz-cotx.svg",
+    "https://www.heladossirvent.com/assets/images/sirvent-retocado-113x75.webp"
+  ],
+  "heroImage": "https://www.heladossirvent.com/assets/images/sirvent-retocado-113x75.webp"
+}

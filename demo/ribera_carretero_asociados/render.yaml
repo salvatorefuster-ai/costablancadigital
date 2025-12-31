@@ -1,0 +1,4 @@
+services:
+  - type: web
+    name: ribera_carretero_asociados
+    runtime: static

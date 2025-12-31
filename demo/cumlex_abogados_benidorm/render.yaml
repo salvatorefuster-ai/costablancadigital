@@ -1,0 +1,4 @@
+services:
+  - type: web
+    name: cumlex_abogados_benidorm
+    runtime: static

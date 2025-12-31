@@ -1,0 +1,31 @@
+{
+  "name": "Beni Informatica Reparación De Móviles",
+  "originalUrl": "http://www.beniinformatica.com/",
+  "category": "tiendas de informática",
+  "title": "BENI INFORMÁTICA",
+  "description": "BENI INFORMÁTICA: reparación profesional de móviles, ordenadores y dispositivos electrónicos. Venta de móviles, accesorios y servicios de locutorio con atención cercana y soluciones rápidas.",
+  "h1": "Soluciones tecnológicas para ti",
+  "paragraphs": [
+    "Reparación, accesorios, papelería y más.\nTodo en un solo lugar con calidad y confianza.",
+    "Desarrollo a medida de aplicaciones y herramientas para empresas o particulares.",
+    "Organización, edición y copia de seguridad de tus fotos y vídeos en formato digital.",
+    "Trabajamos junto a desarrolladores web para crear landing pages, tiendas online o aplicaciones web a medida.",
+    "Todo los materiales que necesitas y poder gestionar tus documentos en un solo lugar. Rápido, fácil y confiable."
+  ],
+  "headings": [
+    "SERVICIOS DIGITALES Y DE DESARROLLO",
+    "Programación de Software",
+    "Gestión de fotos y vídeos",
+    "Colaboración en Desarrollo Web",
+    "MÓVILES",
+    "PAPELERÍA",
+    "Fotocopias e Impresiones",
+    "Servicio de Fax"
+  ],
+  "images": [
+    "https://www.beniinformatica.com/images/img.webp",
+    "https://www.beniinformatica.com/images/img_1.webp",
+    "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+  ],
+  "heroImage": "https://www.beniinformatica.com/images/img.webp"
+}

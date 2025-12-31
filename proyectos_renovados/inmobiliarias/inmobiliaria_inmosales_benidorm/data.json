@@ -1,0 +1,27 @@
+{
+  "name": "Inmobiliaria InmoSales Benidorm",
+  "originalUrl": "https://www.inmosales.com/",
+  "category": "inmobiliarias",
+  "title": "Inmobiliarias en Benidorm | InmoSales Benidorm",
+  "description": "InmoSales Benidorm: Tu inmueble ideal. Pisos, chalets, villas en Benidorm y toda Alicante. ¡Grandes ofertas y los mejores precios en tu próxima vivienda! ",
+  "h1": "Encontramos la casa de tus sueños",
+  "paragraphs": [
+    "Información detallada sobre nuestros servicios y compromiso con la calidad. Contáctenos para más detalles."
+  ],
+  "headings": [
+    "Advanced search"
+  ],
+  "images": [
+    "https://www.inmosales.com/img/header/bandera_01.png",
+    "https://www.inmosales.com/img/header/bandera_12.png",
+    "https://www.inmosales.com/img/header/bandera_16.png",
+    "https://www.inmosales.com/img/header/bandera_02.png",
+    "https://www.inmosales.com/img/header/bandera_03.png",
+    "https://www.inmosales.com/img/header/bandera_04.png",
+    "https://www.inmosales.com/img/header/bandera_15.png",
+    "https://www.inmosales.com/img/header/bandera_06.png",
+    "https://www.inmosales.com/img/header/bandera_10.png",
+    "https://www.inmosales.com/img/header/bandera_09.png"
+  ],
+  "heroImage": "https://www.inmosales.com/img/header/bandera_01.png"
+}

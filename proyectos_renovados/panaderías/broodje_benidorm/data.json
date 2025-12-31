@@ -1,0 +1,38 @@
+{
+  "name": "Broodje Benidorm",
+  "originalUrl": "https://broodjebenidorm.nl/",
+  "category": "panaderías",
+  "title": "Broodje Benidorm - Authentieke Nederlandse Bakkerij in Benidorm",
+  "description": "Broodje Benidorm brengt de smaak van Nederland naar Benidorm. Vers brood, gebak en seizoensproducten, dagelijks vers gebakken.",
+  "h1": "Broodje Benidorm",
+  "paragraphs": [
+    "Authentiek Nederlands brood en seizoensproducten. Vers bereid, met liefde gemaakt.",
+    "Sinds 2023 brengen wij de authentieke smaken van Nederland naar Benidorm. Met passie en vakmanschap bereiden we dagelijks vers brood en traditionele gerechten.",
+    "Onze bakkerij is uitgegroeid tot een geliefde ontmoetingsplek voor Nederlanders die heimwee hebben naar de vertrouwde smaken van thuis.",
+    "Dagelijks vers gebakken volgens authentieke Nederlandse recepten",
+    "Luchtig witbrood met een knapperige tijgerkorst. Perfect voor beleg, tosti's en toast."
+  ],
+  "headings": [
+    "Proef de Smaak van Thuis\nin Benidorm",
+    "Een Stukje Nederland in Spanje",
+    "Ons Assortiment",
+    "Tijgerbrood Wit",
+    "Meergranenbrood",
+    "Klooster Brood",
+    "Volkoren Alison",
+    "Haags Donker Brood"
+  ],
+  "images": [
+    "https://broodjebenidorm.nl/images/broodje_gezond.png",
+    "https://broodjebenidorm.nl/images/tijgerbrood.png",
+    "https://broodjebenidorm.nl/images/mini_stimpjes.png",
+    "https://broodjebenidorm.nl/images/hazelino.png",
+    "https://broodjebenidorm.nl/images/tijgerbrood.png",
+    "https://broodjebenidorm.nl/images/meergranen_brood.png",
+    "https://broodjebenidorm.nl/images/klooster_brood.png",
+    "https://broodjebenidorm.nl/images/volkoren_alison.png",
+    "https://broodjebenidorm.nl/images/haags_donker_brood.png",
+    "https://broodjebenidorm.nl/images/volkoren_tijgerbrood.png"
+  ],
+  "heroImage": "https://broodjebenidorm.nl/images/broodje_gezond.png"
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Lidl",
+  "originalUrl": "https://www.lidl.es/",
+  "category": "supermercados",
+  "title": "Compra Online | Lidl",
+  "description": "Ofertas semanales en Bricolaje, Cocina, Juguetes, Deporte y mucho más. La mejor relación calidad-precio a un solo clic. Encuentra todo lo que necesitas en Lidl.",
+  "h1": "Compra artículos de bricolaje, hogar, jardín y más",
+  "paragraphs": [
+    "Para ver todas las ofertas de tu zona, por favor, escoge tu tienda Lidl.Selecciona tu tienda Lidl y te mostramos todas las ofertas disponibles en tu región. Guardaremos la tienda seleccionada.",
+    "Después de seleccionar Detectar ubicación actual, se abrirá una ventana de solicitud de permisos. A continuación te aparecerán las tiendas más cercanas a tu ubicación.",
+    "Por favor, ten en cuenta que no realizamos envíos a Ceuta y Melilla.",
+    "Elige tu tienda para que podamos mostrarte ofertas personalizadas.",
+    "- 15€ en Deporte compra mínima 39€ | código: 15DEPORTE"
+  ],
+  "headings": [
+    "¡Inicia sesión con tu cuenta Lidl Plus!",
+    "¡Tu propósito de Año Nuevo comienza HOY!",
+    "Juguetes llenos de ilusión",
+    "Ofertas actuales",
+    "Folletos",
+    "Ventajas Lidl",
+    "Nuestras marcas",
+    "Ideas y consejos Lidl"
+  ],
+  "images": [
+    "https://www.lidl.es/es/asset/images/categoria-rebajas.png",
+    "https://www.lidl.de/static/assets/XD-561_Category_overview_XS-LG_kitchen-bubble-XS_MD_LG-1541267.jpg",
+    "https://www.lidl.de/static/assets/XD-561_Category_overview_XS-LG_diy-bubble-XS_MD_LG-1541308.jpg",
+    "https://www.lidl.de/static/assets/XD-561_Category_overview_XS-LG_sports-bubble-XS_MD_LG-1541255.jpg",
+    "https://www.lidl.de/static/assets/living-and-furnishings-1549961.jpg",
+    "https://www.lidl.de/static/assets/XD-561_Category_overview_XS-LG_fashion-bubble-XS_MD_LG-1541311.jpg",
+    "https://www.lidl.de/static/assets/XD-561_Category_overview_XS-LG_kids-bubble-XS_MD_LG-1541317.jpg",
+    "https://www.lidl.es/es/asset/images/banner-home-kw01-02-desktop.png",
+    "https://www.lidl.es/es/asset/images/banner-home-kw01-02-mobile.png",
+    "https://www.lidl.es/es/asset/images/banner-home-kw01-02-sello.png"
+  ],
+  "heroImage": "https://www.lidl.es/es/asset/images/banner-home-kw01-02-desktop.png"
+}

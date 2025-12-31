@@ -1,0 +1,36 @@
+{
+  "name": "Tot d'Animals",
+  "originalUrl": "http://www.totdanimals.com/",
+  "category": "veterinarios",
+  "title": "Tienda online Animales, todo para tu mascota.",
+  "description": "Tienda online para Mascotas, todo lo necesario para tu animal de compañia.",
+  "h1": "Tot d'Animals, tu tienda de animales online",
+  "paragraphs": [
+    "Tot d'Animals somos empresa familiar con más de 30 años en el sector de la alimentación y los cuidados de animales, por ello podemos aportar a nuestros clientes, ademaás de la más amplia selección de productos del mercado de las mascotas, un asesoramiento personalizado para el cuidado y la salud de tu perro, gato, etc. Disponemos de más de 1000 metros cuadrados dedicados exclusivamente a dar un servicio de calidad a todos nuestros clientes.",
+    "En Tot d'Animals disponemos de todas las marcas más importantes para la alimentación tanto de mascotas (perros, gatos, reptiles), como para animales de granja (conejos, gallinas) y mucho más. Nuestro compromiso es buscar y seleccionar los mejores productos del mercado para vosotros. Entre las marcas más importantes del mundo animal contamos con: Advance, Royal Canin, Triple Crown, Trixie...",
+    "En nuestra tienda online encontraras una gran selección de productos para tu mascota, piensos, accesorios y mucho más."
+  ],
+  "headings": [
+    "Anibio Lombrilín (Wurmalin)",
+    "Anibio Riñón-Vital (Nieren-Vital)",
+    "Aninatura Aceite de Cañamo CbOne 20 ml.",
+    "Aninatura Delikatesse STICKS - Piel de Lubina",
+    "Arion Titanium Coat",
+    "Arion Titanium Growth",
+    "Todo para tus mascotas",
+    "Alimentación Animal"
+  ],
+  "images": [
+    "https://www.totdanimals.com/skin/frontend/rwd/totdanimals/images/totdanimals.png",
+    "https://www.totdanimals.com/skin/frontend/rwd/totdanimals/images/totdanimals.png",
+    "https://www.totdanimals.com/skin/frontend/base/default/popup/images/close_label.gif",
+    "https://www.totdanimals.com/media/wysiwyg/banner-advantix.jpg",
+    "https://www.totdanimals.com/media/wysiwyg/3.jpg",
+    "https://www.totdanimals.com/media/wysiwyg/1.jpg",
+    "https://www.totdanimals.com/media/wysiwyg/img/piensos-mascota.jpg",
+    "https://www.totdanimals.com/media/wysiwyg/farm-nature.png",
+    "https://www.totdanimals.com/media/wysiwyg/Fleischeslust.png",
+    "https://www.totdanimals.com/media/wysiwyg/hills.png"
+  ],
+  "heroImage": "https://www.totdanimals.com/media/wysiwyg/banner-advantix.jpg"
+}

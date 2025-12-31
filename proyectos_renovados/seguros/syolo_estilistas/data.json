@@ -1,0 +1,30 @@
+{
+  "name": "Syolo Estilistas",
+  "originalUrl": "https://www.syoloestilistas.com/index.html",
+  "category": "seguros",
+  "title": "SYOLO ESTILISTAS - Peluquería en Benidorm",
+  "description": "Syolo Estilistas - Peluqueria en Benidorm, Av. Emilio Ortuño, 30, Local 20",
+  "h1": "Sobre Nosotros",
+  "paragraphs": [
+    "¡Bienvenido a SYOLO ESTILISTAS!\n\nSomos un centro de peluquería ubicado en el centro de Benidorm. Equipo de estilistas avalados con años de experiencia en el sector de la belleza ; Apasionados de su trabajo y reciclados continuamente en las últimas tendencias en el sector. Todo lo que encontrarías en un centro de estética de una ciudad lo tienes a un paso, ¡te esperamos!",
+    "Nombre (requerido) \nApellidos (requerido) \nCorreo electrónico (requerido) \nPassword (requerido) \nDirección \nCódigo postal \nPoblación \nProvincia \nMovil (requerido) \nTeléfono \nFecha nacimiento \nHe leído y acepto la política de privacidad\nAutorizo el envío de información",
+    "Nombre (requerido) \nApellidos (requerido) \nCorreo electrónico (requerido) \nDirección (requerido) \nCódigo postal (requerido) \nPoblación (requerido) \nProvincia (requerido) \nMovil (requerido) \nTeléfono \nFecha nacimiento \nHe leído y acepto la política de privacidad\nAutorizo el envío de información",
+    "Nombre (requerido) \nApellidos (requerido) \nCorreo electrónico (requerido) \nTeléfono (requerido) \nHe leído y acepto la política de privacidad\nAutorizo el envío de información",
+    "Correo electrónico *\n\nTeléfono *\n\n \n* Campos obligatorios"
+  ],
+  "headings": [
+    "Por favor, rellene los siguientes campos",
+    "Compra finalizada",
+    "Error en el pago, no se ha formalizado la reserva",
+    "Pago de Reserva Finalizada",
+    "Error en el pago, no se ha formalizado la reserva"
+  ],
+  "images": [
+    "https://www.syoloestilistas.com/img/loading.gif",
+    "https://www.syoloestilistas.com/img/cesta.svg",
+    "https://www.syoloestilistas.com/img/edit.png",
+    "https://www.syoloestilistas.com/img/cesta.svg",
+    "https://www.syoloestilistas.com/img/banner-kit-digital.png"
+  ],
+  "heroImage": "https://www.syoloestilistas.com/img/banner-kit-digital.png"
+}

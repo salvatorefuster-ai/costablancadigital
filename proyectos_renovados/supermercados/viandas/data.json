@@ -1,0 +1,38 @@
+{
+  "name": "VIANDAS",
+  "originalUrl": "https://viandasstores.com/",
+  "category": "supermercados",
+  "title": "VIANDAS STORES",
+  "description": "Tienda creada con PrestaShop",
+  "h1": "Packs Gourmet",
+  "paragraphs": [
+    "En Viandas somos productores directos de jamón, quesos y embutidos. Como somos fabricantes propios, controlamos todo el proceso de producción de nuestros productos gourmet directos de la Dehesa de Salamanca para ofrecer un estándar de calidad excepcional.",
+    "Nuestra red de tiendas VIANDAS cuenta con más de 25 puntos de venta en localizaciones estratégicas en España, Francia y Reino Unido. Las tiendas VIANDAS son pioneras en tiendas gourmet de la Dehesa Salmantina con el bocadillo de jamón como estrella.",
+    "Un pack de quesos variados con una selección de los mejores quesos españoles de la quesería Hacienda Zorita Organic Farm. Esta cesta de quesos es totalmente personalizable. Nos adaptamos a cualquier presupuesto para tus cestas de queso personalizadas.",
+    "El Pack Selección Deluxe es un pack Gourmet con selección de ibéricos de la Dehesa de Salamanca. En Viandas somos expertos en cestas personalizables y lotes gourmet de regalo. Nos adaptamos a cualquier presupuesto y necesidad.",
+    "Pack de 3 botellas de Vino Senda de los Frailes. Pack de vino Verdejo, Ribera y Toro. Un regalo ideal para los amantes del vino."
+  ],
+  "headings": [
+    "CESTAS NAVIDEÑAS PERSONALIZADAS",
+    "Viandas",
+    "de Salamanca",
+    "CESTAS NAVIDEÑAS GOURMET",
+    "OfertasSan Valentín 2023",
+    "Regala Viandas, \nregala gourmet.",
+    "Jamones",
+    "Embutidos"
+  ],
+  "images": [
+    "https://viandasstores.com/img/cms/home/VIANDAS.svg",
+    "https://viandasstores.com/img/cms/home/VIANDAS.svg",
+    "https://viandasstores.com/modules/revsliderprestashop/public/assets/assets/transparent.png",
+    "https://viandasstores.com/img/cms/home/enviogratis-a-partir-de-69-Viandas.png",
+    "https://viandasstores.com/img/cms/home/Frame.png",
+    "https://viandasstores.com/img/cms/urgente3.png",
+    "https://viandasstores.com/img/cms/home/Group%2037.png",
+    "https://viandasstores.com/img/cms/home/Frame.png",
+    "https://viandasstores.com/img/cms/urgente3.png",
+    "https://viandasstores.com/1301-home_default/pack-de-quesos-hacienda-zorita-organic-farm.jpg"
+  ],
+  "heroImage": "https://viandasstores.com/img/cms/home/VIANDAS.svg"
+}

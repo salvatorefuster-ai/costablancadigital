@@ -1,0 +1,20 @@
+{
+  "name": "masymas basic",
+  "originalUrl": "https://www.masymas.com/",
+  "category": "supermercados",
+  "title": "Fresh is our thing",
+  "description": "Sitio web oficial SUPERMERCADOS MASYMAS FORNES.",
+  "h1": "masymas basic",
+  "paragraphs": [
+    "Subscribe to the masymas newsletter and you will be able to stay up to date with all the offers and news.",
+    "Crta. Nacional 332, km 191 03750 Pedreguer, Alicante"
+  ],
+  "headings": [
+    "ICONOS MENÚ BOTTOM - EN"
+  ],
+  "images": [
+    "https://www.masymas.com/images/slidersportada/Banner_Tol_web_corporativa_Navidad.png",
+    "https://www.masymas.com/images/slidersportada/productos_club.png"
+  ],
+  "heroImage": "https://www.masymas.com/images/slidersportada/Banner_Tol_web_corporativa_Navidad.png"
+}

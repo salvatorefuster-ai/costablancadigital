@@ -1,0 +1,4 @@
+services:
+  - type: web
+    name: gesstar_gestores_sl
+    runtime: static

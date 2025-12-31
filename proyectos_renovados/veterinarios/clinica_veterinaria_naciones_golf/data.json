@@ -1,0 +1,34 @@
+{
+  "name": "Clinica Veterinaria Naciones Golf",
+  "originalUrl": "http://www.cvnacionesgolf.com/",
+  "category": "veterinarios",
+  "title": "Clínica Veterinaria Naciones Golf en Alicante",
+  "description": "En nuestra clínica veterinaria realizamos cirugía general, visitas a domicilio, servicio de hospitalización, peluquería...",
+  "h1": "Siempre a tu lado",
+  "paragraphs": [
+    "Nos desplazamos a tu domicilio si las circunstancias lo requieren.",
+    "Disponemos de hospitalización para controlar cualquier percance.",
+    "Contamos con un equipo veterinario especializado en cirugía y traumatología con muchos años de experiencia.",
+    "La detección precoz es indispensable en el tratamiento.",
+    "Te recomendamos todos los métodos necesarios para evitar una infestación."
+  ],
+  "headings": [
+    "Abrimos todos los días",
+    "Abierto de Lunes a Sabado",
+    "Visitas a domicilio",
+    "Servicio de hospitalización.",
+    "Cirugía General",
+    "Campaña leishmania",
+    "Campaña desparasitaciones",
+    "Campaña esterilizaciones"
+  ],
+  "images": [
+    "https://media.v2.siweb.es/uploaded_thumb_small/1c18b2e96de34ba574c267d4947db617/fa2b64_8552b5c3ab0640168ce3ecf92f7ea574.jpg",
+    "https://cvnacionesgolf.com/",
+    "https://cvnacionesgolf.com/",
+    "https://cvnacionesgolf.com/",
+    "https://cvnacionesgolf.com/",
+    "https://cvnacionesgolf.com/"
+  ],
+  "heroImage": "https://media.v2.siweb.es/uploaded_thumb_small/1c18b2e96de34ba574c267d4947db617/fa2b64_8552b5c3ab0640168ce3ecf92f7ea574.jpg"
+}

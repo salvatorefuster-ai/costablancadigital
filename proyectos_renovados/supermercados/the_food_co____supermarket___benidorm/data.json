@@ -1,0 +1,35 @@
+{
+  "name": "The Food Co. - Supermarket - Benidorm",
+  "originalUrl": "https://www.thefoodco.es/",
+  "category": "supermercados",
+  "title": "The Food Co. - TheFoodCo-en",
+  "description": "The Food Co. Supermarket – Buy the Best British Products Online in Spain & Portugal with 24/48h Home Delivery",
+  "h1": "Bread sent frozen, delivered defrosted.",
+  "paragraphs": [
+    "We use several types of cookies to offer you a better experience on our website. More information in Cookie Policy.",
+    "This website uses cookies so that we can offer you the best possible user experience. Cookie information is stored in your browser and performs functions such as recognizing you when you return to our website or helping our team understand which sections of the website you find most interesting and useful."
+  ],
+  "headings": [
+    "Ready to enjoy within 72 hours.",
+    "Delivered to Your Doorstep in 24/48h",
+    "Ready to enjoy within 72 hours.",
+    "Delivered to Your Doorstep in 24/48h",
+    "Ready to enjoy within 72 hours.",
+    "Find Your Nearest Store",
+    "Seasonal Products\nChristmas",
+    "Offers and Promotions\nOffers and Promotions"
+  ],
+  "images": [
+    "https://thefoodco.es/storage/configuration/home_banner_info_1_crop.webp",
+    "https://thefoodco.es/storage/configuration/home_banner_info_2_crop.webp",
+    "https://thefoodco.es/storage/configuration/home_secundarios_banner1_crop.webp",
+    "https://thefoodco.es/storage/configuration/home_secundarios_banner2_crop.webp",
+    "https://thefoodco.es/storage/configuration/home_secundarios_banner3_crop.webp",
+    "https://thefoodco.es/storage/categorias/144d1b483f2fcbfe33be8d47d40c62cd.png",
+    "https://thefoodco.es/storage/categorias/46c7402fe27ec3f23a9c1cc8c093e789.png",
+    "https://thefoodco.es/storage/categorias/81d9fa91869cb10e55fe4790a6358001.png",
+    "https://thefoodco.es/storage/categorias/7b878990aebcfe57f4fdc4fb7c00ecb2.png",
+    "https://thefoodco.es/storage/categorias/295baad54dde4f0a23c75d17f20c9551.png"
+  ],
+  "heroImage": "https://thefoodco.es/storage/configuration/home_banner_info_1_crop.webp"
+}

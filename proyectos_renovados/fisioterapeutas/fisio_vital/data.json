@@ -1,0 +1,31 @@
+{
+  "name": "Fisio Vital",
+  "originalUrl": "https://www.fisiovitalbenidorm.com/",
+  "category": "fisioterapeutas",
+  "title": "Inicio",
+  "description": "",
+  "h1": "Fisio Vital",
+  "paragraphs": [
+    "En nuestra clínica trabajamos con técnicas manuales no invasivas que nos permiten tratar a cada persona de forma cercana, personalizada y respetuosa. Nuestro equipo de fisioterapeutas y osteópatas está especializado en el abordaje integral de bebés , niños y adultos, combinando experiencia clínica, innovación y una gran vocación de servicio.",
+    "Nos diferencia la atención humana y el compromiso por mejorar tu bienestar, siempre buscando que recuperes tu equilibrio y calidad de vida.",
+    "Las cookies son importantes para ti, influyen en tu experiencia de navegación. Usamos cookies analíticas, de personalización y publicitarias (propias y de terceros) para hacer perfiles basados en hábitos de navegación y mostrarte contenido útil. Recogeremos tu elección anónimamente. Haz clic en “Aceptar” o haz clic en “Configurar Cookies” para autorizar uno a uno los permisos y consultar todas nuestras cookies. Consulta este enlace para saber más acerca de nuestra política de cookies."
+  ],
+  "headings": [
+    "Fisioterapia general",
+    "Fisioterapia infantil",
+    "Osteopatía",
+    "Osteopatía pediátrica",
+    "Neuromecánica funcional: Método BMT",
+    "Readaptación neuromuscular específica del hombro",
+    "Embarazo, lactancia y postparto",
+    "Curso de formación: BMT"
+  ],
+  "images": [
+    "https://le-de.cdn-website.com/75dd91faf49d43c6b80bd03998c7d243/dms3rep/multi/opt/FISIOVITAL-web-1920w.png",
+    "https://le-de.cdn-website.com/75dd91faf49d43c6b80bd03998c7d243/dms3rep/multi/opt/FISIOVITAL-web-241w.png",
+    "https://le-de.cdn-website.com/md/dmtmpl/c54226e5-1d30-495a-822c-d5f68fe70d89/dms3rep/multi/opt/landing_page_white_background-2304w.png",
+    "https://storage.googleapis.com/gcp_pub-duda/widgets/footer/qdq_blanco.svg",
+    "https://storage.googleapis.com/gcp_pub-duda/widgets/footer/grupo_kit_desktop@2x.png"
+  ],
+  "heroImage": "https://le-de.cdn-website.com/75dd91faf49d43c6b80bd03998c7d243/dms3rep/multi/opt/FISIOVITAL-web-1920w.png"
+}

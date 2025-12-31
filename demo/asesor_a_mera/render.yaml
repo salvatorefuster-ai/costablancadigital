@@ -1,0 +1,4 @@
+services:
+  - type: web
+    name: asesor_a_mera
+    runtime: static

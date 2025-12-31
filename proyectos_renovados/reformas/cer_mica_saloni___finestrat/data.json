@@ -1,0 +1,32 @@
+{
+  "name": "Cerámica Saloni - Finestrat",
+  "originalUrl": "https://saloni.com/es",
+  "category": "reformas",
+  "title": "Saloni - Fabricantes de cerámica y porcelánicos",
+  "description": "Fabricantes de cerámica y porcelánicos con más de 50 años de experiencia como empresa. Accede ahora para conocer todos los productos y proyectos de Saloni.",
+  "h1": "SALONI, tu tienda de cerámica",
+  "paragraphs": [
+    "Saloni es una empresa fabricante y comercializador de baldosas cerámicas con más de 50 años de historia.",
+    "Ofrecer a nuestros clientes, siempre, la mejor experiencia en la compra de recubrimientos.",
+    "La Dirección de Cerámica Saloni impulsa las directrices para cumplir con los requisitos establecidos en el Sistema de Gestión.",
+    "En Saloni te ofrecemos un rango de servicios para hacer realidad tu proyecto de la forma más cómoda.",
+    "En Saloni estamos comprometidos en mejorar continuamente las condiciones de seguridad y salud de nuestros trabajadores."
+  ],
+  "headings": [
+    "Colecciones destacadas",
+    "LAURENT",
+    "BLENDING",
+    "Encuentra tu producto",
+    "AMBIENTE",
+    "ESTILO",
+    "SERIES",
+    "Inspiración"
+  ],
+  "images": [
+    "https://saloni.com/assets/front/images/home/arrow.jpg?202512310201",
+    "https://saloni.com/assets/front/images/home/home-ambientes.jpg?202512310201",
+    "https://saloni.com/assets/front/images/home/home-estilo.jpg?202512310201",
+    "https://saloni.com/assets/front/images/home/home-series.jpg?202512310201"
+  ],
+  "heroImage": "https://saloni.com/assets/front/images/home/arrow.jpg?202512310201"
+}

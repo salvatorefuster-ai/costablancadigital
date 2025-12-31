@@ -1,0 +1,38 @@
+{
+  "name": "Servicolor",
+  "originalUrl": "https://servicolor.com/",
+  "category": "pintores",
+  "title": "Tu tienda de pinturas online",
+  "description": "Más de 150 años a tu servicio. Expertos en pintura, decoración, suelos laminados, bricolaje, manualidades y mucho más.",
+  "h1": "Servicolor",
+  "paragraphs": [
+    "Envío gratis a la Península a partir de 50 € (excepto suelos y molduras)",
+    "El mejor momento para pintar tu casa es ¡ahora! Da igual si quieres pintar las paredes de blanco o las prefieres de color, tenemos la pintura que necesitas.",
+    "Mira toda nuestra variedad de pintura para paredes y elige la tuya.",
+    "Todos los productos que necesitas para el cuidado de las maderas, tanto en interior como en exterior.",
+    "Protege la belleza natural de la madera con nuestra gama de productos. ¡Descúbrelos!"
+  ],
+  "headings": [
+    "PINTURA PARA PAREDES",
+    "PINTURA PARA PAREDES Y FACHADAS",
+    "Emblema Mate Bruguer",
+    "Expert Mate Bruguer",
+    "Pintura efecto higienizante Isablock Isaval",
+    "Kit pintar habitación",
+    "Pintura acrílica lavable M18 Extramate Isaval",
+    "Pintura plástica mate Coblanc Isaval"
+  ],
+  "images": [
+    "https://servicolor.com/19156-home_default/bruguer-ecosense.jpg",
+    "https://servicolor.com/19159-home_default/isablock-isaval.jpg",
+    "https://servicolor.com/15636-home_default/xanol-lasur-isaval.jpg",
+    "https://servicolor.com/15484-home_default/aceite-para-teca-xyladecor.jpg",
+    "https://servicolor.com/15096-home_default/quitagrafitis-monestir.jpg",
+    "https://servicolor.com/18117-home_default/limpiador-de-moho-hg.jpg",
+    "https://servicolor.com/8174-home_default/pulverizadora-graco-gx21.jpg",
+    "https://servicolor.com/15114-home_default/atornillador-con-bateria-de-litio-ar36nm-ratio.jpg",
+    "https://servicolor.com/15648-home_default/kit-pintar-habitacion.jpg",
+    "https://servicolor.com/"
+  ],
+  "heroImage": "https://servicolor.com/19156-home_default/bruguer-ecosense.jpg"
+}

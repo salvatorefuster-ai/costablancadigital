@@ -1,0 +1,38 @@
+{
+  "name": "Supermercado Dialprix",
+  "originalUrl": "https://dialprix.es/?utm_source=G&utm_medium=Local&utm_campaign=Google-Local",
+  "category": "panaderías",
+  "title": "Supermercados Dialprix • El súper de la frescura",
+  "description": "Supermercados Dialprix ⭐ Siempre fresco, fácil y a tu lado ✚ Descubre ofertas en productos frescos cada semana",
+  "h1": "Tu compra más fácil, fresca y cercana que nunca",
+  "paragraphs": [
+    "En Dialprix simplificamos tu día a día con productos frescos y de calidad, siempre a un paso de ti.",
+    "En Dialprix queremos que ahorres sin renunciar a la calidad. Descubre nuestras ofertas exclusivas y disfruta de los mejores productos frescos, con precios irresistibles. Consulta nuestro folleto y encuentra descuentos especiales en todas nuestras secciones.",
+    "Descubre nuestras áreas de productos y servicios frescos.",
+    "Carnes frescas y de la mejor calidad, listas para disfrutar en tu mesa.",
+    "Embutidos y quesos de calidad, perfectos para cada ocasión."
+  ],
+  "headings": [
+    "¿Por qué elegir Dialprix?",
+    "Ahorra hoy con las\nmejores ofertas de Dialprix",
+    "Nuestra secciones",
+    "Carnicería",
+    "Charcutería",
+    "Frutas y Verduras",
+    "Panadería",
+    "Take Away"
+  ],
+  "images": [
+    "https://dialprix.es/wp-content/uploads/Home-.webp",
+    "https://dialprix.es/wp-content/uploads/Banner_ofertas17-1.png",
+    "https://dialprix.es/wp-content/uploads/Imagen-seccion-Carniceria.webp",
+    "https://dialprix.es/wp-content/uploads/Vector.svg",
+    "https://dialprix.es/wp-content/uploads/Imagen-seccion-Charcuteria.webp",
+    "https://dialprix.es/wp-content/uploads/Vector.svg",
+    "https://dialprix.es/wp-content/uploads/frutas-verduras.webp",
+    "https://dialprix.es/wp-content/uploads/Imagen-seccion-panaderia.webp",
+    "https://dialprix.es/wp-content/uploads/PICTOGRAMAS.svg",
+    "https://dialprix.es/wp-content/uploads/take-away-1.webp"
+  ],
+  "heroImage": "https://dialprix.es/wp-content/uploads/Home-.webp"
+}

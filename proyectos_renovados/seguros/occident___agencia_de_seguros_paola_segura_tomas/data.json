@@ -1,0 +1,38 @@
+{
+  "name": "Occident - Agencia de seguros Paola Segura Tomas",
+  "originalUrl": "https://www.occident.com/",
+  "category": "seguros",
+  "title": "Occident - Tu nueva compañía de seguros",
+  "description": "Occident es la unión de Seguros Catalana Occidente, Plus Ultra Seguros y Seguros Bilbao. Con una gran implantación, es uno de los líderes del sector asegurador en España.",
+  "h1": "Te damos la bienvenida a Occident",
+  "paragraphs": [
+    "Realiza tus gestiones on-line a través de tu ordenador, móvil o tablet de forma completamente segura.",
+    "Si aún no te has registrado, recuerda que puedes...",
+    "Tu casa es única y especial, por eso te ofrecemos una protección a medida.",
+    "El seguro veterinario más completo para tu mascota.",
+    "Conoce en qué consiste y qué soluciones te ofrecemos"
+  ],
+  "headings": [
+    "¿Ya tienes cuenta?",
+    "Calcula el precio de tu seguro",
+    "Encuentra la protección que necesitas",
+    "Seguros de auto",
+    "Seguros de hogar",
+    "Seguros de vida",
+    "Seguros de salud",
+    "Seguros de decesos"
+  ],
+  "images": [
+    "https://www.occident.com/img/es/o/2000102096485/img_seguro-coche-occident-menu.png",
+    "https://www.occident.com/img/es/o/2000102095903/img_seguro-hogar-occident-menu.png",
+    "https://www.occident.com/img/es/o/2000102096425/img_seguro-salud-occident-menu.png",
+    "https://www.occident.com/",
+    "https://www.occident.com/img/es/o/2000102096446/img_seguro-ahorros-y-jubilacion-occident-menu.png",
+    "https://www.occident.com/img/es/o/2000102095848/img_seguro-renting-occident-menu.png",
+    "https://www.occident.com/img/es/o/1485597996055/208stockesp.png",
+    "https://www.occident.com/img/es/o/1485597998325/kiastonicabril.png",
+    "https://www.occident.com/img/es/o/1485597999241/seatleonabril.png",
+    "https://www.occident.com/img/es/o/2000102096485/img_seguro-coche-occident-menu.png"
+  ],
+  "heroImage": "https://www.occident.com/img/es/o/2000102096485/img_seguro-coche-occident-menu.png"
+}

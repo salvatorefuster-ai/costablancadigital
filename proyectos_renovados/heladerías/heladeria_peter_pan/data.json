@@ -1,0 +1,31 @@
+{
+  "name": "Heladeria Peter Pan",
+  "originalUrl": "http://www.gelateriapinocchio.eu/",
+  "category": "heladerías",
+  "title": "Italian and Mediterranean tradition | Gelateria Pinocchio",
+  "description": "Italian tradition, fresh produce, and a privileged seafront location define the essence of Pinocchio Restaurant. Enjoy authentic Mediterranean recipes with the traditional flavor and care of a family kitchen.",
+  "h1": "VISIT PINOCCHIO",
+  "paragraphs": [
+    "Pinocchio Senza Glutine, new gluten-free dishes throughout our entire menu.",
+    "The best flavors of Italy delivered to your door or for pickup. Place your order online at our Italian restaurants quickly and easily.",
+    "Italian tradition, fresh products, and a privileged seaside location define the essence of Ristorante Pinocchio. In our venue, with over 30 years of history, you’ll enjoy authentic Mediterranean recipes with the timeless flavor and warmth of a family kitchen.",
+    "Discover our irresistible stone-baked pizzas, a menu of fresh pastas, rice dishes, fish and meat, not to mention homemade desserts and artisanal ice creams made in our own gelateria.",
+    "Don’t leave without trying one of our signature dishes or enjoying an Italian coffee on the terrace with views of the Mediterranean. At Pinocchio, generosity in every serving and attention to detail will make your visit unforgettable."
+  ],
+  "headings": [
+    "OUR TRADITIONAL RECIPES, NOW GLUTEN-FREE",
+    "ORDER ONLINE",
+    "ARTISANAL, HOUSE-MADE GLUTEN-FREE PASTA",
+    "VISIT PINOCCHIO"
+  ],
+  "images": [
+    "https://www.gelateriapinocchio.eu/upload/images/showroom/slide2.jpg",
+    "https://www.gelateriapinocchio.eu/upload/images/showroom/grupo-122.jpg",
+    "https://www.gelateriapinocchio.eu/layout/common/_thumb/upload-images-modules-modulerecetas-1600x0-zc0.jpg",
+    "https://www.gelateriapinocchio.eu/layout/common/_thumb/upload-images-modules-modulepedidos-1600x0-zc0.jpg",
+    "https://www.gelateriapinocchio.eu/layout/common/_thumb/upload-images-modules-la-nonna-luisa-h-1600x0-zc0.png",
+    "https://www.gelateriapinocchio.eu/layout/common/_thumb/upload-images-modules-modulevisita-1600x0-zc0.jpg",
+    "https://code.sollutia.com/basedevBEM/solluBEM.2.0/images/kitDigital-banner.png"
+  ],
+  "heroImage": "https://code.sollutia.com/basedevBEM/solluBEM.2.0/images/kitDigital-banner.png"
+}

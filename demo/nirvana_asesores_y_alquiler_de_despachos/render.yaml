@@ -1,0 +1,4 @@
+services:
+  - type: web
+    name: nirvana_asesores_y_alquiler_de_despachos
+    runtime: static

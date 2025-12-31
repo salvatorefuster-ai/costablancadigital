@@ -1,0 +1,29 @@
+{
+  "name": "Mercadona",
+  "originalUrl": "https://www.mercadona.es/",
+  "category": "supermercados",
+  "title": "Mercadona",
+  "description": "Empieza tu compra online en Mercadona, encuentra nuestros supermercados más cercanos o descubre cómo trabajar con nosotros",
+  "h1": "Empieza tu compra en Mercadona",
+  "paragraphs": [
+    "Introduce tu código postal y dependiendo de tu ciudad accederás a la nueva compra online o a la web clásica.",
+    "Recibe tu pedido en casa con la misma calidad y frescura de siempre.",
+    "Por el momento, la nueva app y web está disponible en Valencia, Barcelona, Madrid y otras poblaciones. Introduce tu código postal arriba para ver si repartimos en tu zona. Si aún no llegamos, ¡apúntate y te avisamos!",
+    "O descarga la App y haz tu compra en cualquier momento.",
+    "Utilizamos cookies propias y de terceros, de sesión y persistentes, con la finalidad de hacer que la navegación de los usuarios por nuestra página web sea fácil y segura. A su vez, utilizamos cookies para medir y obtener datos estadísticos de la navegación de los usuarios. Puedes configurar y aceptar el uso de cookies, así como modificar tus opciones de consentimiento en cualquier momento."
+  ],
+  "headings": [
+    "Compra online",
+    "Nueva tienda online en algunas zonas",
+    "Empieza tu compra en Mercadona",
+    "Cliente",
+    "Trabajador",
+    "Proveedor",
+    "Sociedad"
+  ],
+  "images": [
+    "https://www.mercadona.es/static/media/google-play-badge.d099be767cd18e3fec3ea3612fc066a4.svg",
+    "https://www.mercadona.es/static/media/app-store-badge.d342d6416420f257cfe7c4a4111ab12b.svg"
+  ],
+  "heroImage": "https://www.mercadona.es/static/media/google-play-badge.d099be767cd18e3fec3ea3612fc066a4.svg"
+}

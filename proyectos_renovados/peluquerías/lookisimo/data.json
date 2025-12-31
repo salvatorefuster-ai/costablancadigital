@@ -1,0 +1,32 @@
+{
+  "name": "Lookisimo",
+  "originalUrl": "http://www.lookisimo.com/",
+  "category": "peluquerías",
+  "title": "Lookisimo – Salón de Peluquería, Estética, Uñas y Pestañas en Benidorm",
+  "description": "",
+  "h1": "Menu",
+  "paragraphs": [
+    "«Lookisimo es tu salón de belleza en Benidorm, donde la elegancia y la innovación se encuentran para ofrecerte una experiencia única. Nos especializamos en servicios completos de peluquería, estética facial y corporal, uñas y pestañas, utilizando tecnologías de vanguardia como Indiba, Hifu, y Hydrofacial. Nuestro equipo de profesionales está comprometido en realzar tu belleza de manera personalizada, brindándote resultados excepcionales en un ambiente exclusivo. En Lookísimo, cada detalle está pensado para ti, asegurando una transformación que resalta lo mejor de ti. Descubre el lujo de sentirte bien, con un servicio a la altura de tus expectativas.»",
+    "Descubre la excelencia en peluquería en Benidorm: Estilo, calidad y vanguardia en cada detalle",
+    "Estética avanzada en Benidorm: Tecnología de última generación y cosmética médico-estética de alta calidad",
+    "Manicuras perfectas en Benidorm: Desde clásicos elegantes hasta uñas de gel y acrílico ó Shellac",
+    "Realza tu mirada en Benidorm: Extensiones, lifting y laminado de cejas y pestañas para un look de película"
+  ],
+  "headings": [
+    "Peluquería",
+    "Estética",
+    "Mirada"
+  ],
+  "images": [
+    "https://lookisimo.com/wp-content/uploads/2024/10/Logotipo-Lookisimo-Blanco.png",
+    "https://lookisimo.com/wp-content/uploads/2024/12/MENU-PRINCIPAL-ROSA.jpg",
+    "https://lookisimo.com/wp-content/uploads/2024/11/Menu-Peluqueria-R-1-1024x683.webp",
+    "https://lookisimo.com/wp-content/uploads/2024/11/Menu-Estetica-R2-1024x683.webp",
+    "https://lookisimo.com/wp-content/uploads/2024/11/Menu-Unas-R-1024x683.webp",
+    "https://lookisimo.com/wp-content/uploads/2024/11/Menu-Mirada-R-1024x683.webp",
+    "https://lookisimo.com/wp-content/uploads/2025/01/Principal-Estetica-Promociones-1024x576.jpg",
+    "https://lookisimo.com/wp-content/uploads/2025/11/ChatGPT-Image-28-nov-2025-16_51_56-1024x683.png",
+    "https://lookisimo.com/wp-content/uploads/2024/10/Logotipo-Lookisimo-300x66.png"
+  ],
+  "heroImage": "https://lookisimo.com/wp-content/uploads/2024/10/Logotipo-Lookisimo-Blanco.png"
+}

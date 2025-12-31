@@ -1,0 +1,4 @@
+services:
+  - type: web
+    name: gestoria_en_benidorm_de_empresas_gil__zalve_y_asoc
+    runtime: static

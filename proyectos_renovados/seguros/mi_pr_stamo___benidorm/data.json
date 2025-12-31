@@ -1,0 +1,35 @@
+{
+  "name": "Mi Préstamo | Benidorm",
+  "originalUrl": "https://mi-prestamo.es/",
+  "category": "seguros",
+  "title": "Mi Prestamo",
+  "description": "Mi Prestamo description",
+  "h1": "Programa de fidelidad",
+  "paragraphs": [
+    "Al suscribirte al boletín, aceptas recibir mensajes electrónicos con fines informativos y promocionales.",
+    "Al suscribirte al boletín, aceptas recibir mensajes electrónicos con fines informativos y promocionales."
+  ],
+  "headings": [
+    "Accesibilidad",
+    "CALCULADORA",
+    "¿Cómo puedo recibir Mi Préstamo?",
+    "¿Cómo puedo pagar/devolver Mi Préstamo?",
+    "1. Solicítalo",
+    "2. Espera la aprobación",
+    "3. Recibe el dinero",
+    "¿Por qué confiar en Mi Préstamo?"
+  ],
+  "images": [
+    "https://mi-prestamo.es/build/images/telephone.6dbd974f.svg",
+    "https://mi-prestamo.es/build/images/user.874e6e24.svg",
+    "https://mi-prestamo.es/build/images/red-user.1d78d271.svg",
+    "https://mi-prestamo.es/build/images/search.5b8dadc9.svg",
+    "https://mi-prestamo.es/build/images/orange-search.19fb4592.svg",
+    "https://mi-prestamo.es/build/images/search.5b8dadc9.svg",
+    "https://mi-prestamo.es/uploads/media/cache/modal_background/images/spain-xmas-2025-pop-up-1000x750-692d4e5fe335a.jpg",
+    "https://mi-prestamo.es/build/images/preloader.34952db3.svg",
+    "https://mi-prestamo.es/build/images/how-to-get1.1.f9961cf0.png",
+    "https://mi-prestamo.es/build/images/image2.aa8f83a1.svg"
+  ],
+  "heroImage": "https://mi-prestamo.es/build/images/telephone.6dbd974f.svg"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Mr Kebab",
+  "originalUrl": "https://mrkebabvc.com/",
+  "category": "comida rápida",
+  "title": "Mr Kebab",
+  "description": "Order online directly from the restaurant Mr Kebab, browse the Mr Kebab menu, or view Mr Kebab hours.",
+  "h1": "Mr Kebab",
+  "paragraphs": [
+    "Información detallada sobre nuestros servicios y compromiso con la calidad. Contáctenos para más detalles."
+  ],
+  "headings": [
+    "Calidad Garantizada",
+    "Atención Personalizada",
+    "Experiencia Profesional"
+  ],
+  "images": [
+    "https://d1e4mqw8kzyykz.cloudfront.net/img/auto/mr-kebab-5ygh9jq4-food1.jpg",
+    "https://d1e4mqw8kzyykz.cloudfront.net/img/auto/mr-kebab-jc37ykv6-food2.jpg",
+    "https://d1e4mqw8kzyykz.cloudfront.net/img/auto/mr-kebab-lp7nsvcg-food3.jpg"
+  ],
+  "heroImage": "https://d1e4mqw8kzyykz.cloudfront.net/img/auto/mr-kebab-5ygh9jq4-food1.jpg"
+}

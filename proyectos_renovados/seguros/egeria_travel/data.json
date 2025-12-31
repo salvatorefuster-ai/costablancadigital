@@ -1,0 +1,37 @@
+{
+  "name": "Egeria Travel",
+  "originalUrl": "https://egeria.travel/",
+  "category": "seguros",
+  "title": "Egeria - Seguros diseñados para viajar sin preocupaciones",
+  "description": "Viaja tranquilo sabiendo que siempre estarás protegido. Nos encargamos de todo para que tú solo te enfoques en disfrutar.",
+  "h1": "Tu viaje, tus aventuras,\nnuestros seguros",
+  "paragraphs": [
+    "Cuando viajas, lo último que quieres es preocuparte por imprevistos. Nos encargamos de todo para que tú solo disfrutes de tu viaje, sabiendo que siempre estamos aquí para protegerte.",
+    "Olvídate de trámites complicados, con nosotros estar asegurado es un proceso rápido y sencillo. Nos encargamos de todos los detalles para que no tengas que preocuparte por nada.",
+    "Queremos que te sientas acompañado en cada momento. Nos aseguramos de que recibas un servicio amable y eficiente, como te mereces.",
+    "Cada viajero es único. No importa si viajas por negocios o placer, con nosotros, siempre tendrás una solución hecha a tu medida."
+  ],
+  "headings": [
+    "Tu viaje,\nnuestra prioridad",
+    "Te cubrimos las\nespaldas",
+    "Lo que dicen sobre nosotros",
+    "Cancelación",
+    "Asistencia en Viaje",
+    "Gastos médicos",
+    "Reembolso vacaciones no disfrutadas",
+    "Prolongación de estancia"
+  ],
+  "images": [
+    "https://cdn.prod.website-files.com/666b1537c61fee83b4277695/669a52c77ed40118f886eb4c_avatars.png",
+    "https://cdn.prod.website-files.com/666b1537c61fee83b4277695/66b0aa1f2030fbc9b0d8a0dd_illustration-sun-cloud.png",
+    "https://cdn.prod.website-files.com/666b1537c61fee83b4277695/66b0aa1f423eba907f61ad59_illustration-1.png",
+    "https://cdn.prod.website-files.com/666b1537c61fee83b4277695/66b9c556f9082a5fbad84db3_illlus-line.png",
+    "https://cdn.prod.website-files.com/666b1537c61fee83b4277695/66b0aa1fcab143cb8fe37032_illustration-flow-left.png",
+    "https://cdn.prod.website-files.com/666b1537c61fee83b4277695/66b9c63083ef1d208b8b5127_illustratino-heart.png",
+    "https://cdn.prod.website-files.com/666b1537c61fee83b4277695/66e2b4a2a58948490f5e862d_hero-b2c-pic1.png",
+    "https://cdn.prod.website-files.com/666b1537c61fee83b4277695/66e2b4c94726705764f2072f_hero-b2c-pic2.png",
+    "https://cdn.prod.website-files.com/666b1537c61fee83b4277695/669a54cc51fe3b1c559e8582_circle-line.png",
+    "https://cdn.prod.website-files.com/666b1537c61fee83b4277695/669a21ec7efc32959095ee4a_te-cubrimos-las-espalda%3Cs.png"
+  ],
+  "heroImage": "https://cdn.prod.website-files.com/666b1537c61fee83b4277695/66e2b4a2a58948490f5e862d_hero-b2c-pic1.png"
+}

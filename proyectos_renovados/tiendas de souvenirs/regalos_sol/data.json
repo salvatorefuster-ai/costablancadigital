@@ -1,0 +1,31 @@
+{
+  "name": "Regalos Sol",
+  "originalUrl": "https://www.solregalos.com/",
+  "category": "tiendas de souvenirs",
+  "title": "Sol Regalos - Tienda de regalos en Benidorm",
+  "description": "La tienda de Regalos Sol en Benidorm que está en Avenida Mediterraneo, nº 8 (justo encima de Consum). Souvenirs y recuerdos de Benidorm desde 1971",
+  "h1": "Tienda de regalos en Benidorm",
+  "paragraphs": [
+    "Desde 1971, nuestra tienda de regalos, anteriormente conocida como Parrys, ha sido un referente en Benidorm. Hemos empezado una nueva etapa pero seguimos disponiendo de miles de productos únicos y variados, perfectos para cualquier ocasión. Visítanos y descubre el regalo ideal en nuestra amplia y diversa selección.",
+    "Estamos en Avenida Mediterraneo, nº 8, a 2 minutos de la plaza Triangular.",
+    "Disponemos de todo tipo de souvenirs y regalos sobre la ciudad de Benidorm. Desde imanes para la nevera, dedales, toallas, etc.",
+    "Tenemos multitud de elementos para coleccionistas como dedales, bolas de nieve, imanes, llaveros, abanicos, figuras de decoración, etc.",
+    "Podrás encontrar desde toallas, pareos, chanclas y zapatillas para ir a la playa asi como protección para el sol como sombreros y gorras."
+  ],
+  "headings": [
+    "Regalos de Benidorm",
+    "Artículos para coleccionistas",
+    "Todo para disfrutar de la playa",
+    "Regalos para hombres",
+    "Decoración para hogar"
+  ],
+  "images": [
+    "https://www.solregalos.com/img/tienda-solregalos.webp",
+    "https://www.solregalos.com/img/regalos-de-benidorm.webp",
+    "https://www.solregalos.com/img/regalos-para-coleccionistas.webp",
+    "https://www.solregalos.com/img/para-la-playa.webp",
+    "https://www.solregalos.com/img/regalos-para-hombres.webp",
+    "https://www.solregalos.com/img/decoracion-del-hogar.webp"
+  ],
+  "heroImage": "https://www.solregalos.com/img/tienda-solregalos.webp"
+}

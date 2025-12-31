@@ -1,0 +1,22 @@
+{
+  "name": "Caixaltea",
+  "originalUrl": "https://www.grupocooperativocajamar.es/es/comun/busquedas/busqueda-oficinas/caixaltea_comunidad-valenciana_alicante_lalfas-del-pi_lalfas-del-pi-madrid/?utm_content=localizacion_oficina&utm_source=google_gmb",
+  "category": "seguros",
+  "title": "Error 404 - Cajamar Caja Rural",
+  "description": "",
+  "h1": "Página no encontrada",
+  "paragraphs": [
+    "Puede que el vinculo esté desactualizado, que la página no exista o que se haya tecleado incorrectamente."
+  ],
+  "headings": [
+    "Error 404",
+    "¿Qué puede hacer ahora?"
+  ],
+  "images": [
+    "https://www.grupocooperativocajamar.es/frontend/img/inicial/home.png",
+    "https://www.grupocooperativocajamar.es/frontend/img/inicial/place.png",
+    "https://www.grupocooperativocajamar.es/frontend/img/inicial/banca-electronica.png",
+    "https://www.grupocooperativocajamar.es/frontend/img/inicial/telefono.png"
+  ],
+  "heroImage": "https://www.grupocooperativocajamar.es/frontend/img/inicial/home.png"
+}

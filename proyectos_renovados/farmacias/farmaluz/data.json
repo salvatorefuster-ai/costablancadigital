@@ -1,0 +1,30 @@
+{
+  "name": "Farmaluz",
+  "originalUrl": "http://www.farmaluz.com/",
+  "category": "farmacias",
+  "title": "FarmaLuz Benidorm - Más que una farmacia en Benidorm.",
+  "description": "Farmacia Farmaluz, más que una farmacia en Benidorm, todo los servicios que te puedes imaginar. Tu farmacia en Benidorm.",
+  "h1": "FARMALUZ BENIDORM, MÁS QUE UNA FARMACIA",
+  "paragraphs": [
+    "Paseo de La Carretera 27 - 03501 Benidorm (Alicante)",
+    "FarmaLuz Benidorm es una empresa familiar, con más de 50 años de historia y está dirigida por su 3º generación de farmacéuticos, con una reforzada vocación de servicio a los ciudadanos de Benidorm y comarca.",
+    "Un equipo de Ópticos, Técnicos Ortoprotésicos y Audioprotesistas amplía su hoja de servicios que se completa con un muy amplio catálogo de productos sanitarios especializados: Ortopedia, Óptica, Centro Auditivo."
+  ],
+  "headings": [
+    "Consultas, presupuestos... Contacta con nosotros",
+    "Pedir Cita"
+  ],
+  "images": [
+    "https://www.farmaluz.com/media/wysiwyg/optica.png",
+    "https://www.farmaluz.com/media/wysiwyg/audicion.png",
+    "https://www.farmaluz.com/media/wysiwyg/ortopedia.png",
+    "https://www.farmaluz.com/media/wysiwyg/policlinica.png",
+    "https://www.farmaluz.com/media/wysiwyg/farmacia.png",
+    "https://www.farmaluz.com/media/wysiwyg/outlet.png",
+    "https://www.farmaluz.com/media/wysiwyg/optica.jpg",
+    "https://www.farmaluz.com/media/wysiwyg/ortopedia.jpg",
+    "https://www.farmaluz.com/media/wysiwyg/clinica.jpg",
+    "https://www.farmaluz.com/media/wysiwyg/parafarmacia.jpg"
+  ],
+  "heroImage": "https://www.farmaluz.com/media/wysiwyg/optica.png"
+}

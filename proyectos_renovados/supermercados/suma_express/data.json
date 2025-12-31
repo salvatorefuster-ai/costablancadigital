@@ -1,0 +1,34 @@
+{
+  "name": "Suma Express",
+  "originalUrl": "https://www.sumasupermercados.es/es",
+  "category": "supermercados",
+  "title": "Suma | Tu supermercado a un paso de casa",
+  "description": "Tu supermercado cerca de casa, con todo el que necesitas para la compra del día o de la semana. Acércate a nuestras tiendas.",
+  "h1": "Suma Express",
+  "paragraphs": [
+    "De lunes a viernes de 8 a 20 h y sábados  de 8 a 14 h."
+  ],
+  "headings": [
+    "Nuestros valores",
+    "Compra inteligente",
+    "Para todos los bolsillos",
+    "Más fácil",
+    "Todo lo que necesitas",
+    "Con una sonrisa",
+    "Nuevas franquicias\nen 2024",
+    "Localiza tu tienda"
+  ],
+  "images": [
+    "https://www.sumasupermercados.es/wp-content/uploads/2022/10/suma.svg",
+    "https://www.sumasupermercados.es/wp-content/uploads/2022/10/suma.svg",
+    "https://www.sumasupermercados.es/wp-content/uploads/2024/10/BANNER-BOMBA-ESP-20.jpg",
+    "https://www.sumasupermercados.es/wp-content/uploads/2024/10/BANNER-DESTACADO-4-ESP.jpg",
+    "https://www.sumasupermercados.es/wp-content/uploads/2024/10/BANNER-DESTACADO-3-ESP.jpg",
+    "https://www.sumasupermercados.es/wp-content/uploads/2024/10/BANNER-DESTACADO-2-ESP.jpg",
+    "https://www.sumasupermercados.es/wp-content/uploads/2024/10/BANNER-DESTACADO-1-ESP.jpg",
+    "https://www.sumasupermercados.es/wp-content/uploads/2025/12/BANNER-PRODUCTOS-ESP-1.jpg",
+    "https://www.sumasupermercados.es/wp-content/uploads/2025/12/BANNER-PRODUCTOS-ESP-2.jpg",
+    "https://www.sumasupermercados.es/wp-content/uploads/2025/12/BANNER-PRODUCTOS-ESP-3.jpg"
+  ],
+  "heroImage": "https://www.sumasupermercados.es/wp-content/uploads/2022/10/suma.svg"
+}

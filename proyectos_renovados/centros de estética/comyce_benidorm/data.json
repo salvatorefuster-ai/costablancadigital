@@ -1,0 +1,38 @@
+{
+  "name": "Comyce Benidorm",
+  "originalUrl": "http://www.comyce.com/",
+  "category": "centros de estética",
+  "title": "Clinicas Comyce – Clinica de Medicina Estética en Alicante",
+  "description": "Conoce Comyce. Somos una de las clínicas pioneras en Medicina Estética y en la introducción del Láser en tratamientos estéticos en nuestra provincia.",
+  "h1": "Clínicas de estética en Alicante",
+  "paragraphs": [
+    "Técnicas poco invasiva para el tratamiento de las varices",
+    "El sistema más avanzado para la eliminación de tatuajes",
+    "Acaba con el vello de tu piel con la fotodepilación",
+    "Comyce es una de las clínicas pioneras en Medicina Estética y en la introducción del Láser en tratamientos estéticos en nuestra provincia. Más de 35 años de experiencia y dedicación, un equipamiento técnico de última generación y productos de la mayor calidad, contrastados y siempre con marcado CE, nos avalan.",
+    "Te proponemos la mejor Medicina Estética con todas las garantías y un seguimiento personalizado desde el inicio hasta el final del tratamiento. Buscamos siempre los resultados más naturales huyendo de exageraciones."
+  ],
+  "headings": [
+    "Rejuvenecimiento facial",
+    "Remodelación corporal",
+    "Varices",
+    "Sobrepeso - Obesidad",
+    "Eliminación de tatuajes",
+    "Depilación láser",
+    "Pioneros en\nmedicina estética",
+    "Nuestras clínicas"
+  ],
+  "images": [
+    "https://comyce.com/wp-content/plugins/revslider/public/assets/assets/dummy.png",
+    "https://comyce.com/wp-content/plugins/revslider/public/assets/assets/dummy.png",
+    "https://comyce.com/wp-content/plugins/revslider/public/assets/assets/dummy.png",
+    "https://comyce.com/wp-content/plugins/revslider/public/assets/assets/dummy.png",
+    "https://comyce.com/wp-content/uploads/2023/04/rejuvenecimiento-facial.webp",
+    "https://comyce.com/wp-content/uploads/2023/04/remodelacion-corporal-2.webp",
+    "https://comyce.com/wp-content/uploads/2023/04/varices.webp",
+    "https://comyce.com/wp-content/uploads/2023/04/sobrepeso.webp",
+    "https://comyce.com/wp-content/uploads/2023/04/eliminacion-tatuajes.webp",
+    "https://comyce.com/wp-content/uploads/2023/04/delipacion-laser.webp"
+  ],
+  "heroImage": "https://comyce.com/wp-content/plugins/revslider/public/assets/assets/dummy.png"
+}

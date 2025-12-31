@@ -1,0 +1,38 @@
+{
+  "name": "Hotel Regente",
+  "originalUrl": "http://www.medplaya.com/",
+  "category": "hoteles",
+  "title": "Hoteles MedPlaya - Web oficial",
+  "description": "Hoteles MedPlaya - Web oficial",
+  "h1": "Hotel Regente",
+  "paragraphs": [
+    "Alójate con MedPlaya en los mejores destinos de la costa. Vive unas vacaciones de ensueño disfrutando del sol, la playa y la gastronomía en nuestros hoteles, con actividades y experiencias para todos.",
+    "Somos especialistas en turismo familiar, porque creemos que todos nuestros huéspedes merecen disfrutar de sus vacaciones al máximo, incluidos los más pequeños, y por eso os ofrecemos todos los servicios para que podáis crear recuerdos especiales en familia!",
+    "Los mejores precios los tiene MedPlaya, aprovecha nuestras ofertas y disfruta más por menos",
+    "Tips y recomendaciones para disfrutar al máximo de cada destino y experiencia",
+    "Conviértete en Medplaya Amigo! y transforma tus estancias en experiencias\n    aún más gratificantes. Valoramos tu confianza, y por eso hemos creado un\n    programa que recompensa cada vez que reservas directamente con nosotros.\n    Consigue beneficios, descuentos y recompensas..."
+  ],
+  "headings": [
+    "Regálate tus próximas vacaciones",
+    "¡Únete a MedPlaya Amigo!",
+    "Transporte + hotel a un solo click",
+    "De Costa a Costa, tus vacaciones son MedPlaya",
+    "Descubre los mejores destinos de playa",
+    "Disfruta con todo incluido",
+    "Ofertas destacadas",
+    "Be Green, Be MedPlaya"
+  ],
+  "images": [
+    "https://storage.googleapis.com/obehotel-website-obehotel-prod/100000/file-manager/inicio/destinos/costa-brava.webp",
+    "https://storage.googleapis.com/obehotel-website-obehotel-prod/100000/file-manager/inicio/destinos/costa-dorada.webp",
+    "https://storage.googleapis.com/obehotel-website-obehotel-prod/100000/file-manager/inicio/destinos/costa-blanca-benidorm.webp",
+    "https://storage.googleapis.com/obehotel-website-obehotel-prod/100000/file-manager/inicio/destinos/costa-del-sol.webp",
+    "https://storage.googleapis.com/obehotel-website-obehotel-prod/100000/file-manager/inicio/destinos/costa-barcelona.webp",
+    "https://storage.googleapis.com/obehotel-website-obehotel-prod/100000/file-manager/inicio/FamilyBanner.webp",
+    "https://storage.googleapis.com/obehotel-property-obehotel-prod/100010/file-manager/hotel/Agir_13.webp",
+    "https://storage.googleapis.com/obehotel-property-obehotel-prod/100011/file-manager/hotel/RioPark_1.jpg",
+    "https://storage.googleapis.com/obehotel-website-obehotel-prod/100000/file-manager/Publicaciones/Legacy/2024/10/pexels-enrique72-13430050-5-scaled.jpg",
+    "https://storage.googleapis.com/obehotel-website-obehotel-prod/100000/file-manager/Publicaciones/Legacy/2024/07/iStock-509288876-scaled.jpg"
+  ],
+  "heroImage": "https://storage.googleapis.com/obehotel-website-obehotel-prod/100000/file-manager/inicio/destinos/costa-brava.webp"
+}

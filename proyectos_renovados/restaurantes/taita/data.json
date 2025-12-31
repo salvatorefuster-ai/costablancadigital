@@ -1,0 +1,24 @@
+{
+  "name": "Taita",
+  "originalUrl": "https://taitarestaurante.com/",
+  "category": "restaurantes",
+  "title": "Restaurante Taita - Cocina fusión en Benidorm",
+  "description": "Descubre el arte de la cocina fusión en el Restaurante Taita, ubicado en Benidorm. Experimenta el sabor excepcional de platos innovadores creados con pasión.",
+  "h1": "Taita",
+  "paragraphs": [
+    "Información detallada sobre nuestros servicios y compromiso con la calidad. Contáctenos para más detalles."
+  ],
+  "headings": [
+    "Bienvenido a Taita",
+    "¡Nº 1 de 938 restaurantes de fusión en Benidorm!"
+  ],
+  "images": [
+    "https://taitarestaurante.com/img/fondos/banner.webp",
+    "https://taitarestaurante.com/img/enlaces/boton1.png",
+    "https://taitarestaurante.com/img/enlaces/boton2.png",
+    "https://taitarestaurante.com/img/enlaces/boton3.png",
+    "https://taitarestaurante.com/img/platos/plato1.webp",
+    "https://taitarestaurante.com/img/fondos/tripadvisor.webp"
+  ],
+  "heroImage": "https://taitarestaurante.com/img/fondos/banner.webp"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Generali Seguros",
+  "originalUrl": "https://www.generali.es/",
+  "category": "seguros",
+  "title": "Generali | Compañía de seguros de coche, hogar, vida, salud y más, para personas y empresas",
+  "description": "Generali es la compañía que proporciona a particulares, empresas y autónomos las mejores coberturas en seguros de salud, vida, coche, hogar, dental y más.",
+  "h1": "Haz que la magia de la Navidad dure todo el año",
+  "paragraphs": [
+    "Participa en nuestro sorteo y podrás ganar 5.000 € en un producto financiero que hará crecer tus sueños.",
+    "Y además ahora 25 € de regalo solo por contratarlo.",
+    "Realiza gestiones de seguros, contacta con tu mediador, resuelve dudas y sigue información de incidentes y novedades",
+    "Calcula el precio de tu seguro de forma rápida y sencilla",
+    "Tenemos el seguro que se ajusta a ti, diseñado para ofrecerte la protección que necesitas en cada etapa de tu vida"
+  ],
+  "headings": [
+    "App MI GENERALI",
+    "En GENERALI protegemos lo que más te importa",
+    "El futuro se construye aquí y ahora",
+    "Productos que te recomendamos",
+    "Te puede interesar",
+    "Calcula el precio de tu seguro GENERALI",
+    "Recupera tu presupuesto",
+    "Noticias GENERALI"
+  ],
+  "images": [
+    "https://www.generali.es/content/dam/generali-seguros/web/home/hero/2025/sorteo_navidad_2025_1440x800.png",
+    "https://www.generali.es/etc.clientlibs/gs-common/clientlibs/clientlib-site/resources/images/Digital_Glyph_Green.png",
+    "https://www.generali.es/etc.clientlibs/gs-common/clientlibs/clientlib-site/resources/images/Digital_Glyph_Green.png"
+  ],
+  "heroImage": "https://www.generali.es/content/dam/generali-seguros/web/home/hero/2025/sorteo_navidad_2025_1440x800.png"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Taco Bell",
+  "originalUrl": "https://tacobell.es/",
+  "category": "comida rápida",
+  "title": "Taco Bell - Fast food de inspiración mexicano-californiana: Taco Bell tacobell.es",
+  "description": "Fast food de inspiración mexicano-californiana con un toque diferente y un sabor único.",
+  "h1": "Taco Bell",
+  "paragraphs": [
+    "Todos los artículos están sujetos a disponibilidad TACO BELL. El diseño de BELL y las marcas relacionadas son marcas registradas de Taco Bell Corp.",
+    "© 2025 Taco Bell Corp. Todos los derechos reservados.",
+    "En Taco Bell utilizamos cookies propias y de terceros para mejorar nuestros servicios y brindarte una experiencia más relevante recordando tus preferencias y visitas repetidas.",
+    "Al hacer clic en \"Aceptar\", aceptas el uso de todas las cookies."
+  ],
+  "headings": [
+    "SÍGUENOS EN:",
+    "DESCÁRGATE LA APP"
+  ],
+  "images": [
+    "https://tacobell.es/assets/img/flag-es_ES.png",
+    "https://tacobell.es/assets/img/flag-es_ES.png",
+    "https://tacobell.es/assets/img/flag-ca_ES.png",
+    "https://tacobell.es/assets/img/flag-en_US.png",
+    "https://tacobell.es/assets/img/es_ES/google-play.png",
+    "https://tacobell.es/assets/img/es_ES/app-store.png"
+  ],
+  "heroImage": "https://tacobell.es/assets/img/flag-es_ES.png"
+}

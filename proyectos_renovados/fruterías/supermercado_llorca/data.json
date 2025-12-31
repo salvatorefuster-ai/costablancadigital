@@ -1,0 +1,37 @@
+{
+  "name": "Supermercado Llorca",
+  "originalUrl": "https://elsuper.eu/",
+  "category": "fruterías",
+  "title": "Supermercat Llorca",
+  "description": "",
+  "h1": "Supermercado Llorca",
+  "paragraphs": [
+    "In our Supermercat we have a wide range of food products, sweets, wines, km0 fruits, the best sausages, local cheeses, market products and many more ....",
+    "You may unsubscribe at any moment. For that purpose, please find our contact info in the legal notice.",
+    "You need to be logged in to save products in your wishlist.",
+    "We use third-party cookies to enhance your browsing experience, analyze site traffic and personalize content, ads. Learn more."
+  ],
+  "headings": [
+    "SUPERMARKET LLORCA",
+    "New web, enter and explore",
+    "New Web, enter and explore",
+    "New Web, discover new products",
+    "the best seasonal",
+    "Christmas products",
+    "POPULAR PRODUCTS",
+    "Raúl Asencio's 70% Dark..."
+  ],
+  "images": [
+    "https://elsuper.eu/modules/accesabar/views/img/accesibility.jpg",
+    "https://elsuper.eu/modules/ps_imageslider/images/c1c582429592928bc06b5ec99a5cc4fc22f9ac08_banner_rovello.png",
+    "https://elsuper.eu/modules/ps_imageslider/images/e80d241e1a6d1a19384e1741e742d70ee6c854ae_banner_figa.png",
+    "https://elsuper.eu/modules/ps_imageslider/images/7eef1ae845e230d67a7ad5a07d24cb2b06c8c635_banner_nadal.png",
+    "https://elsuper.eu/24-home_default/panettone-raul-asencio.jpg",
+    "https://elsuper.eu/26-home_default/panettone-raul-asencio.jpg",
+    "https://elsuper.eu/28-home_default/panettone-raul-asencio.jpg",
+    "https://elsuper.eu/29-home_default/pago-capellanes-crianza-benidorm.jpg",
+    "https://elsuper.eu/31-home_default/pago-capellanes-Young-benidorm.jpg",
+    "https://elsuper.eu/32-home_default/vino-albarino-terras-gauda.jpg"
+  ],
+  "heroImage": "https://elsuper.eu/modules/ps_imageslider/images/c1c582429592928bc06b5ec99a5cc4fc22f9ac08_banner_rovello.png"
+}

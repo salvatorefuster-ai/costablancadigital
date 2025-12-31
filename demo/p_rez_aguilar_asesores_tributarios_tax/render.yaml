@@ -1,0 +1,4 @@
+services:
+  - type: web
+    name: p_rez_aguilar_asesores_tributarios_tax
+    runtime: static

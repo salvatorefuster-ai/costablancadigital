@@ -1,0 +1,33 @@
+{
+  "name": "Autos David",
+  "originalUrl": "http://autosdavid.es/",
+  "category": "talleres mecánicos",
+  "title": "Autos David | Recambio Neumaticos La Nucia | Taller Reparación en la Nucia",
+  "description": "",
+  "h1": "Venta y Montaje de Neumáticos",
+  "paragraphs": [
+    "En Autos David te ofrecemos una serie de servicios enfocados a mantener tu coche en perfecto estado. Un taller en La Nucia donde encontraras los mejores precios y un trato de calidad.\nSi necesitas cambiar tus neumaticos Autos David en La Nucia es tu taller.",
+    "Si por algun motivo no puedes llevar tu vehiculo a nuestro taller tenemos un servicio de recogida y entrega. Vamos a recogerlo, reparamos el vehiculo y te lo dejamos listo en la puerta de casa.",
+    "Desmontaje y montaje de la nueva cubierta en una llanta, asi como poner y quitar la rueda en el vehículo, reponiendo la presión adecuada y permutarlos de eje si se desea.",
+    "Alinear la dirección de un coche es cuando los ángulos de las ruedas están ajustados y paralelos entre sí y mantienen las ruedas en perpendicular al suelo. Un vehículo alineado ayuda a prevenir que los neumáticos se desgasten irregularmente y aumenta su vida útil.",
+    "En Autos David contamos con un amplio catálogo de baterías de coche para que tengas tu vehículo siempre a punto. Todos los vehículos necesitan una batería para funcionar, arrancar el motor y para que funcionen todos sus sistemas eléctricos. La batería se trata de un acumulador de energía del que se alimentan los diferentes sistemas y componentes del vehículo que necesitan electricidad."
+  ],
+  "headings": [
+    "Servicios",
+    "Recogida y Entrega de vehiculo",
+    "Venta y montaje de Neumáticos",
+    "Alineado de Direcciones",
+    "Baterias",
+    "Pedir cita"
+  ],
+  "images": [
+    "https://autosdavid.es/wp-content/uploads/2022/09/recogida.jpg",
+    "https://autosdavid.es/wp-content/uploads/2021/07/venta-y-montaje-de-neumaticos.jpg",
+    "https://autosdavid.es/wp-content/uploads/2021/07/alineado-de-direcciones.jpg",
+    "https://autosdavid.es/wp-content/uploads/2021/07/baterias.jpg",
+    "https://autosdavid.es/wp-content/uploads/2021/07/p1.jpg",
+    "https://autosdavid.es/wp-content/uploads/2021/07/p2.jpg",
+    "https://autosdavid.es/wp-content/uploads/2021/07/p3.jpg"
+  ],
+  "heroImage": "https://autosdavid.es/wp-content/uploads/2022/09/recogida.jpg"
+}

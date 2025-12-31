@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ribera Carretero Asociados | Experiencia Digital Exclusiva</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Outfit', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    },
+                    colors: {
+                        gold: {
+                            50: '#fdfbf7',
+                            100: '#f7f0e1',
+                            200: '#eddcb3',
+                            300: '#e1c27d',
+                            400: '#d5a150',
+                            500: '#c5832b',
+                            600: '#a66822',
+                            700: '#854e1e',
+                            800: '#6d401f',
+                            900: '#5c361e',
+                        }
+                    },
+                    animation: {
+                        'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
+                        'reveal': 'reveal 1.2s cubic-bezier(0.77, 0, 0.175, 1) forwards',
+                    },
+                    keyframes: {
+                        fadeInUp: {
+                            '0%': { opacity: '0', transform: 'translateY(20px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' },
+                        },
+                        reveal: {
+                            '0%': { transform: 'translateY(100%)' },
+                            '100%': { transform: 'translateY(0)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.05); }
+        .text-gradient { background: linear-gradient(to right, #d5a150, #f7f0e1, #d5a150); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .hero-mesh { background: radial-gradient(at 0% 0%, rgba(213, 161, 80, 0.15) 0, transparent 50%), radial-gradient(at 100% 100%, rgba(59, 130, 246, 0.1) 0, transparent 50%); }
+    </style>
+</head>
+<body class="bg-[#050505] text-white selection:bg-gold-400 selection:text-black">
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 px-10 py-6 flex justify-between items-center bg-black/50 backdrop-blur-xl border-b border-white/5">
+        <div class="text-xl font-bold tracking-tighter uppercase flex items-center gap-2">
+            <span class="w-8 h-8 bg-gold-400 rounded-full flex items-center justify-center text-black text-xs">V</span>
+            Ribera Carretero Asociados
+        </div>
+        <div class="hidden md:flex space-x-10 text-[10px] font-bold uppercase tracking-[0.2em] text-gray-400">
+            <a href="#inicio" class="hover:text-gold-400 transition">Inicio</a>
+            <a href="#vision" class="hover:text-gold-400 transition">Visión</a>
+            <a href="#servicios" class="hover:text-gold-400 transition">Servicios</a>
+            <a href="#contacto" class="hover:text-gold-400 transition">Contacto</a>
+        </div>
+        <div class="flex items-center gap-6">
+            <button class="text-[10px] font-bold uppercase tracking-widest text-gold-400 border border-gold-400/30 px-6 py-2 rounded-full hover:bg-gold-400 hover:text-black transition">Acceso Cliente</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="min-h-screen relative flex flex-col items-center justify-center pt-20 hero-mesh overflow-hidden">
+        <div class="absolute inset-0 opacity-20 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]"></div>
+        
+        <div class="relative z-10 max-w-5xl mx-auto px-6 text-center">
+            <div class="inline-block py-2 px-4 rounded-full bg-gold-400/10 border border-gold-400/20 text-gold-400 text-[10px] font-bold uppercase tracking-[0.3em] mb-10 animate-fade-in-up">
+                Rediseño Exclusivo • 2025 Edition
+            </div>
+            <h1 class="text-6xl md:text-9xl font-serif italic mb-12 leading-tight animate-fade-in-up" style="animation-delay: 0.2s">
+                La nueva <span class="text-gradient not-italic font-sans font-bold block md:inline">Evolución</span> de Ribera Carretero Asociados
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto mb-16 font-light leading-relaxed animate-fade-in-up" style="animation-delay: 0.4s">
+                Combinamos su excelencia profesional con un diseño de vanguardia artesanal. Una presencia digital que está a la altura de su prestigio.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-8 animate-fade-in-up" style="animation-delay: 0.6s">
+                <a href="#comprar" class="px-12 py-6 bg-gold-400 text-black rounded-full font-bold uppercase tracking-widest text-xs hover:bg-white transition-all transform hover:scale-105 shadow-[0_0_30px_rgba(213,161,80,0.3)]">
+                    Adquirir esta Web Completa
+                </a>
+                <a href="https://www.abogadosbenidorm.es/" target="_blank" class="px-12 py-6 glass rounded-full font-bold uppercase tracking-widest text-xs hover:bg-white/10 transition">
+                    Ver Sitio Anterior
+                </a>
+            </div>
+        </div>
+
+        <!-- Float Elements -->
+        <div class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce opacity-30">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
+        </div>
+    </section>
+
+    <!-- Comparison / Value Section -->
+    <section id="vision" class="py-40 bg-[#080808] border-y border-white/5">
+        <div class="max-w-7xl mx-auto px-10 grid md:grid-cols-2 gap-20 items-center">
+            <div>
+                <h2 class="text-xs uppercase tracking-[0.5em] text-gold-400 mb-6 font-bold">Nuestra Visión</h2>
+                <h3 class="text-4xl md:text-6xl font-serif italic mb-10 leading-tight">Del ruido digital a la <span class="text-white not-italic font-bold font-sans">Distinción.</span></h3>
+                <div class="space-y-8 text-gray-400 text-lg font-light leading-relaxed">
+                    <p>Av. l'Aigüera, 5 Edif. Anfiteatro, esc. A entreplanta 2</p><p>Aviso legal - Política de privacidad - Política de cookies</p><p>Las cookies son importantes para ti, influyen en tu experiencia de navegación. Usamos cookies analíticas, de personalización y publicitarias (propias y de terceros) para hacer perfiles basados en hábitos de navegación y mostrarte contenido útil. Recogeremos tu elección anónimamente. Haz clic en “Aceptar” o haz clic en “Configurar Cookies” para autorizar uno a uno los permisos y consultar todas nuestras cookies. Consulta este enlace para saber más acerca de nuestra política de cookies.</p>
+                </div>
+            </div>
+            <div class="relative group">
+                <div class="absolute -inset-4 bg-gold-400/20 rounded-3xl blur-3xl group-hover:bg-gold-400/30 transition duration-1000"></div>
+                <img src="https://le-de.cdn-website.com/4189bd4cc73e4b7893aead53735c85dd/dms3rep/multi/opt/Logo-Ricardo-y-Agustin-web-1920w.png" class="relative rounded-2xl grayscale hover:grayscale-0 transition duration-700 w-full h-[600px] object-cover border border-white/10">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section id="servicios" class="py-40 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-10">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-24 gap-10">
+                <div class="max-w-2xl">
+                    <h2 class="text-xs uppercase tracking-[0.5em] text-gold-400 mb-6 font-bold">Cartera de Servicios</h2>
+                    <h3 class="text-4xl md:text-7xl font-bold tracking-tighter">Soluciones Proyectadas para el <span class="italic font-serif font-normal">Éxito.</span></h3>
+                </div>
+                <div class="text-gray-500 text-right font-light italic">
+                    Optimizando el valor de Ribera Carretero Asociados
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-1">
+                
+                <div class="group bg-zinc-900/40 p-16 border border-white/5 hover:bg-gold-400 transition-all duration-500 relative overflow-hidden">
+                    <div class="text-[60px] font-black text-white/5 absolute -top-4 -right-4 group-hover:text-black/10 transition leading-none">1</div>
+                    <h4 class="text-2xl font-bold mb-6 group-hover:text-black transition relative z-10">Servicios</h4>
+                    <p class="text-gray-500 text-sm group-hover:text-black/70 transition leading-relaxed relative z-10">
+                        Implementamos estrategias de alta precisión para elevar cada aspecto de su gestión, garantizando resultados sobresalientes.
+                    </p>
+                    <div class="mt-10 h-px w-10 bg-gold-400 group-hover:bg-black transition"></div>
+                </div>
+                
+                <div class="group bg-zinc-900/40 p-16 border border-white/5 hover:bg-gold-400 transition-all duration-500 relative overflow-hidden">
+                    <div class="text-[60px] font-black text-white/5 absolute -top-4 -right-4 group-hover:text-black/10 transition leading-none">2</div>
+                    <h4 class="text-2xl font-bold mb-6 group-hover:text-black transition relative z-10">Derecho civil, de familia, sucesiones</h4>
+                    <p class="text-gray-500 text-sm group-hover:text-black/70 transition leading-relaxed relative z-10">
+                        Implementamos estrategias de alta precisión para elevar cada aspecto de su gestión, garantizando resultados sobresalientes.
+                    </p>
+                    <div class="mt-10 h-px w-10 bg-gold-400 group-hover:bg-black transition"></div>
+                </div>
+                
+                <div class="group bg-zinc-900/40 p-16 border border-white/5 hover:bg-gold-400 transition-all duration-500 relative overflow-hidden">
+                    <div class="text-[60px] font-black text-white/5 absolute -top-4 -right-4 group-hover:text-black/10 transition leading-none">3</div>
+                    <h4 class="text-2xl font-bold mb-6 group-hover:text-black transition relative z-10">Derecho de tráfico,derecho de violencia de género</h4>
+                    <p class="text-gray-500 text-sm group-hover:text-black/70 transition leading-relaxed relative z-10">
+                        Implementamos estrategias de alta precisión para elevar cada aspecto de su gestión, garantizando resultados sobresalientes.
+                    </p>
+                    <div class="mt-10 h-px w-10 bg-gold-400 group-hover:bg-black transition"></div>
+                </div>
+                
+                <div class="group bg-zinc-900/40 p-16 border border-white/5 hover:bg-gold-400 transition-all duration-500 relative overflow-hidden">
+                    <div class="text-[60px] font-black text-white/5 absolute -top-4 -right-4 group-hover:text-black/10 transition leading-none">4</div>
+                    <h4 class="text-2xl font-bold mb-6 group-hover:text-black transition relative z-10">Derecho inmobiliario</h4>
+                    <p class="text-gray-500 text-sm group-hover:text-black/70 transition leading-relaxed relative z-10">
+                        Implementamos estrategias de alta precisión para elevar cada aspecto de su gestión, garantizando resultados sobresalientes.
+                    </p>
+                    <div class="mt-10 h-px w-10 bg-gold-400 group-hover:bg-black transition"></div>
+                </div>
+                
+                <div class="group bg-zinc-900/40 p-16 border border-white/5 hover:bg-gold-400 transition-all duration-500 relative overflow-hidden">
+                    <div class="text-[60px] font-black text-white/5 absolute -top-4 -right-4 group-hover:text-black/10 transition leading-none">5</div>
+                    <h4 class="text-2xl font-bold mb-6 group-hover:text-black transition relative z-10">Derecho laboral y de extranjería</h4>
+                    <p class="text-gray-500 text-sm group-hover:text-black/70 transition leading-relaxed relative z-10">
+                        Implementamos estrategias de alta precisión para elevar cada aspecto de su gestión, garantizando resultados sobresalientes.
+                    </p>
+                    <div class="mt-10 h-px w-10 bg-gold-400 group-hover:bg-black transition"></div>
+                </div>
+                
+                <div class="group bg-zinc-900/40 p-16 border border-white/5 hover:bg-gold-400 transition-all duration-500 relative overflow-hidden">
+                    <div class="text-[60px] font-black text-white/5 absolute -top-4 -right-4 group-hover:text-black/10 transition leading-none">6</div>
+                    <h4 class="text-2xl font-bold mb-6 group-hover:text-black transition relative z-10">Derecho penal</h4>
+                    <p class="text-gray-500 text-sm group-hover:text-black/70 transition leading-relaxed relative z-10">
+                        Implementamos estrategias de alta precisión para elevar cada aspecto de su gestión, garantizando resultados sobresalientes.
+                    </p>
+                    <div class="mt-10 h-px w-10 bg-gold-400 group-hover:bg-black transition"></div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Purchase CTA -->
+    <section id="comprar" class="py-40 bg-gold-400 text-black text-center relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
+        <div class="max-w-4xl mx-auto px-10 relative z-10">
+            <h2 class="text-7xl md:text-9xl font-black mb-10 tracking-tighter uppercase leading-none">Tu Web,<br>Disponible.</h2>
+            <p class="text-xl md:text-2xl mb-16 font-medium max-w-2xl mx-auto">Esta demo es solo el 10% del potencial. Adquiere el diseño completo, optimizado para conversión y SEO, por un precio exclusivo de lanzamiento.</p>
+            <div class="flex flex-col md:flex-row items-center justify-center gap-6">
+                <a href="https://wa.me/34663036070?text=Hola,%20quiero%20adquirir%20mi%20web%20VIP%20de%20Ribera%20Carretero%20Asociados" class="bg-black text-white px-16 py-8 rounded-full font-bold uppercase tracking-widest text-sm hover:bg-zinc-800 transition shadow-2xl">
+                    Solicitar Propiedad y Acceso
+                </a>
+                <div class="text-sm font-bold opacity-50 uppercase tracking-widest">Incluye Dominio y Hosting 1er Año</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-20 px-10 bg-black border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-10">
+        <div class="text-xl font-bold tracking-tighter uppercase">
+            Ribera Carretero Asociados <span class="font-light text-gray-600 block text-[10px] tracking-[0.3em]">Premium Digital Presence</span>
+        </div>
+        <div class="text-[10px] text-gray-500 uppercase tracking-widest font-bold">
+            © 2025 All Rights Reserved. Crafted by Agencia Costa Digital.
+        </div>
+    </footer>
+</body>
+</html>

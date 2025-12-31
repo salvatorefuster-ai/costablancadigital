@@ -1,0 +1,38 @@
+{
+  "name": "Jautor Rent a Car",
+  "originalUrl": "http://www.rentacarbenidorm.com/",
+  "category": "alquiler de coches",
+  "title": "Alquiler de coches en Benidorm | Los mejores precios",
+  "description": "Alquiler de coches en Benidorm con los mejores precios, gran variedad de vehiculos en nuestra flota alquileres baratos.",
+  "h1": "Alquiler de coches en Benidorm | Realiza una reserva",
+  "paragraphs": [
+    "Vehículos del mismo segmento con cambio automático.",
+    "Para tu movilidad, tenemos el vehículo que necesitas.",
+    "Ofrecemos la libertad de movimientos para tu ocio y negocios. Si necesitas desplazarte desde Benidorm y comarca, somos tu elección.",
+    "Nos esmeramos en la limpieza y desinfección de nuestros vehículos.",
+    "Entrega personalizada en la terminal del aeropuerto de Alicante."
+  ],
+  "headings": [
+    "Recogida",
+    "Entrega",
+    "Nuestra flota",
+    "Grupo E2 aut – Škoda Karoq o similar",
+    "Grupo F1 aut – Nissan Qashqai o similar",
+    "Grupo E aut – VW Golf o similar",
+    "Grupo C aut – VW T- Cross o similar",
+    "Grupo B aut – VW Polo o similar"
+  ],
+  "images": [
+    "https://rentacarbenidorm.com/wp-content/uploads/2025/12/e2a-skoda_karoq.jpg",
+    "https://rentacarbenidorm.com/wp-content/uploads/2025/12/f1a-nissan_qashqai.jpg",
+    "https://rentacarbenidorm.com/wp-content/uploads/2025/12/ea-vw_golf.jpg",
+    "https://rentacarbenidorm.com/wp-content/uploads/2025/12/ca-vw_t-cross.jpg",
+    "https://rentacarbenidorm.com/wp-content/uploads/2025/12/ba-wv_polo.jpg",
+    "https://rentacarbenidorm.com/wp-content/uploads/2025/12/f2m-vw_carvelle.jpg",
+    "https://rentacarbenidorm.com/wp-content/uploads/2025/12/f1m-vw_touran.jpg",
+    "https://rentacarbenidorm.com/wp-content/uploads/2025/12/Em-Citroen-Berlingo.jpeg",
+    "https://rentacarbenidorm.com/wp-content/uploads/2025/12/dm-seat_leon.jpg",
+    "https://rentacarbenidorm.com/wp-content/uploads/2025/12/cm-skoda_kamiq.jpg"
+  ],
+  "heroImage": "https://rentacarbenidorm.com/wp-content/uploads/2025/12/e2a-skoda_karoq.jpg"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "ALDI",
+  "originalUrl": "https://www.aldi.es/",
+  "category": "supermercados",
+  "title": "Supermercados ALDI: Calidad al mejor precio.",
+  "description": "Bienvenid@ a ALDI, tu supermercado con ofertas semanales, productos frescos, ecológicos y marcas de calidad al mejor precio. ¡Visítanos y ahorra en tu compra!",
+  "h1": "ALDI",
+  "paragraphs": [
+    "En los supermercados ALDI encontrarás productos de calidad al mejor precio. Entre los productos de supermercado que ofrecemos, puedes encontrar: frutas y verduras, carnes, pescados, lácteos, productos de limpieza y cosmética, artículos de hogar ¡y mucho más!",
+    "Cada semana, traemos nuevas ofertas en productos seleccionados para ayudarte a ahorrar sin renunciar a la calidad. Además, en nuestras tiendas encontrarás productos exclusivos que se adaptan a tu estilo de vida: alimentos sin gluten, veganos y vegetarianos u opciones bio y ecológicas.",
+    "En nuestra sección de bazar podrás encontrar novedades en moda, menaje de cocina, decoración para el hogar, jardín, bricolaje... ¡nuevos productos cada semana!",
+    "En ALDI, el ahorro es una prioridad. Por ello, contamos con la fruta, verdura y carne al mejor precio del mercado. Además, nuestros productos de marca propia te garantizan la mejor relación calidad-precio.",
+    "Frutas, verduras, carnes y pescados seleccionados para ofrecerte lo mejor cada día. Además de más de 300 productos que cuentan con el sello de agricultura ecológica de la Unión Europea."
+  ],
+  "headings": [
+    "Ofertas y novedades",
+    "Ofertas en fruta y verdura",
+    "Ofertas en carne",
+    "Ofertas en pescado",
+    "Ofertas en despensa y refrigerados",
+    "Menaje de cocina",
+    "Ofertas extra de fin de semana",
+    "Ropa y calzado deportivo"
+  ],
+  "images": [
+    "https://www.aldi.es/etc/designs/aldi/web/frontend/aldi/images/app/apple-store-badge-es.svg.res/1629268348181/apple-store-badge-es.svg",
+    "https://www.aldi.es/etc/designs/aldi/web/frontend/aldi/images/app/google-play-badge-es.png.res/1629268348183/google-play-badge-es.png",
+    "https://www.aldi.es/content/dam/aldi/spain/navidad/2025/01-sticky-pop-up/Stick_PopUp_Puppets_800px.gif.res/1766405392484/Stick_PopUp_Puppets_800px.gif"
+  ],
+  "heroImage": "https://www.aldi.es/etc/designs/aldi/web/frontend/aldi/images/app/apple-store-badge-es.svg.res/1629268348181/apple-store-badge-es.svg"
+}

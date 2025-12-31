@@ -1,0 +1,30 @@
+{
+  "name": "Moreno Ascensores S.L",
+  "originalUrl": "http://www.morenoascensores.com/",
+  "category": "electricistas",
+  "title": "Moreno Ascensores",
+  "description": "",
+  "h1": "ASCENSORES",
+  "paragraphs": [
+    "Información detallada sobre nuestros servicios y compromiso con la calidad. Contáctenos para más detalles."
+  ],
+  "headings": [
+    "PRODUCTOS Y SERVICIOS",
+    "GALERIA",
+    "PRODUCTOS Y",
+    "SERVICIOS"
+  ],
+  "images": [
+    "https://www.morenoascensores.com/index_htm_files/302.png",
+    "https://www.morenoascensores.com/index_htm_files/267.png",
+    "https://www.morenoascensores.com/index_htm_files/301.png",
+    "https://www.morenoascensores.com/index_htm_files/303.png",
+    "https://www.morenoascensores.com/index_htm_files/304.png",
+    "https://www.morenoascensores.com/index_htm_files/342.png",
+    "https://www.morenoascensores.com/index_htm_files/388.png",
+    "https://www.morenoascensores.com/index_htm_files/474.png",
+    "https://www.morenoascensores.com/index_htm_files/322.png",
+    "https://www.morenoascensores.com/index_htm_files/392.png"
+  ],
+  "heroImage": "https://www.morenoascensores.com/index_htm_files/302.png"
+}

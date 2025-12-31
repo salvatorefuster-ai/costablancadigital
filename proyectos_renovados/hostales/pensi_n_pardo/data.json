@@ -1,0 +1,38 @@
+{
+  "name": "Pensión Pardo",
+  "originalUrl": "http://www.pensionpardo.es/",
+  "category": "hostales",
+  "title": "Pensión Pardo - Relájate y descubre Benidorm",
+  "description": "Descubre todo lo que hacer en Benidorm y disfruta de sus playas. La tranquilidad y el descanso nos la dejas a nosotros en Pensión Pardo.",
+  "h1": "Pensión Pardo",
+  "paragraphs": [
+    "Desde los comienzos tratamos de dar el mejor servicio a nuestros huéspedes, renovándonos cada año, pero manteniendo un ambiente familiar basado en la limpieza y la tranquilidad.",
+    "La Pensión Pardo, fundada en 1966, se encuentra a 400 metros de la playa de Poniente y del Mal Pas, en el centro de la turística de Benidorm.",
+    "Nos encontramos a pie de los bares y tiendas más populares del centro y del casco antiguo. A poca distancia se encuentra una parada del autobús local desde donde poder ir Terra Natura, Terra Mítica, Aqualandia o Mundomar.",
+    "Disponemos de 20 habitaciones con todas las comodidades y en las que ponemos todo nuestro cariño. Son amplias y confortables y todas cuentan con baño privado, TV vía satélite, aire acondicionado y Wifi gratuito.",
+    "Disponemos de 20 habitaciones con todas las comodidades y en las que ponemos todo nuestro cariño"
+  ],
+  "headings": [
+    "PENSION PARDO DESDE 1966",
+    "NUESTRAS HABITACIONES",
+    "Habitación Doble – Matrimonio",
+    "Habitación Doble – Camas Individuales",
+    "Habitación Individual",
+    "NUESTROS SERVICIOS",
+    "Aire Acondicionado",
+    "WiFi Gratuito"
+  ],
+  "images": [
+    "https://pensionpardo.es/wp-content/plugins/revslider/public/assets/assets/dummy.png",
+    "https://pensionpardo.es/wp-content/plugins/revslider/public/assets/assets/dummy.png",
+    "https://pensionpardo.es/wp-content/plugins/revslider/public/assets/assets/dummy.png",
+    "https://pensionpardo.es/wp-content/uploads/2018/04/DSC_0036-720x470.jpg",
+    "https://pensionpardo.es/wp-content/uploads/2020/05/DSC_0040-720x470.jpg",
+    "https://pensionpardo.es/wp-content/uploads/2021/12/pension-pardo-habitacion-individual.jpg",
+    "https://pensionpardo.es/wp-content/uploads/2022/01/servicios-experiencias.jpg",
+    "https://pensionpardo.es/wp-content/uploads/2022/01/servicios-bano-completo.jpg",
+    "https://pensionpardo.es/wp-content/uploads/2022/01/servicios-aire-acondicionado.jpg",
+    "https://pensionpardo.es/wp-content/uploads/2022/01/servicios-wifi-gratis.jpg"
+  ],
+  "heroImage": "https://pensionpardo.es/wp-content/plugins/revslider/public/assets/assets/dummy.png"
+}

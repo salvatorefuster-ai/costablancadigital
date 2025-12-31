@@ -1,0 +1,28 @@
+{
+  "name": "Mimma Gallery",
+  "originalUrl": "http://www.mimmagallery.com/",
+  "category": "mueblerías",
+  "title": "Bienvenid@s a Mimma Gallery | Sofás, sillones y decoración",
+  "description": "En Mimma Gallery econtrarás todo lo que necesitas para crear tu rincón de relax. Inspírate y sigue las últimas tendencias en decoración.",
+  "h1": "Mimma Gallery",
+  "paragraphs": [
+    "Inspírate con la nueva colección de sofás de lino para convertir tu salón en un espacio cálido y mediterráneo.",
+    "Nos ponemos a tu servicio y te ofrecemos un acompañamiento global para crear tu espacio de confort."
+  ],
+  "headings": [
+    "Suscríbete a nuestra newsletter"
+  ],
+  "images": [
+    "https://www.mimmagallery.com/wp-content/uploads/2025/08/butaca-emile-teja-2.jpg",
+    "https://www.mimmagallery.com/wp-content/themes/neorg/img/user.svg",
+    "https://www.mimmagallery.com/wp-content/themes/neorg/img/wishlist.svg",
+    "https://www.mimmagallery.com/wp-content/themes/neorg/img/wishlist.svg",
+    "https://www.mimmagallery.com/wp-content/uploads/2024/05/rinconera-active-1-150x150.jpg",
+    "https://www.mimmagallery.com/wp-content/uploads/2022/11/mimma-black-1-004-capcal-negre-scaled-150x150.jpg",
+    "https://www.mimmagallery.com/wp-content/uploads/2024/03/mesa-krona35-4-150x150.jpg",
+    "https://www.mimmagallery.com/wp-content/themes/neorg/img/facebook_blue_50x50.png",
+    "https://www.mimmagallery.com/wp-content/themes/neorg/img/instagram_blue_50x50.png",
+    "https://www.mimmagallery.com/wp-content/themes/neorg/img/youtube_blue_50x50.png"
+  ],
+  "heroImage": "https://www.mimmagallery.com/wp-content/uploads/2025/08/butaca-emile-teja-2.jpg"
+}

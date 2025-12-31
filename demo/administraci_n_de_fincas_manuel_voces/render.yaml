@@ -1,0 +1,4 @@
+services:
+  - type: web
+    name: administraci_n_de_fincas_manuel_voces
+    runtime: static

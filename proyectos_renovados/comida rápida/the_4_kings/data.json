@@ -1,0 +1,33 @@
+{
+  "name": "The 4 Kings",
+  "originalUrl": "https://the4kings.es/",
+  "category": "comida rápida",
+  "title": "The Four Kings - Restaurante en Benidorm",
+  "description": "Restaurante en Benidorm.",
+  "h1": "The 4 Kings",
+  "paragraphs": [
+    "Av. del Mediterráneo, 43, local 6 - 03502 Benidorm, Alicante",
+    "Av. del Mediterráneo, 43, local 6 - 03502 Benidorm, Alicante",
+    "Aviso legal - Política de Privacidad - Política de Cookies",
+    "© 2025 Todos los derechos reservados.\nDesarrollado por  fijate.com",
+    "Usamos cookies para ofrecerle una mejor experiencia de navegación, personalizar el contenido, proporcionar funciones de redes sociales y analizar nuestro tráfico. Lea sobre cómo usamos las cookies y cómo puede controlarlas haciendo clic en Configuración de cookies."
+  ],
+  "headings": [
+    "GALERÍA DE FOTOS",
+    "CONTACTO",
+    "CÓMO LLEGAR"
+  ],
+  "images": [
+    "https://the4kings.es/img/gallery/gallery-1.webp",
+    "https://the4kings.es/img/gallery/gallery-2.webp",
+    "https://the4kings.es/img/gallery/gallery-3.webp",
+    "https://the4kings.es/img/gallery/gallery-4.webp",
+    "https://the4kings.es/img/gallery/gallery-5.webp",
+    "https://the4kings.es/img/gallery/gallery-6.webp",
+    "https://the4kings.es/img/gallery/gallery-7.webp",
+    "https://the4kings.es/img/gallery/gallery-8.webp",
+    "https://the4kings.es/img/gallery/gallery-9.webp",
+    "https://the4kings.es/img/gallery/gallery-10.webp"
+  ],
+  "heroImage": "https://the4kings.es/img/gallery/gallery-1.webp"
+}

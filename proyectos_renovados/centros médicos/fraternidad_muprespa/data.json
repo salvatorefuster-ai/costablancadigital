@@ -1,0 +1,38 @@
+{
+  "name": "Fraternidad Muprespa",
+  "originalUrl": "http://www.fraternidad.com/",
+  "category": "centros médicos",
+  "title": "Fraternidad-Muprespa | Mutua Colaboradora con la Seguridad Social 275",
+  "description": "Fraternidad-Muprespa. Mutua colaboradora con la Seguridad Social nº275, es una entidad aseguradora sin ánimo de lucro, cuya actividad está dirigida al tratamiento integral del accidente de trabajo y las enfermedades profesionales, tanto en su aspecto económico como preventivo, sanitario o recuperador, en colaboración con el Ministerio de Trabajo e Inmigración.",
+  "h1": "Fraternidad-Muprespa",
+  "paragraphs": [
+    "Cerca de \n0\n empresas y más de \n0\n trabajadores confían en nosotros. Ofrecemos un servicio especializado y de calidad a nuestros mutualistas.",
+    "Comprometidos con la salud laboral y la sostenibilidad del sistema de la Seguridad Social.",
+    "Tu tiempo es oro, caminamos juntos y cuidamos de ti mientras cuidas de tu negocio.",
+    "Estamos contigo para ayudarte, cuando más lo necesitas tras un accidente laboral.",
+    "Como mutua para asesorías facilitamos tu labor con un servicio digital y personal."
+  ],
+  "headings": [
+    "Selecciona tu perfil",
+    "EMPRESA",
+    "AUTÓNOMO",
+    "TRABAJADOR",
+    "ASESORÍA",
+    "Portal Previene",
+    "Portal del paciente",
+    "Rincón del asesor"
+  ],
+  "images": [
+    "https://www.fraternidad.com/sites/default/files/landing-images/image-la-mutua-que-cuida-de-ti.webp",
+    "https://www.fraternidad.com/sites/default/files/landing-images/image_portada_movil.webp",
+    "https://www.fraternidad.com/sites/default/files/landing-images/image_portada_ordenador.webp",
+    "https://www.fraternidad.com/sites/default/files/landing-images/image_ordendador-tablet_quieneres_empresa_hover.webp",
+    "https://www.fraternidad.com/sites/default/files/landing-images/image_ordendador-tablet_quieneres_empresa_standar.webp",
+    "https://www.fraternidad.com/sites/default/files/landing-images/image_ordendador-tablet_quieneres_autonomo_hover.webp",
+    "https://www.fraternidad.com/sites/default/files/landing-images/image_ordendador-tablet_quieneres_autonomo_standar.webp",
+    "https://www.fraternidad.com/sites/default/files/landing-images/image_ordendador-tablet_quieneres_trabajador_hover.webp",
+    "https://www.fraternidad.com/sites/default/files/landing-images/image_ordendador-tablet_quieneres_trabajador_standar.webp",
+    "https://www.fraternidad.com/sites/default/files/landing-images/image_ordendador-tablet_quieneres_asesoria_hover.webp"
+  ],
+  "heroImage": "https://www.fraternidad.com/sites/default/files/landing-images/image-la-mutua-que-cuida-de-ti.webp"
+}

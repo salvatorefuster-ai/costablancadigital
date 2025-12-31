@@ -1,0 +1,29 @@
+{
+  "name": "McDonald's",
+  "originalUrl": "https://mcdonalds-mcdelivery.es/",
+  "category": "comida rápida",
+  "title": "McDonald's - McDelivery",
+  "description": "Pide tus productos favoritos de McDonald's y recíbelos cómodamente en casa con nuestro servicio McDelivery®.",
+  "h1": "¡Pide a domicilio con McDelivery®!",
+  "paragraphs": [
+    "*Depende del proveedor que elijas será necesario que introduzcas/verifiques nuevamente la dirección de entrega."
+  ],
+  "headings": [
+    "Calidad Garantizada",
+    "Atención Personalizada",
+    "Experiencia Profesional"
+  ],
+  "images": [
+    "https://mcdonalds.es/api/cms/images/Z-PbTXdAxsiBv6yZ_McDelivery_hero.jpeg?auto=compress&fm=webp",
+    "https://mcdonalds.es/api/cms/images/aSXDj2GnmrmGqS3Z_Stranger-Vacuno.png?rect=0,0,450,450&auto=compress&fm=webp",
+    "https://mcdonalds.es/api/cms/images/aSXUX2GnmrmGqTKN_Stranger-Vacuno-Doble-1-.png?rect=0,0,450,450&auto=compress&fm=webp",
+    "https://mcdonalds.es/api/cms/images/aSXXkmGnmrmGqTMB_Stranger-McCrispy.png?rect=0,0,450,450&auto=compress&fm=webp",
+    "https://mcdonalds.es/api/cms/images/aSXbx2GnmrmGqTOp_Stranger-McCrispy-Doble.png?rect=0,0,450,450&auto=compress&fm=webp",
+    "https://mcdonalds.es/api/cms/images/aScjs2GnmrmGqW-j_McShakerStrangerFries.png?rect=0,0,450,450&auto=compress&fm=webp",
+    "https://mcdonalds.es/api/cms/images/aScVQmGnmrmGqWr2_Chocolate_Pie.png?rect=0,0,450,450&auto=compress&fm=webp",
+    "https://mcdonalds.es/api/cms/images/aSbXe2GnmrmGqV2w_CherrySprite.png?rect=0,0,450,450&auto=compress&fm=webp",
+    "https://mcdonalds.es/api/cms/images/aSbLrmGnmrmGqVu4_McFlurry_Stranger_Caramel.png?rect=0,0,450,450&auto=compress&fm=webp",
+    "https://mcdonalds.es/api/cms/images/aSbLiGGnmrmGqVuu_Mini-McFlurry_Stranger_Caramel-1-.png?rect=0,0,450,450&auto=compress&fm=webp"
+  ],
+  "heroImage": "https://mcdonalds.es/api/cms/images/Z-PbTXdAxsiBv6yZ_McDelivery_hero.jpeg?auto=compress&fm=webp"
+}

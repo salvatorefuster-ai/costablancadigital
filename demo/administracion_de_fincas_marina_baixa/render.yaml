@@ -1,0 +1,4 @@
+services:
+  - type: web
+    name: administracion_de_fincas_marina_baixa
+    runtime: static

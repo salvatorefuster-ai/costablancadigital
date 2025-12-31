@@ -1,0 +1,4 @@
+services:
+  - type: web
+    name: admirasa_administraci_n_de_fincas_ram_n_s_nchez_li
+    runtime: static

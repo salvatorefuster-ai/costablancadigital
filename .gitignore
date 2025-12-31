@@ -1,0 +1,6 @@
+node_modules
+.DS_Store
+*.log
+.env
+# Evitar subir los JSON pesados si se desea optimizar, pero el usuario pidió subir todo el sistema
+# negocios_benidorm_completo.json

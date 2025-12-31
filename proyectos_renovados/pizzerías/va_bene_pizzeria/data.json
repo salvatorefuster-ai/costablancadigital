@@ -1,0 +1,36 @@
+{
+  "name": "Va Bene Pizzeria",
+  "originalUrl": "https://vabenebenidorm.com/vabene-la-cala/nuestra-carta/",
+  "category": "pizzerías",
+  "title": "Carta de Pizzería Va Bene La Cala Benidorm",
+  "description": "En la carta de Va Bene Centro tenemos la mejor comida italiana. Contamos con entrantes, pasta, risotto, pizza, carne, postres caseros y más.",
+  "h1": "Nuestra Carta",
+  "paragraphs": [
+    "Elige entre una variedad de ensaladas frescas, entrantes fríos, diferentes tipos de pasta fresca, todos ellos elaborados con producto de primer calidad.",
+    "Nuestra burrata viene directamente de Italia todas las semanas.",
+    "Prueba nuestros spaghettis de espelta ecológicos, nuestra pasta o pizza sin gluten o nuestros postres caseros que no te dejarán indiferente.",
+    "Tomate con ventresca de bonito Ortiz y aceitunas de cuquillo",
+    "Carpaccio de ternera con jugo de limón, aove y virutas de parmesano"
+  ],
+  "headings": [
+    "ENTRANTES FRÍOS",
+    "ENTRANTES CALIENTES",
+    "PASTAS, PASTA SIN GLUTEN Y ESPELTA",
+    "PASTAS RELLENAS",
+    "PIZZAS Y PIZZAS SIN GLUTEN",
+    "CARNES",
+    "PESCADOS FRESCOS",
+    "POSTRES CASEROS"
+  ],
+  "images": [
+    "https://vabenebenidorm.com/wp-content/uploads/2021/04/va-bene-la-cala-benidorm.png",
+    "https://vabenebenidorm.com/wp-content/uploads/2021/04/va-bene-la-cala-benidorm.png",
+    "https://vabenebenidorm.com/wp-content/uploads/2021/04/va-bene-la-cala-benidorm.png",
+    "https://vabenebenidorm.com/wp-content/uploads/2021/04/va-bene-la-cala-benidorm.png",
+    "https://vabenebenidorm.com/wp-content/uploads/2021/04/va-bene-la-cala-benidorm.png",
+    "https://vabenebenidorm.com/wp-content/uploads/2021/04/va-bene-la-cala-benidorm.png",
+    "https://vabenebenidorm.com/wp-content/uploads/2021/04/va-bene-la-cala-benidorm.png",
+    "https://vabenebenidorm.com/wp-content/uploads/2021/04/va-bene-la-cala-benidorm.png"
+  ],
+  "heroImage": "https://vabenebenidorm.com/wp-content/uploads/2021/04/va-bene-la-cala-benidorm.png"
+}

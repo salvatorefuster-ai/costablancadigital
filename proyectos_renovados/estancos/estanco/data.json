@@ -1,0 +1,23 @@
+{
+  "name": "Estanco",
+  "originalUrl": "https://www.estancocerca.es/",
+  "category": "estancos",
+  "title": "Estancos cercanos. Encuentra el estanco abierto más próximo, horario y dirección.",
+  "description": "Localiza los estancos cercanos, horarios de apertura y datos de contacto y ubicación.",
+  "h1": "Encuentra tu estanco más cercano",
+  "paragraphs": [
+    "EstancoCerca.es es la guía más completa de estancos en territorio español, con información de contacto actualizada, horarios y ubicación de todos los establecimientos.",
+    "Los horarios más habituales de apertura de los estancos son:",
+    "Actualmente algunos estancos están ofreciendo el servicio de 24h, sólo en las grandes ciudades. Incluso existen algunos que permanencen abiertos en domingo.",
+    "En la capital de España encontramos mas de 600 estancos, accede al más cercano a tu domicilio.",
+    "Sólo en la ciudad condal de Barcelona existen más de 350 estancos, encuentra el más próximo."
+  ],
+  "headings": [
+    "Horario de los estancos",
+    "Estancos en tu ciudad"
+  ],
+  "images": [
+    "https://www.estancocerca.es/images/horario-estancos.jpg"
+  ],
+  "heroImage": "https://www.estancocerca.es/images/horario-estancos.jpg"
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Villa España Hotel",
+  "originalUrl": "http://hotelvillaespana.com/",
+  "category": "hoteles",
+  "title": "Villa España Hotel en Benidorm, Web oficial",
+  "description": "Villa España es un hotel que busca poner en valor la cultura española. Se sitúa en primera línea de la Playa de Poniente junto al casco antiguo de Benidorm.",
+  "h1": "UNA EXPERIENCIA INMERSIVA A LA ALTURA DE NUESTRO PATRIMONIO",
+  "paragraphs": [
+    "Bienvenidos a Villa España Hotel, un exclusivo alojamiento 4 estrellas situado en primera línea de la Playa de Poniente de Benidorm, junto al casco antiguo y el puerto deportivo. Parte de nuestra distinguida colección ‘Villas Gallery’, este hotel ofrece una experiencia única donde cultura, arte, bienestar, playa y gastronomía conviven en perfecta armonía.",
+    "Por favor, tenga en cuenta que la piscina suspendida tiene fecha de apertura prevista próximamente.",
+    "Entre rituales de agua, espacios dedicados al relax y rooftops que se abren al horizonte, cada instante invita a detenerse, respirar y habitar el destino.",
+    "Cada estancia ha sido diseñada para rendir homenaje a nuestra cultura y patrimonio y ofrecer una experiencia única de ocio y descanso",
+    "Cada plato, cada tapa y cada vino rinde homenaje a la dieta mediterránea y te traslada a rincones únicos de nuestro país a través del paladar."
+  ],
+  "headings": [
+    "BIENESTAR",
+    "GASTRONOMÍA",
+    "CULTURA",
+    "CLASSIC ATELIER",
+    "CLASSIC ATELIER TERRACE",
+    "THE RESIDENCE SUPREME JACUZI",
+    "SUPREME ATELIER JACUZI",
+    "SKY BAR SUPREME MASTER SEA VIEW"
+  ],
+  "images": [
+    "https://www.hotelvillaespana.com/themes/villa-espana/assets/images/maqueta/profile-2.jpg",
+    "https://www.hotelvillaespana.com/themes/villa-espana/assets/images/maqueta/profile-2.jpg",
+    "https://www.hotelvillaespana.com/storage/app/uploads/public/693/ae8/ffd/thumb_2075_1920_1080_0_0_crop.webp",
+    "https://www.hotelvillaespana.com/storage/app/uploads/public/68c/04f/e29/thumb_1614_1920_1080_0_0_crop.webp",
+    "https://www.hotelvillaespana.com/storage/app/uploads/public/68d/a46/9fa/thumb_1839_1920_1080_0_0_crop.webp",
+    "https://www.hotelvillaespana.com/storage/app/uploads/public/68d/a46/fae/thumb_1840_1920_1080_0_0_crop.webp",
+    "https://www.hotelvillaespana.com/storage/app/uploads/public/691/b21/aab/thumb_2037_1920_1080_0_0_crop.webp",
+    "https://www.hotelvillaespana.com/storage/app/uploads/public/68d/fb1/273/thumb_1850_288_384_0_0_crop.webp",
+    "https://www.hotelvillaespana.com/storage/app/uploads/public/68d/fb1/123/thumb_1849_288_384_0_0_crop.webp",
+    "https://www.hotelvillaespana.com/storage/app/uploads/public/68b/efd/080/thumb_1584_288_384_0_0_crop.webp"
+  ],
+  "heroImage": "https://www.hotelvillaespana.com/themes/villa-espana/assets/images/maqueta/profile-2.jpg"
+}

@@ -1,0 +1,38 @@
+{
+  "name": "CESADE",
+  "originalUrl": "http://www.cesade.com/",
+  "category": "fisioterapeutas",
+  "title": "CESADE – Centro Salud Deportiva",
+  "description": "",
+  "h1": "ESTAMOS CERCA DE TI",
+  "paragraphs": [
+    "Especializados en todo tipo de lesiones deportivas como esguinces y lesiones de ligamento, lesiones de menisco, lesiones de tendón, roturas y lesiones musculares así como recuperación postquirúrgica, abordando la lesión desde una perspectiva diferente y novedosa, realizando una evaluación exhaustiva para comprobar cuál puede ser el origen del dolor o la lesión.",
+    "Realizamos valoraciones ecográficas para poder analizar de manera más objetiva el alcance de tu lesión, además combinamos la ecografía con fisioterapia invasiva (EPI, neuromodulación, punción seca, acupuntura…) para poder asegurarnos que la terapia se realiza justo en el lugar de la lesión.",
+    "Utilizamos las técnicas más reconocidas a nivel internacional para mejorar las patologías del sistema nervioso, articular y muscular. Nuestros fisioterapeutas se han formado con los mejores profesionales australianos, americanos y europeos para poder abordar las lesiones de manera efectiva y duradera.",
+    "Durante o después del tratamiento es indispensable realizar tareas de readaptación de lesiones con ejercicio neurofuncional con dos objetivos fundamentales, mejorar la lesión actual y prevenir futuras recaídas.",
+    "Antes de empezar la readaptación y el ejercicio es indispensable valorar. Para ello utilizamos una metodología única en España y con material como electromiografía para ver qué músculos están bien y cuales no están activos."
+  ],
+  "headings": [
+    "NOSOTROS",
+    "PROFESIONALES",
+    "PROFESIONALES TITULADOS",
+    "RAZONAMIENTO CLÍNICO",
+    "SEGURIDAD",
+    "EQUIPO MULTIDISCIPLINAR",
+    "VALORACIÓN ECOGRÁFICA",
+    "EJERCICIO TERAPÉUTICO"
+  ],
+  "images": [
+    "https://cesade.com/wp-content/plugins/revslider/public/assets/assets/dummy.png",
+    "https://cesade.com/wp-content/plugins/revslider/public/assets/assets/dummy.png",
+    "https://cesade.com/wp-content/plugins/revslider/public/assets/assets/dummy.png",
+    "https://cesade.com/wp-content/plugins/revslider/public/assets/assets/dummy.png",
+    "https://cesade.com/wp-content/plugins/revslider/public/assets/assets/dummy.png",
+    "https://cesade.com/wp-content/plugins/revslider/public/assets/assets/dummy.png",
+    "https://cesade.com/wp-content/plugins/revslider/public/assets/assets/dummy.png",
+    "https://cesade.com/wp-content/plugins/revslider/public/assets/assets/dummy.png",
+    "https://cesade.com/wp-content/plugins/revslider/public/assets/assets/dummy.png",
+    "https://cesade.com/wp-content/plugins/revslider/public/assets/assets/dummy.png"
+  ],
+  "heroImage": "https://cesade.com/wp-content/plugins/revslider/public/assets/assets/dummy.png"
+}

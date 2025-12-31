@@ -1,0 +1,34 @@
+{
+  "name": "Spa Experience Benidorm",
+  "originalUrl": "http://spaexperience.es/",
+  "category": "centros de estética",
+  "title": "Spa Experience",
+  "description": "Reservas Spa Experience",
+  "h1": "REGISTRO",
+  "paragraphs": [
+    "En el corazón de Meliá, nuestro SPA es un refugio de calma y bienestar. Desde hace más de dos décadas, acompañamos a quienes buscan un respiro del ritmo diario, ofreciendo experiencias únicas de relajación y cuidado personal. Nuestros tratamientos están inspirados en antiguas tradiciones de la India, fusionando lo mejor del conocimiento ancestral con un ambiente sereno y acogedor. Cada detalle ha sido pensado para ayudar a reconectar consigo mismo y con la paz interior.Bienvenidos a un lugar donde el tiempo se detiene y todo gira en torno al bienestar.",
+    "Nombre (requerido) \nApellidos (requerido) \nCorreo electrónico (requerido) \nPassword (requerido) \nDirección \nCódigo postal \nPoblación \nProvincia \nMovil (requerido) \nTeléfono \nFecha nacimiento \nHe leído y acepto la política de privacidad\nAutorizo el envío de información",
+    "Nombre (requerido) \nApellidos (requerido) \nCorreo electrónico (requerido) \nDirección (requerido) \nCódigo postal (requerido) \nPoblación (requerido) \nProvincia (requerido) \nMovil (requerido) \nTeléfono \nFecha nacimiento \nHe leído y acepto la política de privacidad\nAutorizo el envío de información",
+    "Nombre (requerido) \nApellidos (requerido) \nCorreo electrónico (requerido) \nTeléfono (requerido) \nHe leído y acepto la política de privacidad\nAutorizo el envío de información",
+    "Correo electrónico *\n\nTeléfono *\n\n \n* Campos obligatorios"
+  ],
+  "headings": [
+    "Sobre Nosotros",
+    "Por favor, rellene los siguientes campos",
+    "Compra finalizada",
+    "Error en el pago, no se ha formalizado la reserva",
+    "Pago de Reserva Finalizada",
+    "Error en el pago, no se ha formalizado la reserva"
+  ],
+  "images": [
+    "https://www.spaexperience.es/img/loading.gif",
+    "https://www.spaexperience.es/img/cesta_2.png",
+    "https://www.spaexperience.es/img/edit.png",
+    "https://www.spaexperience.es/img/cesta_2.png",
+    "https://peluqueria.addiweb.es/img/empresa/1987/bienimg.JPG",
+    "https://peluqueria.addiweb.es/img/empresa/1987/pie1img.JPG",
+    "https://peluqueria.addiweb.es/img/empresa/1987/pie2img.JPG",
+    "https://peluqueria.addiweb.es/img/empresa/1987/pie3img.JPG"
+  ],
+  "heroImage": "https://www.spaexperience.es/img/loading.gif"
+}

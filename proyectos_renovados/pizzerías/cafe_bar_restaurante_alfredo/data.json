@@ -1,0 +1,30 @@
+{
+  "name": "Cafe Bar Restaurante Alfredo",
+  "originalUrl": "http://www.alfredo-food.com/",
+  "category": "pizzerías",
+  "title": "Cafe Bar Restaurante Alfredo",
+  "description": "Food & Drinks",
+  "h1": "Café Bar Restaurante Alfredo",
+  "paragraphs": [
+    "Established by Chef Alfredo and Ivana, cooking and serving since 1987.",
+    "Welcome to Alfredo, where decades of culinary expertise meet a passion for authentic flavors. Since 1987, Chef Alfredo has dedicated himself to crafting dishes that showcase the very best of Mediterranean cuisine, complemented by select international offerings.",
+    "We pride ourselves on using only the finest ingredients. Whether you’re exploring the rich flavors of Mediterranean dishes, from land to sea, or enjoying international cuisine, we are committed to delivering a genuine, high-quality experience.",
+    "As a family-run business, we are deeply committed to your satisfaction, both in the kitchen and at your table. Chef Alfredo personally oversees the kitchen, while Ivana leads our attentive service team.",
+    "We speak Italian, Spanish, English, German, and Croatian to make you feel at home, no matter where you’re from."
+  ],
+  "headings": [
+    "Food & Drinks",
+    "Welcome",
+    "Our Culinary Offer",
+    "Our Beach & Restaurant WiFi",
+    "Review us on Google",
+    "Contact"
+  ],
+  "images": [
+    "https://www.alfredo-food.com/images/3311266.png",
+    "https://www.alfredo-food.com/images/wifi_voucher_example.jpg",
+    "https://www.alfredo-food.com/images/wifi_signal_instructions.png",
+    "https://www.alfredo-food.com/images/feedback-drinks01.jpg"
+  ],
+  "heroImage": "https://www.alfredo-food.com/images/3311266.png"
+}

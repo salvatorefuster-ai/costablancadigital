@@ -1,0 +1,37 @@
+{
+  "name": "Farmacia",
+  "originalUrl": "https://www.farmaciablancallacer.es/",
+  "category": "farmacias",
+  "title": "Página de Inicio",
+  "description": "Los mejores productos de parafarmacia",
+  "h1": "Página de Inicio",
+  "paragraphs": [
+    "Con la vuelta al cole de los más peques de la casa aumentan los contagios de los temidos piojos… Es normal que nos surjan dudas sobre que hacer en caso de que nuestro hijo se contagie. A continuación te explicamos cómo tratar y evitar estos parásitos.",
+    "Las cápsulas de protección solar son complementos alimenticios elaborados a base de componentes vegetales como los betacarotenos, vitaminas y extractos naturales que contribuyen a proteger todo tipo de piel de la radiación solar.",
+    "Guarda productos en tu lista de deseos para comprarlos más tarde o compartirlos con tus amigos",
+    "Esta tienda te pide que aceptes cookies para fines de rendimiento, redes sociales y publicidad. Las redes sociales y las cookies publicitarias de terceros se utilizan para ofrecerte funciones de redes sociales y anuncios personalizados. ¿Aceptas estas cookies y el procesamiento de datos personales involucrados?"
+  ],
+  "headings": [
+    "NUESTROS RECOMENDADOS",
+    "Endocare Tensage 20 Ampollas de 2 ml",
+    "Filorga Lift Structure Crema 50 ml",
+    "Filorga - Oxygen-Peel 150 ml",
+    "Heliocare Gel Oil Free Beige + Endocare C Promo",
+    "la Roche Posay Pure Vitamin C10 30 ml",
+    "Sensibio DS+ Crema, 40 ml. - Bioderma",
+    "BENDITO SPOT REMOVAL & SHINE FACIAL"
+  ],
+  "images": [
+    "https://farmaciablancallacer.es/themes/gpdw/assets/img/LogoBLL.svg",
+    "https://farmaciablancallacer.es/modules/revsliderprestashop/public/assets/assets/transparent.png",
+    "https://www.farmaciablancallacer.es/img/cms/banner-marmol.jpg",
+    "https://farmaciablancallacer.es/modules/revsliderprestashop/public/assets/assets/transparent.png",
+    "https://www.farmaciablancallacer.es/img/cms/banner-3.jpg",
+    "https://farmaciablancallacer.es/img/cms/facial.jpg",
+    "https://farmaciablancallacer.es/img/cms/MINIBANNERS/facial.jpg",
+    "https://farmaciablancallacer.es/img/cms/Corporal.jpg",
+    "https://farmaciablancallacer.es/img/cms/MINIBANNERS/corporal.jpg",
+    "https://farmaciablancallacer.es/img/cms/Capilar.jpg"
+  ],
+  "heroImage": "https://www.farmaciablancallacer.es/img/cms/banner-marmol.jpg"
+}

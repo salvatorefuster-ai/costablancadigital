@@ -1,0 +1,29 @@
+{
+  "name": "DENTALIUM",
+  "originalUrl": "http://dentalium.es/",
+  "category": "dentistas",
+  "title": "Inicio",
+  "description": "",
+  "h1": "DENTALIUM",
+  "paragraphs": [
+    "Información detallada sobre nuestros servicios y compromiso con la calidad. Contáctenos para más detalles."
+  ],
+  "headings": [
+    "Calidad Garantizada",
+    "Atención Personalizada",
+    "Experiencia Profesional"
+  ],
+  "images": [
+    "https://dentalium.es/images/u75-4.png",
+    "https://dentalium.es/images/blank.gif",
+    "https://dentalium.es/images/blank.gif",
+    "https://dentalium.es/images/blank.gif",
+    "https://dentalium.es/images/u270-6.png",
+    "https://dentalium.es/images/aranza_azul.jpg",
+    "https://dentalium.es/images/vicky_azul.jpg",
+    "https://dentalium.es/images/arrow-97-512.png",
+    "https://dentalium.es/images/u322-4.png",
+    "https://dentalium.es/images/box11.jpg"
+  ],
+  "heroImage": "https://dentalium.es/images/u75-4.png"
+}

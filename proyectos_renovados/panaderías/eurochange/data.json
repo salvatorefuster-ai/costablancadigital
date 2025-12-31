@@ -1,0 +1,38 @@
+{
+  "name": "Eurochange",
+  "originalUrl": "https://eurochange.es/",
+  "category": "panaderías",
+  "title": "Cambio de divisas online sin comisiones | Eurochange",
+  "description": "Líder en cambio de divisas online con mas de 50 oficinas en diferentes localidades de España. Haz la reserva en nuestra web y tendrás tus divisas en 24/48 horas laborables. ¡Sin comisiones!",
+  "h1": "Cambio de divisas online sin comisiones",
+  "paragraphs": [
+    "Regístrate para hacer compras de divisas más rápido. Accede a tu historial y configura tus alertas.",
+    "También atenderemos tus consultas a través de nuestras Redes Sociales",
+    "Quizá la pregunta que quieres hacernos  tiene respuesta rápida, consulta en nuestro buscador de preguntas frecuentes.",
+    "Sí. En Eurochange tenemos licencia del Banco de España para vender divisas de otros países. Puedes comprar tus divisas extrtanjeras en la mayoría de nuestras oficinas de cambio de moneda o a través de nuestra web.",
+    "Sí. Con nuestro servicio de recompra de moneda extranjera puedes devolver hasta el 30% del dinero que te haya sobrado y te lo devolvemos al mismo precio que pagaste. Recuerda que tu compra debe ser superior a 750€ para poder aprovechar este servicio y la devolución se hará en cualquiera de nuestras oficinas de cambio."
+  ],
+  "headings": [
+    "Atención Telefónica",
+    "Horario de Atención",
+    "Preguntas frecuentes",
+    "Preguntas por categorías",
+    "Garantía Eurochange",
+    "Nuestras oficinas",
+    "Nuestras oficinas",
+    "¿Cuánto dinero necesito cambiar para mi viaje?"
+  ],
+  "images": [
+    "https://eurochange.es/img/phone.svg",
+    "https://eurochange.es/img/twitter_blanco.svg",
+    "https://eurochange.es/img/facebook_blanco.svg",
+    "https://eurochange.es/img/youtube_blanco.svg",
+    "https://eurochange.es/img/int-top.svg",
+    "https://eurochange.es/img/phone.svg",
+    "https://eurochange.es/img/user.svg",
+    "https://eurochange.es/img/popupMapa.svg",
+    "https://eurochange.es/img/image-carousel-1.png",
+    "https://eurochange.es/upload/media/default/0001/01/04e4aae9c2bf3ee8fd353090919d4256df047671.jpg"
+  ],
+  "heroImage": "https://eurochange.es/img/phone.svg"
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Agencia de seguros ZURICH",
+  "originalUrl": "https://www.zurich.es/",
+  "category": "seguros",
+  "title": "Zurich Seguros, tu compañía aseguradora en España",
+  "description": "Elige el seguro Zurich que mejor se adapta a ti. Calcula tu precio online y contrata tu seguro con las mejores coberturas en 5 minutos.",
+  "h1": "En Zurich, encontrarás el seguro que necesitas",
+  "paragraphs": [
+    "🎄 Feliz Navidad llena de empatía y momentos únicos 🎄",
+    "En Zurich creemos que la empatía, escuchar y estar cerca es el mejor regalo que podemos dar a nuestros seres queridos.",
+    "En Zurich creemos que la empatía, escuchar y estar cerca es el mejor regalo que podemos dar a nuestros seres queridos.",
+    "Bienvenido a Zurich Seguros en España.\nTe ofrecemos la mejor protección mientras cuidamos de ti y del planeta.",
+    "Tenemos los mejores seguros de coche para que tu vehículo tenga la protección que necesitas. Nuestros agentes te asesorarán sin compromiso."
+  ],
+  "headings": [
+    "Protege lo que más te importa",
+    "Área de Cliente Zurich One",
+    "¿Por qué Zurich?",
+    "Compromiso social",
+    "Área de profesionales",
+    "Privacy Preference Center",
+    "Manage Consent Preferences",
+    "Cookie List"
+  ],
+  "images": [
+    "https://www.zurich.es/o/zurich-global-theme/images/new_menu/Headphones_Blue_Outline_RGB.svg",
+    "https://www.zurich.es/o/zurich-global-theme/images/new_menu/area_cliente.svg",
+    "https://www.zurich.es/o/zurich-global-theme/images/horizonal.svg",
+    "https://www.zurich.es/o/zurich-global-theme/images/horizonal.svg",
+    "https://www.zurich.es/o/zurich-global-theme/images/new_menu/Headphones_Blue_Outline_RGB.svg",
+    "https://www.zurich.es/o/zurich-global-theme/images/new_menu/area_cliente.svg",
+    "https://www.zurich.es/o/zurich-global-theme/images/new_menu/Headphones_Blue_Outline_RGB.svg",
+    "https://www.zurich.es/o/zurich-global-theme/images/new_menu/Buscar.svg",
+    "https://www.zurich.es/o/zurich-global-theme/images/new_menu/area_profesional.svg",
+    "https://www.zurich.es/o/zurich-global-theme/images/new_menu/Male_White_Solid_RGB.svg"
+  ],
+  "heroImage": "https://www.zurich.es/o/zurich-global-theme/images/new_menu/Headphones_Blue_Outline_RGB.svg"
+}

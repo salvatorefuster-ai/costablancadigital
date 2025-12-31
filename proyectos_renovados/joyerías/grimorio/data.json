@@ -1,0 +1,35 @@
+{
+  "name": "Grimorio",
+  "originalUrl": "https://grimorio.es/",
+  "category": "joyerías",
+  "title": "Grimorio",
+  "description": "Grimorio",
+  "h1": "Grimorio",
+  "paragraphs": [
+    "¿Tienes una cuenta? Inicia sesión para pagar más rápido.",
+    "Sé el primero en enterarte de PRODUCTOS y DESCUENTOS EXCLUSIVOS"
+  ],
+  "headings": [
+    "PRODUCTOS ARTESANALES ÚNICOS",
+    "Incienso de Salvia Blanca",
+    "Incienso de Canela y Clavo",
+    "Baño de Abundancia",
+    "Vela de Canela y Naranja",
+    "Poción de Purificación",
+    "Sal Negra Ritualizada",
+    "Incienso de Palo Santo"
+  ],
+  "images": [
+    "https://grimorio.es/cdn/shop/files/promos_11.png?v=1766085488&width=3840",
+    "https://grimorio.es/cdn/shop/files/SalviaBlanca2.png?v=1759176568&width=3840",
+    "https://grimorio.es/cdn/shop/files/Generated_Image_September_29_2025_-_4_59PM.png?v=1759175993&width=3840",
+    "https://grimorio.es/cdn/shop/files/Generated_Image_September_27_2025_-_10_46AM.png?v=1758980885&width=3840",
+    "https://grimorio.es/cdn/shop/files/Generated_Image_September_30_2025_-_5_19PM.png?v=1759263677&width=3840",
+    "https://grimorio.es/cdn/shop/files/PocionPurificacion.png?v=1759691188&width=3840",
+    "https://grimorio.es/cdn/shop/files/Generated_Image_October_05_2025_-_4_20PM.png?v=1759692076&width=3840",
+    "https://grimorio.es/cdn/shop/files/PaloSanto2.png?v=1759175222&width=3840",
+    "https://grimorio.es/cdn/shop/files/Generated_Image_September_27_2025_-_10_52AM.png?v=1758982534&width=3840",
+    "https://grimorio.es/cdn/shop/files/PocionAguaFlorida.png?v=1759691131&width=3840"
+  ],
+  "heroImage": "https://grimorio.es/cdn/shop/files/promos_11.png?v=1766085488&width=3840"
+}

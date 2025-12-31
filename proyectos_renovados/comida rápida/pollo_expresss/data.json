@@ -1,0 +1,35 @@
+{
+  "name": "Pollo Expresss",
+  "originalUrl": "http://www.polloexpresss.com/",
+  "category": "comida rápida",
+  "title": "Restaurante de carne a la brasa en Benidorm | Pollo expresss",
+  "description": "Restaurante de comida a la brasa en Benidorm. Carnes, pollo, costillas, patatas... todo a la brasa y en Benidorm.",
+  "h1": "the right ingredients for the right food",
+  "paragraphs": [
+    "Pollo Expresss es un restaurante familiar con vocación de gran cadena de restauración que abrió sus puertas en el año 1.995 en Benidorm.",
+    "Desde el principio, sus propietarios Justo Romero y familia, enfocaron el negocio a la clientela del barrio ofreciendo sabrosa carne a la parrilla y de calidad. Y desde entonces no han parado de crecer, tanto en clientes como en infraestructuras.",
+    "El negocio, que empezó con un pequeño local, se ha ido ampliando hasta contar con las instalaciones actuales.",
+    "- Todos nuestros productos están elaborados a la brasa de carbón vegetal.",
+    "- Utilizamos siempre productos frescos y de primera calidad."
+  ],
+  "headings": [
+    "Quiénes somos",
+    "Por qué elegirnos",
+    "Nuestras Cartas",
+    "Nuestros clientes opinan",
+    "Contáctanos"
+  ],
+  "images": [
+    "https://www.polloexpresss.com/img/elementos/rodaja-pan.png",
+    "https://www.polloexpresss.com/img/elementos/pimienta-2.png",
+    "https://www.polloexpresss.com/img/elementos/romero.png",
+    "https://www.polloexpresss.com/img/elementos/ajos.png",
+    "https://www.polloexpresss.com/img/carne-brasa-benidorm.jpg",
+    "https://www.polloexpresss.com/img/menu.png",
+    "https://www.polloexpresss.com/img/menu.png",
+    "https://www.polloexpresss.com/img/menu.png",
+    "https://www.polloexpresss.com/img/restaurante-a-la-brasa-benidorm.jpg",
+    "https://www.polloexpresss.com/img/pixel78.png"
+  ],
+  "heroImage": "https://www.polloexpresss.com/img/elementos/rodaja-pan.png"
+}

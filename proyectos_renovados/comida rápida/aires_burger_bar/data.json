@@ -1,0 +1,31 @@
+{
+  "name": "Aires Burger Bar",
+  "originalUrl": "https://airesburgerbar.com/",
+  "category": "comida rápida",
+  "title": "Aires Burger Bar | La mejor hamburguesería de tu ciudad",
+  "description": "Disfruta de las mejores hamburguesas en Aires Burger Bar. Visítanos en Alicante, Madrid, Murcia, Elche, Benidorm, Arenales, Santa Pola, Orihuela, Crevillente y Torrevieja. Takeaway, delivery y promos exclusivas. ¡Reserva ahora tu mesa!",
+  "h1": "AIRES BURGER BAR",
+  "paragraphs": [
+    "Promo 2×1 en Burgers seleccionadas, consulta días y horaríos de disponibilidad en tu local favorito en nuestra web o redes sociales, no te olvides de leer todas las condiciones en el link.",
+    "Promo Burgers seleccionadas a 8€, consulta días y horaríos de disponibilidad en tu local favorito en nuestra web o redes sociales, no te olvides de leer todas las condiciones en el link.",
+    "Recibe en tu correo electrónico noticias, promociones, eventos, prometemos no enviar SPAM sin sentido.",
+    "He leído, acepto las políticas de privacidad y acepto voluntariamente la recepción en mi correo por parte de Aires Burger Bar el envío de comunicaciones generales, marketing y promociones",
+    "Si tienes vocación de servicio y te gusta el trabajo en equipo, Aires Burger bar es tu lugar, envíanos tu CV, estamos ansiosos por conocerte."
+  ],
+  "headings": [
+    "WELCOME BURGER LOVERS",
+    "PROMOS",
+    "SUCURSALES",
+    "SUCURSALES",
+    "SUCURSALES",
+    "HOY ABIERTO",
+    "MADRID",
+    "HOY ABIERTO"
+  ],
+  "images": [
+    "https://airesburgerbar.com/wp-content/plugins/gtranslate/flags/svg/en.svg",
+    "https://airesburgerbar.com/wp-content/plugins/gtranslate/flags/svg/es.svg",
+    "https://airesburgerbar.com/wp-content/uploads/2024/05/trabaja-con-nosotros-fondo-min-1-1024x421.jpg"
+  ],
+  "heroImage": "https://airesburgerbar.com/wp-content/plugins/gtranslate/flags/svg/en.svg"
+}

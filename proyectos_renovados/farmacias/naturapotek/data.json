@@ -1,0 +1,38 @@
+{
+  "name": "Naturapotek",
+  "originalUrl": "https://naturapotek.es/",
+  "category": "farmacias",
+  "title": "Naturapotek, el mercado de la salud - Naturapotek",
+  "description": "Tienda creada con PrestaShop",
+  "h1": "Naturapotek",
+  "paragraphs": [
+    "Utilizamos cookies propias, al continuar navengando por el sitio aceptas nuestra política de cookies",
+    "Suscríbete a nuestro boletín de noticias y consigue un 5% de descuento.",
+    "En pedidos superiores a 59€ los costes de envío son totalmente gratis.",
+    "Pago 100% seguro online y confianza en la entrega de tus pedidos.",
+    "Seleccionamos los mejores productos de las mejores marcas."
+  ],
+  "headings": [
+    "Productos destacados",
+    "Nuestras marcas",
+    "HIGIENE ÍNTIMA",
+    "ÓPTICA",
+    "HIGIENE BUCAL",
+    "cosmética",
+    "corporal",
+    "Nuestro Blog"
+  ],
+  "images": [
+    "https://naturapotek.es/modules/wtslideshow/views/img/sliderimages/5310aa0a1c0db295b6f7f89e9a4999aabdaae963_57cad672ce19de2514086dca3a6edc6ef8f66e45_slider1.jpg",
+    "https://naturapotek.es/modules/wtslideshow/views/img/sliderimages/thumbnail_5310aa0a1c0db295b6f7f89e9a4999aabdaae963_57cad672ce19de2514086dca3a6edc6ef8f66e45_slider1.jpg",
+    "https://naturapotek.es/modules/wtslideshow/views/img/sliderimages/3f367c2ba9d7632e68e7e9f5833a3425e1658c9a_slider2.jpg",
+    "https://naturapotek.es/modules/wtslideshow/views/img/sliderimages/thumbnail_3f367c2ba9d7632e68e7e9f5833a3425e1658c9a_slider2.jpg",
+    "https://naturapotek.es/modules/wtslideshow/views/img/sliderimages/b05493fadbf7842eb8fe7dc88147e139300017d6_slider3.jpg",
+    "https://naturapotek.es/modules/wtslideshow/views/img/sliderimages/thumbnail_b05493fadbf7842eb8fe7dc88147e139300017d6_slider3.jpg",
+    "https://naturapotek.es/img/bn_home_right01.jpg",
+    "https://naturapotek.es/img/bn_home_right02.jpg",
+    "https://naturapotek.es/10051-home_default/sesderma-pack-ferulac-serum--sesgen-32.jpg",
+    "https://naturapotek.es/10227-home_default/mascarilla-koken-gold-24-k-75-ml.jpg"
+  ],
+  "heroImage": "https://naturapotek.es/modules/wtslideshow/views/img/sliderimages/5310aa0a1c0db295b6f7f89e9a4999aabdaae963_57cad672ce19de2514086dca3a6edc6ef8f66e45_slider1.jpg"
+}

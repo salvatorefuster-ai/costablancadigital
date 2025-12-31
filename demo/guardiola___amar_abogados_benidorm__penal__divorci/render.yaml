@@ -1,0 +1,4 @@
+services:
+  - type: web
+    name: guardiola___amar_abogados_benidorm__penal__divorci
+    runtime: static

@@ -1,0 +1,33 @@
+{
+  "name": "PCBox",
+  "originalUrl": "https://www.pcbox.com/",
+  "category": "tiendas de electrónica",
+  "title": "Tienda Online de Informática y Electrónica para Expertos | PCBox",
+  "description": "Tu tienda de Informática y Electrónica para expertos también online. Ordenadores, gaming, componentes y todo lo que buscas a precios competitivos.",
+  "h1": "Tienda de informática online para expertos en gaming y tecnología.",
+  "paragraphs": [
+    "¡Los Reyes Magos han llegado! 👑 Añade el cupón ITSTIME4JOY en tu carrito y ¡recibe 10 € de descuento en tu compra! *Ver condiciones",
+    "Envíos en 24-48 h para pedidos peninsulares.\nRecibe tu pedido en 24 h si lo realizas antes de las 12 h.",
+    "Comprando a través de nuestra página web también\napoyas el comercio local y a nuestras tiendas físicas.",
+    "Si necesitas un pedido para tu empresa, te ofrecemos\ntodas las facilidades a nivel de facturación y gestión.",
+    "Sé el primero en enterarte de las últimas noticias y novedades"
+  ],
+  "headings": [
+    "Calidad Garantizada",
+    "Atención Personalizada",
+    "Experiencia Profesional"
+  ],
+  "images": [
+    "https://pcbox.vtexassets.com/assets/vtex.file-manager-graphql/images/9266d9fa-b67e-4059-8e2e-6a5058fd3e06___d20c4a3b442d87a22b4df34f64c8bb84.png",
+    "https://pcbox.vtexassets.com/assets/vtex.file-manager-graphql/images/42c2476b-8703-4ff3-9c3e-9b994f696017___ca6300a2564c23a29bb06bc5bdd74991.jpg",
+    "https://pcbox.vtexassets.com/assets/vtex.file-manager-graphql/images/578e1d9a-c4bb-4ee7-8d76-b5fc78631f41___4bf4df6336082692739f241db8ad56fa.jpg?&aspect=true",
+    "https://pcbox.vtexassets.com/assets/vtex.file-manager-graphql/images/4272e483-df61-4add-93b1-2e016fef4454___079c744f295dc8512861c9b40376e1d3.jpg?&aspect=true",
+    "https://pcbox.vtexassets.com/assets/vtex.file-manager-graphql/images/59df2d57-d9ef-4271-832a-881debd15d61___9568adf7a87cd8da6ae6f884c0e4b8fa.jpg?&aspect=true",
+    "https://pcbox.vtexassets.com/assets/vtex.file-manager-graphql/images/6e6613fb-3017-4715-938e-7230faacecc9___10c6539fc7464cc635523a52aa171072.jpg?&aspect=true",
+    "https://pcbox.vtexassets.com/assets/vtex.file-manager-graphql/images/4e701d6a-5131-4cb4-95d4-631eaf365bce___0c06425d18f9dd2336c85475214d9f88.jpg?&aspect=true",
+    "https://pcbox.vtexassets.com/assets/vtex.file-manager-graphql/images/8a8d0a49-46c4-4022-9059-9f8815c5fbdc___1a6bc729d9027874fc456921fc003eab.jpg?&aspect=true",
+    "https://cl.avis-verifies.com/es/cache/4/c/f/4cf0dc41-b9ca-3ab4-95bd-856cbcc11042/widget3/widget18-3159.png",
+    "https://io.vtex.com.br/front-libs/assets/pci/vtex-pci-150.png"
+  ],
+  "heroImage": "https://pcbox.vtexassets.com/assets/vtex.file-manager-graphql/images/9266d9fa-b67e-4059-8e2e-6a5058fd3e06___d20c4a3b442d87a22b4df34f64c8bb84.png"
+}

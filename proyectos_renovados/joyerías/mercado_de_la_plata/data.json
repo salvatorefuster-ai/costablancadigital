@@ -1,0 +1,38 @@
+{
+  "name": "Mercado de la Plata",
+  "originalUrl": "http://www.benditaeva.com/",
+  "category": "joyerías",
+  "title": "Bendita Eva",
+  "description": "Descubre las joyas de Bendita Eva. Anillos, pulseras, collares y pendientes fabricados con materiales de alta calidad.",
+  "h1": "\n      \n\n        \n    \n      \n        \n          .logo_image {\n            max-height: unset!important;\n            width: 390px;\n          }\n          @media screen and (max-width: 989px) {\n            .logo_image {\n              width: 150px;\n            }\n          }\n        \n        \n        \n\n\n\n\n\n\n\n\n\n\n\n\n\n  <img\n    \n    class=\"theme-img logo_image\"\n    \n      src=\"//benditaeva.es/cdn/shop/files/Logotipo-Bendita-Eva-color-negro_copia.png?crop=center&height=1000&v=1733134856&width=1000\"\n    \n    \n      alt=\"Bendita Eva\"\n    \n    itemprop=\"logo\"\n    style=\"object-fit:cover;object-position:50.0% 50.0%!important;\"\n    loading=\"eager\"\n  />\n\n\n\n\n\n\n      \n    \n  \n        \n    \n  \n\n      \n        ",
+  "paragraphs": [
+    "This store requires javascript to be enabled for some features to work correctly.",
+    "Comienza con la ilusión y con el amor que ponemos en cada pedido.",
+    "Soy Saioa, y en 2020, en pleno confinamiento, di vida a un sueño que llevaba años imaginando: crear una marca de joyas con alma, inspirada en mi hija Eva y en todo lo que me mueve —la familia, la belleza, la astrología, la numerología y mis viajes por el mundo.",
+    "En Bendita Eva creemos en el poder del amor propio y en la fuerza de las mujeres que nos rodean. Por eso cada joya es más que un accesorio: es un amuleto, una protección y un recordatorio de que merecemos cuidarnos.",
+    "Hoy, miles de personas ya llevan una de nuestras joyas. Mi sueño es que Bendita Eva llegue a mujeres de todo el mundo y que cada una sienta la magia con la que ha sido diseñada."
+  ],
+  "headings": [
+    "GUÍA DE REGALOS",
+    "LO MÁS REGALADO",
+    "JOYAS CON SIGNIFICADO",
+    "COLLARES Y COLGANTES",
+    "PENDIENTES",
+    "PULSERAS",
+    "ANILLOS",
+    "LA MAGIA DE BENDITA EVA"
+  ],
+  "images": [
+    "https://benditaeva.es/cdn/shop/files/Bodeg_n_colgante_cruces_con_circonitas_blancas_y_verdes_de_Bendita_Eva.jpg?v=1754553800&width=1445",
+    "https://benditaeva.es/cdn/shop/files/Logotipo-Bendita-Eva-color-negro_copia.png?v=1733134856&width=1445",
+    "https://benditaeva.es/cdn/shop/files/pendientes-cruz-perlas-bendita-eva-banados-en-oro-18k-joyas-hechas-en-espa_a.png?v=1762182005&width=1445",
+    "https://benditaeva.es/cdn/shop/files/coleccion-bola-y-gota-bendita-eva-joyas-de-plata-y-oro-hechas-en-espa_a.png?v=1762182289&width=1445",
+    "https://benditaeva.es/cdn/shop/files/Anillo_waterproof_Vibrate_XL_de_Bendita_Eva.png?v=1762182568&width=1445",
+    "https://benditaeva.es/cdn/shop/files/Anillos_oro_y_pendientes_Lola_Bendita_Eva.jpg?v=1726222983&width=1445",
+    "https://benditaeva.es/cdn/shop/files/PERLAS_COLLECTION_11.png?v=1748421673&width=1445",
+    "https://benditaeva.es/cdn/shop/files/Escapulario_con_perlitas_de_Bendita_Eva.jpg?v=1733237455&width=1445",
+    "https://benditaeva.es/cdn/shop/files/Sagrado_corazon_plata_de_ley_ba_o_de_oro_de_18K-Bendita_Eva.jpg?v=1762182708&width=1445",
+    "https://benditaeva.es/cdn/shop/files/colgante_Cruz_Circonitas_Blancas_y_Negras_-bendita_eva.jpg?v=1760525881&width=1445"
+  ],
+  "heroImage": "https://benditaeva.es/cdn/shop/files/Bodeg_n_colgante_cruces_con_circonitas_blancas_y_verdes_de_Bendita_Eva.jpg?v=1754553800&width=1445"
+}

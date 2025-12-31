@@ -1,0 +1,37 @@
+{
+  "name": "Restaurante Ulia",
+  "originalUrl": "http://www.restauranteulia.com/",
+  "category": "restaurantes",
+  "title": "Inicio - Restaurante Ulia",
+  "description": "Página web del Restaurante Ulia",
+  "h1": "DISFRUTA FRENTE AL MAR",
+  "paragraphs": [
+    "Ubicado en la primera línea de la playa de Poniente durante más de cuarenta años, en la entrañable La Cala, el Restaurante Ulia ha sido un testigo fiel de la evolución gastronómica en Benidorm.",
+    "El personal amable y profesional en todo momento. Nos dieron mesa sin reserva. Los productos de alta calidad. Pedimos tellinas, sepia y ensalada. Todo muy bien cocinado, buena cantidad y buena presencia.Los postres espectaculares.",
+    "Descubre una experiencia gastronómica única en el corazón de Benidorm, donde la tradición culinaria se une a la frescura del mar. En Restaurante Ulia, ofrecemos materias primas de primera calidad, destacando mariscos y pescados frescos de la Bahía, así como especialidades en arroces y carnes selectas.",
+    "En Restaurante Ulia, te invitamos a explorar nuestro rincón vinícola, donde una selección cuidadosa de vinos espera para realzar tu experiencia gastronómica. Descubre el maridaje perfecto que potenciará cada sabor, añadiendo un toque de distinción a tu velada frente al mar."
+  ],
+  "headings": [
+    "INICIO",
+    "EL RESTAURANTE",
+    "PRODUCTOS",
+    "BODEGA",
+    "CONTACTO",
+    "NUESTROS PRODUCTOS",
+    "NUESTRO MENÚ",
+    "CALAMARES FRITOS A LA ANDALUZA 14,50€"
+  ],
+  "images": [
+    "https://restauranteulia.com/wp-content/uploads/2024/01/Menu-para-reservas.svg",
+    "https://restauranteulia.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/es_ES.png",
+    "https://restauranteulia.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/es_ES.png",
+    "https://restauranteulia.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_GB.png",
+    "https://restauranteulia.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/fr_FR.png",
+    "https://restauranteulia.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/ru_RU.png",
+    "https://restauranteulia.com/wp-content/uploads/2024/01/Menu-para-reservas.svg",
+    "https://restauranteulia.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/es_ES.png",
+    "https://restauranteulia.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/es_ES.png",
+    "https://restauranteulia.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_GB.png"
+  ],
+  "heroImage": "https://restauranteulia.com/wp-content/uploads/2024/01/Menu-para-reservas.svg"
+}

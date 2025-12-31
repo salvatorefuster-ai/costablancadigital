@@ -1,0 +1,37 @@
+{
+  "name": "Estética Leonor",
+  "originalUrl": "http://esteticaleonor.com/",
+  "category": "centros de estética",
+  "title": "Estetica Leonor",
+  "description": "Centro de estetica Leonor",
+  "h1": "Somos un centro de estética que apuesta por un trato personalizado. Destacamos en tratamientos naturales.",
+  "paragraphs": [
+    "servicio de uñas, servicios de pedicura, tratamientos faciales, masajes, maquillaje depilación, laser, micropigmentación...",
+    "Mantente bella por dentro y por fuera, porque envejecer es inevitable, pero cuidarte es opcional",
+    "LImpieza de Cutis, Dermapen vitaminas, Dermapen volumen de labios, O2 Anti-Polución, Peeling ultrasonido, maderoterapia, radiofrecuencia, kobido, IPL, Dermoabrasión...\nInformame",
+    "Manicura normal y semipermanente, uñas de gel y acrilico, tratamientos Deluxe para el cuidado de tus manos...\nInformame",
+    "Pedicura normal y semipermanente, tratamiento Deluxe para el cuidado de tus pies, masaje de reflexología podal...\nInformame"
+  ],
+  "headings": [
+    "Descubre Nuestro Centro",
+    "Tratamientos y Servicos",
+    "Tratamientos Faciales",
+    "Servicio de uñas",
+    "Tratamiento del Pie",
+    "Masajes",
+    "Maquillaje",
+    "Servicio depilación"
+  ],
+  "images": [
+    "https://esteticaleonor.com/img/demo-screen-1.jpg",
+    "https://esteticaleonor.com/img/tramiento_facial.png",
+    "https://esteticaleonor.com/img/unas.png",
+    "https://esteticaleonor.com/img/pie.png",
+    "https://esteticaleonor.com/img/masaje.png",
+    "https://esteticaleonor.com/img/maquillaje.png",
+    "https://esteticaleonor.com/img/depilacion.png",
+    "https://esteticaleonor.com/img/micropigmentacion.png",
+    "https://esteticaleonor.com/img/otros.png"
+  ],
+  "heroImage": "https://esteticaleonor.com/img/demo-screen-1.jpg"
+}

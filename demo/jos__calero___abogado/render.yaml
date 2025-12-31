@@ -1,0 +1,4 @@
+services:
+  - type: web
+    name: jos__calero___abogado
+    runtime: static

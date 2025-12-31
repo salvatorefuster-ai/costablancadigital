@@ -1,0 +1,29 @@
+{
+  "name": "CorDent",
+  "originalUrl": "http://www.cordent.es/",
+  "category": "dentistas",
+  "title": "Clínica Dental Cordent Inicio",
+  "description": "Clínica Dental CorDent en Benidorm",
+  "h1": "CorDent",
+  "paragraphs": [
+    "Información detallada sobre nuestros servicios y compromiso con la calidad. Contáctenos para más detalles."
+  ],
+  "headings": [
+    "Calidad Garantizada",
+    "Atención Personalizada",
+    "Experiencia Profesional"
+  ],
+  "images": [
+    "https://www.cordent.es/images/u48198-4.png?crc=3764251430",
+    "https://www.cordent.es/images/u48201-4.png?crc=465314497",
+    "https://www.cordent.es/images/u48207-6.png?crc=71251482",
+    "https://www.cordent.es/images/u48210-6.png?crc=258308230",
+    "https://www.cordent.es/images/u48218-4.png?crc=251758715",
+    "https://www.cordent.es/images/dentista.png?crc=4103216009",
+    "https://www.cordent.es/images/dien92x113.png?crc=3845430334",
+    "https://www.cordent.es/images/herr114x91.png?crc=3923662353",
+    "https://www.cordent.es/images/br100x112.png?crc=4184967042",
+    "https://www.cordent.es/images/dr77x117.png?crc=4045118723"
+  ],
+  "heroImage": "https://www.cordent.es/images/u48198-4.png?crc=3764251430"
+}

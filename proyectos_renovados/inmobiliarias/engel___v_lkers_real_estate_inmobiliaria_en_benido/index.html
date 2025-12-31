@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engel & Völkers Benidorm - Luxury Estate</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        'ev-red': '#E4002B',
+                        'ev-dark': '#333333',
+                        'ev-gray': '#f8f8f8',
+                        'ev-slate': '#1e293b'
+                    },
+                    fontFamily: {
+                        sans: ['"Inter"', 'sans-serif'],
+                        serif: ['"Playfair Display"', 'serif'],
+                    },
+                    backgroundImage: {
+                        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <!-- Animations -->
+    <style>
+        .fade-in-up {
+            animation: fadeInUp 0.8s ease-out forwards;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        .delay-100 {
+            animation-delay: 0.1s;
+        }
+
+        .delay-200 {
+            animation-delay: 0.2s;
+        }
+
+        .delay-300 {
+            animation-delay: 0.3s;
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .glass-header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .hero-zoom {
+            animation: zoomEffect 20s infinite alternate;
+        }
+
+        @keyframes zoomEffect {
+            0% {
+                transform: scale(1);
+            }
+
+            100% {
+                transform: scale(1.1);
+            }
+        }
+    </style>
+</head>
+
+<body class="text-gray-800 antialiased bg-white">
+
+    <!-- Navbar -->
+    <nav
+        class="fixed w-full z-50 transition-all duration-300 glass-header py-4 px-6 md:px-12 flex justify-between items-center shadow-sm">
+        <div class="flex items-center gap-2">
+            <div class="bg-ev-red text-white p-2 font-serif font-bold text-xl tracking-widest uppercase">E&V</div>
+            <div class="hidden md:block text-ev-dark font-medium tracking-wide uppercase text-sm">Engel & Völkers
+                Benidorm</div>
+        </div>
+
+        <div class="hidden lg:flex space-x-10 text-sm font-medium tracking-wide text-gray-600 uppercase">
+            <a href="#" class="hover:text-ev-red transition-colors duration-300"
+                data-i18n="nav.properties">Propiedades</a>
+            <a href="#" class="hover:text-ev-red transition-colors duration-300" data-i18n="nav.sell">Vender</a>
+            <a href="#" class="hover:text-ev-red transition-colors duration-300" data-i18n="nav.services">Servicios</a>
+            <a href="#" class="hover:text-ev-red transition-colors duration-300" data-i18n="nav.blog">Blog</a>
+            <a href="#" class="hover:text-ev-red transition-colors duration-300" data-i18n="nav.about">Nosotros</a>
+        </div>
+
+        <div class="flex items-center gap-4">
+            <!-- Language Switcher -->
+            <div class="flex items-center text-sm font-semibold text-gray-500 border-r border-gray-300 pr-4 gap-2">
+                <button onclick="changeLanguage('es')" class="hover:text-ev-red transition focus:text-ev-red"
+                    id="btn-es">ES</button>
+                <span>|</span>
+                <button onclick="changeLanguage('en')" class="hover:text-ev-red transition focus:text-ev-red"
+                    id="btn-en">EN</button>
+            </div>
+
+            <button
+                class="hidden md:flex items-center gap-2 px-5 py-2 border border-gray-300 rounded-full hover:border-ev-red hover:text-ev-red transition duration-300 text-sm font-medium">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                </svg>
+                <span data-i18n="nav.search">Buscar</span>
+            </button>
+            <button
+                class="bg-ev-red text-white px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-red-700 transition shadow-lg shadow-red-200"
+                data-i18n="nav.contact">
+                Contactar
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative h-[90vh] overflow-hidden flex items-center justify-center">
+        <!-- Background Image Parallax -->
+        <div class="absolute inset-0 z-0">
+            <img src="https://website.engelvoelkers.com/_next/image?url=https%3A%2F%2F3e5eef3f7c0f439f53a1.ucr.io%2F-%2Fcrop%2F1360%3A583%2Fcenter%2F-%2Fformat%2Fauto%2F-%2Fquality%2Fsmart%2F-%2Fresize%2F2720x1166%2Fhttps%3A%2F%2Fstorage.googleapis.com%2Fprofile-engine-public-prod%2Fshop_profile_images%2Fc010d23a-b685-4d27-bdcb-9f6b4800a4c4_oficina%2520foto%2520de%2520Mihai.jpg&w=1920&q=75"
+                alt="Benidorm Luxury View" class="w-full h-full object-cover hero-zoom brightness-75">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/20"></div>
+        </div>
+
+        <div class="relative z-10 text-center text-white max-w-5xl mx-auto px-6 mt-16">
+            <span
+                class="block text-sm md:text-base font-semibold tracking-[0.2em] uppercase mb-4 fade-in-up text-white/90"
+                data-i18n="hero.subtitle">Premium Real Estate</span>
+            <h1 class="text-5xl md:text-7xl lg:text-8xl font-serif font-bold mb-6 leading-tight fade-in-up delay-100">
+                <span data-i18n="hero.title_pre">La excelencia de vivir</span> <br> <span class="italic text-red-400"
+                    data-i18n="hero.title_post">en Benidorm</span>
+            </h1>
+            <p class="text-lg md:text-xl font-light max-w-2xl mx-auto mb-10 text-gray-200 fade-in-up delay-200"
+                data-i18n="hero.description">
+                Más de 40 años de experiencia conectando a personas con hogares extraordinarios en la Costa Blanca.
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-4 justify-center fade-in-up delay-300">
+                <a href="#properties"
+                    class="px-8 py-4 bg-white text-ev-dark font-medium uppercase tracking-wider hover:bg-gray-100 transition shadow-xl rounded-sm"
+                    data-i18n="hero.view_properties">
+                    Ver Propiedades
+                </a>
+                <a href="#valuation"
+                    class="px-8 py-4 border border-white text-white font-medium uppercase tracking-wider hover:bg-white/10 transition rounded-sm backdrop-blur-sm"
+                    data-i18n="hero.valuation">
+                    Valorar mi Vivienda
+                </a>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce opacity-70">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3">
+                </path>
+            </svg>
+        </div>
+    </header>
+
+    <!-- Value Proposition -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div class="relative">
+                    <div class="relative z-10">
+                        <img src="https://website.engelvoelkers.com/_next/image?url=https%3A%2F%2F3e5eef3f7c0f439f53a1.ucr.io%2F-%2Fcrop%2F3%3A2%2Fcenter%2F-%2Fformat%2Fauto%2F-%2Fquality%2Fsmart%2F-%2Fresize%2F1600x%2Fhttps%3A%2F%2Fstorage.googleapis.com%2Fprofile-engine-public-prod%2Fshop_profile_images%2F0ed95d57-131c-4594-9d2f-8763c353e3d5_DSCF7450-20.jpg&w=1920&q=75"
+                            class="shadow-2xl rounded-sm w-full object-cover h-[600px]" alt="Agent">
+                    </div>
+                    <div
+                        class="absolute -bottom-10 -right-10 bg-ev-slate text-white p-10 shadow-xl z-20 max-w-sm hidden md:block">
+                        <p class="font-serif italic text-2xl mb-4" data-i18n="about.quote">"La venta de una propiedad es
+                            una decisión muy personal."</p>
+                        <p class="text-sm uppercase tracking-wide opacity-80" data-i18n="about.team">- El Equipo E&V</p>
+                    </div>
+                </div>
+
+                <div>
+                    <h2 class="text-xs font-bold text-ev-red uppercase tracking-widest mb-4" data-i18n="about.label">
+                        Sobre Nosotros</h2>
+                    <h3 class="text-4xl md:text-5xl font-serif font-bold text-ev-dark mb-8 leading-tight"
+                        data-i18n="about.title">Experiencia local <br>con alcance global.</h3>
+                    <div class="space-y-6 text-gray-600 text-lg font-light leading-relaxed">
+                        <p data-i18n="about.p1">
+                            Engel & Völkers ofrece más de 40 años de experiencia en servicios inmobiliarios
+                            profesionales, especializándose en propiedades residenciales de lujo.
+                        </p>
+                        <p data-i18n="about.p2">
+                            Nuestro experto equipo de agentes multilingües le asesorará durante todo el proceso. Gracias
+                            a nuestra red de más de 800 agencias en 32 países, ofrecemos ventajas únicas que ninguna
+                            otra inmobiliaria local puede igualar.
+                        </p>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-8 mt-12 border-t pt-8 border-gray-100">
+                        <div>
+                            <div class="text-4xl font-serif font-bold text-ev-dark mb-1">800+</div>
+                            <div class="text-sm text-gray-500 uppercase tracking-wide" data-i18n="about.agencies">
+                                Agencias Globales</div>
+                        </div>
+                        <div>
+                            <div class="text-4xl font-serif font-bold text-ev-dark mb-1">40</div>
+                            <div class="text-sm text-gray-500 uppercase tracking-wide" data-i18n="about.history">Años de
+                                Historia</div>
+                        </div>
+                    </div>
+
+                    <a href="#"
+                        class="inline-block mt-10 text-ev-red font-medium border-b border-ev-red pb-1 hover:text-red-800 hover:border-red-800 transition"
+                        data-i18n="about.more">
+                        Conozca más sobre nuestra agencia &rarr;
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section class="py-24 bg-ev-gray">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16 max-w-3xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-serif font-bold text-ev-dark mb-4" data-i18n="services.title">
+                    Servicios Exclusivos</h2>
+                <p class="text-gray-500" data-i18n="services.subtitle">Un acompañamiento integral tanto para compradores
+                    como para vendedores en Benidorm.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div
+                    class="bg-white p-10 shadow-lg hover:shadow-2xl transition transform hover:-translate-y-2 group duration-500">
+                    <div
+                        class="w-14 h-14 bg-red-50 rounded-full flex items-center justify-center mb-6 group-hover:bg-ev-red transition duration-500">
+                        <svg class="w-7 h-7 text-ev-red group-hover:text-white transition" fill="none"
+                            stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 font-serif" data-i18n="services.card1.title">Venta de Propiedades
+                    </h3>
+                    <p class="text-gray-500 mb-6 leading-relaxed" data-i18n="services.card1.desc">Maximizamos el valor
+                        de su vivienda con estrategias de marketing premium y acceso a compradores internacionales.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div
+                    class="bg-white p-10 shadow-md hover:shadow-2xl transition transform hover:-translate-y-2 group duration-500 relative overflow-hidden">
+                    <div
+                        class="absolute top-0 right-0 bg-ev-red w-16 h-16 flex items-center justify-center rounded-bl-full text-white font-bold text-xs pt-2 pl-2">
+                        NEW</div>
+                    <div
+                        class="w-14 h-14 bg-red-50 rounded-full flex items-center justify-center mb-6 group-hover:bg-ev-red transition duration-500">
+                        <svg class="w-7 h-7 text-ev-red group-hover:text-white transition" fill="none"
+                            stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 font-serif" data-i18n="services.card2.title">Valoración Gratuita
+                    </h3>
+                    <p class="text-gray-500 mb-6 leading-relaxed" data-i18n="services.card2.desc">Conozca el precio real
+                        de mercado de su propiedad con nuestra valoración in situ sin compromiso.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div
+                    class="bg-white p-10 shadow-lg hover:shadow-2xl transition transform hover:-translate-y-2 group duration-500">
+                    <div
+                        class="w-14 h-14 bg-red-50 rounded-full flex items-center justify-center mb-6 group-hover:bg-ev-red transition duration-500">
+                        <svg class="w-7 h-7 text-ev-red group-hover:text-white transition" fill="none"
+                            stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 font-serif" data-i18n="services.card3.title">Luxury Collections
+                    </h3>
+                    <p class="text-gray-500 mb-6 leading-relaxed" data-i18n="services.card3.desc">Acceda a nuestra
+                        cartera privada de propiedades exclusivas que no se publican en portales convencionales.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Properties Carousel (Simulated) -->
+    <section id="properties" class="py-24 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 mb-12 flex justify-between items-end">
+            <div>
+                <h2 class="text-xs font-bold text-ev-red uppercase tracking-widest mb-2" data-i18n="portfolio.label">
+                    Portfolio</h2>
+                <h3 class="text-4xl font-serif font-bold text-ev-dark" data-i18n="portfolio.title">Propiedades
+                    Destacadas</h3>
+            </div>
+            <a href="#"
+                class="hidden md:block px-6 py-3 border border-gray-800 text-gray-800 uppercase text-xs font-bold tracking-widest hover:bg-gray-800 hover:text-white transition"
+                data-i18n="portfolio.view_all">
+                Ver Todas
+            </a>
+        </div>
+
+        <!-- Scroll Container -->
+        <div class="flex overflow-x-auto pb-10 gap-8 px-6 snap-x">
+            <!-- Property 1 -->
+            <div class="min-w-[300px] md:min-w-[400px] snap-center group cursor-pointer">
+                <div class="relative h-[450px] overflow-hidden mb-4">
+                    <div class="absolute top-4 left-4 bg-white/90 px-3 py-1 text-xs font-bold uppercase tracking-wider z-10"
+                        data-i18n="prop.sale">Venta</div>
+                    <img src="https://website.engelvoelkers.com/_next/image?url=https%3A%2F%2Fuploadcare.engelvoelkers.com%2Ff3e0c8d3-359d-45dd-a04f-8110dfd1331d%2F-%2Fresize%2F600x%2F-%2Fquality%2Flighter%2F-%2Fformat%2Fwebp%2F&w=1920&q=75"
+                        class="w-full h-full object-cover transition duration-700 group-hover:scale-110 group-hover:brightness-90"
+                        alt="Villa">
+                    <div class="absolute bottom-4 right-4 text-white text-right drop-shadow-md">
+                        <div class="text-2xl font-bold">1.200.000 €</div>
+                        <div class="text-sm opacity-90">Benidorm, Playa Poniente</div>
+                    </div>
+                </div>
+                <h4 class="text-xl font-serif font-bold mb-1 group-hover:text-ev-red transition"
+                    data-i18n="prop.1.title">Villa Moderna con Vistas al Mar</h4>
+                <div class="text-gray-500 text-sm flex gap-4">
+                    <span>4 Habs</span> &bull; <span>3 Baños</span> &bull; <span>350 m²</span>
+                </div>
+            </div>
+
+            <!-- Property 2 -->
+            <div class="min-w-[300px] md:min-w-[400px] snap-center group cursor-pointer">
+                <div class="relative h-[450px] overflow-hidden mb-4">
+                    <div class="absolute top-4 left-4 bg-ev-slate text-white px-3 py-1 text-xs font-bold uppercase tracking-wider z-10"
+                        data-i18n="prop.exclusive">Exclusiva</div>
+                    <img src="https://website.engelvoelkers.com/_next/image?url=https%3A%2F%2Fuploadcare.engelvoelkers.com%2Fbd4773b7-ba2d-4358-816e-3c43d4c40047%2F-%2Fresize%2F600x%2F-%2Fquality%2Flighter%2F-%2Fformat%2Fwebp%2F&w=1920&q=75"
+                        class="w-full h-full object-cover transition duration-700 group-hover:scale-110 group-hover:brightness-90"
+                        alt="Penthouse">
+                    <div class="absolute bottom-4 right-4 text-white text-right drop-shadow-md">
+                        <div class="text-2xl font-bold">850.000 €</div>
+                        <div class="text-sm opacity-90">Benidorm, Centro</div>
+                    </div>
+                </div>
+                <h4 class="text-xl font-serif font-bold mb-1 group-hover:text-ev-red transition"
+                    data-i18n="prop.2.title">Ático Duplex de Lujo</h4>
+                <div class="text-gray-500 text-sm flex gap-4">
+                    <span>3 Habs</span> &bull; <span>2 Baños</span> &bull; <span>180 m²</span>
+                </div>
+            </div>
+
+            <!-- Property 3 -->
+            <div class="min-w-[300px] md:min-w-[400px] snap-center group cursor-pointer">
+                <div class="relative h-[450px] overflow-hidden mb-4">
+                    <div class="absolute top-4 left-4 bg-white/90 px-3 py-1 text-xs font-bold uppercase tracking-wider z-10"
+                        data-i18n="prop.resid">Residencial</div>
+                    <img src="https://website.engelvoelkers.com/_next/image?url=https%3A%2F%2Fuploadcare.engelvoelkers.com%2Fe0b43db8-efbc-4ad1-ae25-c879e1aa40d9%2F-%2Fresize%2F600x%2F-%2Fquality%2Flighter%2F-%2Fformat%2Fwebp%2F&w=1920&q=75"
+                        class="w-full h-full object-cover transition duration-700 group-hover:scale-110 group-hover:brightness-90"
+                        alt="Apartment">
+                    <div class="absolute bottom-4 right-4 text-white text-right drop-shadow-md">
+                        <div class="text-2xl font-bold">450.000 €</div>
+                        <div class="text-sm opacity-90">La Cala, Benidorm</div>
+                    </div>
+                </div>
+                <h4 class="text-xl font-serif font-bold mb-1 group-hover:text-ev-red transition"
+                    data-i18n="prop.3.title">Apartamento en 1ª Línea</h4>
+                <div class="text-gray-500 text-sm flex gap-4">
+                    <span>2 Habs</span> &bull; <span>2 Baños</span> &bull; <span>110 m²</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Banner -->
+    <section class="py-24 bg-ev-slate text-white relative overflow-hidden">
+        <div class="absolute inset-0 bg-[url('https://www.engelvoelkers.com/images/bg-pattern.png')] opacity-5"></div>
+        <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
+            <h2 class="text-4xl md:text-5xl font-serif font-bold mb-6" data-i18n="cta.title">¿Quiere vender su
+                propiedad?</h2>
+            <p class="text-xl text-gray-300 mb-10 font-light" data-i18n="cta.desc">
+                Le invitamos a conocer el valor de mercado de su inmueble. Confíe en nuestros expertos para una gestión
+                impecable.
+            </p>
+            <button
+                class="bg-ev-red text-white px-10 py-4 rounded-sm font-semibold hover:bg-red-600 transition shadow-2xl uppercase tracking-widest text-sm"
+                data-i18n="cta.btn">
+                Solicitar Valoración Gratuita
+            </button>
+        </div>
+    </section>
+
+    <footer class="bg-white border-t border-gray-200 py-16">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-12">
+            <div>
+                <div
+                    class="bg-ev-red text-white p-2 font-serif font-bold text-xl tracking-widest uppercase inline-block mb-6">
+                    E&V</div>
+                <p class="text-gray-500 text-sm leading-relaxed" data-i18n="footer.desc">
+                    Engel & Völkers es una de las principales empresas de servicios del mundo especializada en la venta
+                    y el alquiler de propiedades residenciales comerciales, yates y aviones.
+                </p>
+            </div>
+
+            <div>
+                <h4 class="font-bold uppercase tracking-widest text-xs mb-6 text-ev-dark" data-i18n="footer.company">
+                    Empresa</h4>
+                <ul class="space-y-4 text-sm text-gray-500">
+                    <li><a href="#" class="hover:text-ev-red transition" data-i18n="nav.about">Sobre Nosotros</a></li>
+                    <li><a href="#" class="hover:text-ev-red transition" data-i18n="footer.careers">Carrera</a></li>
+                    <li><a href="#" class="hover:text-ev-red transition" data-i18n="footer.press">Prensa</a></li>
+                    <li><a href="#" class="hover:text-ev-red transition" data-i18n="nav.blog">Blog</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="font-bold uppercase tracking-widest text-xs mb-6 text-ev-dark" data-i18n="nav.contact">
+                    Contacto</h4>
+                <ul class="space-y-4 text-sm text-gray-500">
+                    <li>Av. Mediterráneo 43</li>
+                    <li>03503 Benidorm, Alicante</li>
+                    <li>+34 965 00 00 00</li>
+                    <li>benidorm@engelvoelkers.com</li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="font-bold uppercase tracking-widest text-xs mb-6 text-ev-dark">Newsletter</h4>
+                <p class="text-sm text-gray-500 mb-4" data-i18n="footer.news">Suscríbase para recibir las últimas
+                    propiedades exclusivas.</p>
+                <div class="flex">
+                    <input type="email" placeholder="Su email" id="email-placeholder"
+                        class="flex-1 border bg-gray-50 px-4 py-2 text-sm focus:outline-none focus:border-ev-red">
+                    <button
+                        class="bg-ev-dark text-white px-4 text-xs font-bold uppercase hover:bg-ev-red transition">OK</button>
+                </div>
+            </div>
+        </div>
+        <div
+            class="max-w-7xl mx-auto px-6 mt-16 pt-8 border-t border-gray-100 flex justify-between text-xs text-gray-400">
+            <p>&copy; 2025 Engel & Völkers Benidorm. <span data-i18n="footer.rights">Todos los derechos
+                    reservados.</span></p>
+            <div class="flex gap-4">
+                <a href="#" data-i18n="footer.legal">Aviso Legal</a>
+                <a href="#" data-i18n="footer.privacy">Privacidad</a>
+                <a href="#" data-i18n="footer.cookies">Cookies</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Demo Overlay -->
+    <div
+        class="fixed bottom-0 left-0 w-full bg-ev-slate text-white py-3 px-6 text-center text-sm z-[100] flex justify-between items-center opacity-90 backdrop-blur-md">
+        <span class="font-mono text-xs text-red-300 uppercase tracking-widest">DEMO PROPUESTA V2.0</span>
+        <div class="flex gap-4">
+            <a href="https://www.engelvoelkers.com/benidorm/" target="_blank"
+                class="hover:text-gray-300 underline underline-offset-4" data-i18n="demo.original">Ver Web Original</a>
+            <button
+                class="bg-white text-ev-slate px-4 py-1 rounded-sm text-xs font-bold uppercase hover:bg-gray-100 transition"
+                data-i18n="demo.buy">Comprar Este Diseño</button>
+        </div>
+    </div>
+
+    <!-- Translations Script -->
+    <script>
+        const translations = {
+            'es': {
+                'nav.properties': 'Propiedades',
+                'nav.sell': 'Vender',
+                'nav.services': 'Servicios',
+                'nav.blog': 'Blog',
+                'nav.about': 'Nosotros',
+                'nav.search': 'Buscar',
+                'nav.contact': 'Contactar',
+                'hero.subtitle': 'Premium Real Estate',
+                'hero.title_pre': 'La excelencia de vivir',
+                'hero.title_post': 'en Benidorm',
+                'hero.description': 'Más de 40 años de experiencia conectando a personas con hogares extraordinarios en la Costa Blanca.',
+                'hero.view_properties': 'Ver Propiedades',
+                'hero.valuation': 'Valorar mi Vivienda',
+                'about.quote': '"La venta de una propiedad es una decisión muy personal."',
+                'about.team': '- El Equipo E&V',
+                'about.label': 'Sobre Nosotros',
+                'about.title': 'Experiencia local <br>con alcance global.',
+                'about.p1': 'Engel & Völkers ofrece más de 40 años de experiencia en servicios inmobiliarios profesionales, especializándose en propiedades residenciales de lujo.',
+                'about.p2': 'Nuestro experto equipo de agentes multilingües le asesorará durante todo el proceso. Gracias a nuestra red de más de 800 agencias en 32 países, ofrecemos ventajas únicas que ninguna otra inmobiliaria local puede igualar.',
+                'about.agencies': 'Agencias Globales',
+                'about.history': 'Años de Historia',
+                'about.more': 'Conozca más sobre nuestra agencia →',
+                'services.title': 'Servicios Exclusivos',
+                'services.subtitle': 'Un acompañamiento integral tanto para compradores como para vendedores en Benidorm.',
+                'services.card1.title': 'Venta de Propiedades',
+                'services.card1.desc': 'Maximizamos el valor de su vivienda con estrategias de marketing premium y acceso a compradores internacionales.',
+                'services.card2.title': 'Valoración Gratuita',
+                'services.card2.desc': 'Conozca el precio real de mercado de su propiedad con nuestra valoración in situ sin compromiso.',
+                'services.card3.title': 'Luxury Collections',
+                'services.card3.desc': 'Acceda a nuestra cartera privada de propiedades exclusivas que no se publican en portales convencionales.',
+                'portfolio.label': 'Portfolio',
+                'portfolio.title': 'Propiedades Destacadas',
+                'portfolio.view_all': 'Ver Todas',
+                'prop.sale': 'Venta',
+                'prop.exclusive': 'Exclusiva',
+                'prop.resid': 'Residencial',
+                'prop.1.title': 'Villa Moderna con Vistas al Mar',
+                'prop.2.title': 'Ático Duplex de Lujo',
+                'prop.3.title': 'Apartamento en 1ª Línea',
+                'cta.title': '¿Quiere vender su propiedad?',
+                'cta.desc': 'Le invitamos a conocer el valor de mercado de su inmueble. Confíe en nuestros expertos para una gestión impecable.',
+                'cta.btn': 'Solicitar Valoración Gratuita',
+                'footer.desc': 'Engel & Völkers es una de las principales empresas de servicios del mundo especializada en la venta y el alquiler de propiedades residenciales comerciales, yates y aviones.',
+                'footer.company': 'Empresa',
+                'footer.careers': 'Carrera',
+                'footer.press': 'Prensa',
+                'footer.news': 'Suscríbase para recibir las últimas propiedades exclusivas.',
+                'footer.rights': 'Todos los derechos reservados.',
+                'footer.legal': 'Aviso Legal',
+                'footer.privacy': 'Privacidad',
+                'footer.cookies': 'Cookies',
+                'demo.original': 'Ver Web Original',
+                'demo.buy': 'Comprar Este Diseño'
+            },
+            'en': {
+                'nav.properties': 'Properties',
+                'nav.sell': 'Sell',
+                'nav.services': 'Services',
+                'nav.blog': 'Blog',
+                'nav.about': 'About Us',
+                'nav.search': 'Search',
+                'nav.contact': 'Contact',
+                'hero.subtitle': 'Premium Real Estate',
+                'hero.title_pre': 'The excellence of living',
+                'hero.title_post': 'in Benidorm',
+                'hero.description': 'Over 40 years of experience connecting people with extraordinary homes on the Costa Blanca.',
+                'hero.view_properties': 'View Properties',
+                'hero.valuation': 'Value my Property',
+                'about.quote': '"Selling a property is a very personal decision."',
+                'about.team': '- The E&V Team',
+                'about.label': 'About Us',
+                'about.title': 'Local experience <br>with global reach.',
+                'about.p1': 'Engel & Völkers offers over 40 years of experience in professional real estate services, specializing in luxury residential properties.',
+                'about.p2': 'Our expert multilingual team will guide you through the entire process. Thanks to our network of over 800 agencies in 32 countries, we offer unique advantages that no other local agency can match.',
+                'about.agencies': 'Global Agencies',
+                'about.history': 'Years of History',
+                'about.more': 'Learn more about our agency →',
+                'services.title': 'Exclusive Services',
+                'services.subtitle': 'Comprehensive support for both buyers and sellers in Benidorm.',
+                'services.card1.title': 'Property Sales',
+                'services.card1.desc': 'We maximize the value of your home with premium marketing strategies and access to international buyers.',
+                'services.card2.title': 'Free Valuation',
+                'services.card2.desc': 'Know the real market price of your property with our commitment-free on-site valuation.',
+                'services.card3.title': 'Luxury Collections',
+                'services.card3.desc': 'Access our private portfolio of exclusive properties not published on conventional portals.',
+                'portfolio.label': 'Portfolio',
+                'portfolio.title': 'Featured Properties',
+                'portfolio.view_all': 'View All',
+                'prop.sale': 'For Sale',
+                'prop.exclusive': 'Exclusive',
+                'prop.resid': 'Residential',
+                'prop.1.title': 'Modern Villa with Sea Views',
+                'prop.2.title': 'Luxury Duplex Penthouse',
+                'prop.3.title': 'Front Line Apartment',
+                'cta.title': 'Looking to sell your property?',
+                'cta.desc': 'We invite you to discover the market value of your property. Trust our experts for impeccable management.',
+                'cta.btn': 'Request Free Valuation',
+                'footer.desc': 'Engel & Völkers is one of the world’s leading service companies specializing in the sale and rental of premium residential property, commercial real estate, yachts and aircraft.',
+                'footer.company': 'Company',
+                'footer.careers': 'Careers',
+                'footer.press': 'Press',
+                'footer.news': 'Subscribe to receive the latest exclusive properties.',
+                'footer.rights': 'All rights reserved.',
+                'footer.legal': 'Legal Notice',
+                'footer.privacy': 'Privacy',
+                'footer.cookies': 'Cookies',
+                'demo.original': 'View Original Site',
+                'demo.buy': 'Buy This Design'
+            }
+        };
+
+        function changeLanguage(lang) {
+            document.documentElement.lang = lang;
+            const elements = document.querySelectorAll('[data-i18n]');
+
+            elements.forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (translations[lang] && translations[lang][key]) {
+                    if (key.includes('title')) {
+                        // Manejo simple para HTML breaks en títulos
+                        el.innerHTML = translations[lang][key];
+                    } else {
+                        el.textContent = translations[lang][key];
+                    }
+                }
+            });
+
+            // Update placeholders
+            const inputs = document.querySelectorAll('input[type="email"]');
+            inputs.forEach(input => {
+                input.placeholder = lang === 'es' ? 'Su email' : 'Your email';
+            });
+
+            // Active State
+            document.getElementById('btn-es').classList.toggle('text-ev-red', lang === 'es');
+            document.getElementById('btn-en').classList.toggle('text-ev-red', lang === 'en');
+        }
+
+        // Init
+        document.getElementById('btn-es').classList.add('text-ev-red');
+    </script>
+
+</body>
+
+</html>

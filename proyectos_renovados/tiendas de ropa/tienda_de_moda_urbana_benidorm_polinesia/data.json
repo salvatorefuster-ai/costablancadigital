@@ -1,0 +1,25 @@
+{
+  "name": "Tienda de moda urbana Benidorm Polinesia",
+  "originalUrl": "https://www.polinesia.es/es-es/",
+  "category": "tiendas de ropa",
+  "title": "Polinesia - tu tienda de ropa online | Polinesia",
+  "description": "Estilo urbano en Polinesia: denim, moda oversize y streetwear. Envíos en 48/72 h ⚡. ¡Prepárate para los regalos de Navidad con novedades exclusivas!",
+  "h1": "Polinesia - tu tienda de ropa urbana",
+  "paragraphs": [
+    "Información detallada sobre nuestros servicios y compromiso con la calidad. Contáctenos para más detalles."
+  ],
+  "headings": [
+    "Calidad Garantizada",
+    "Atención Personalizada",
+    "Experiencia Profesional"
+  ],
+  "images": [
+    "https://images.decimas.com/media/wysiwyg/footer/Visa.png",
+    "https://assets-polinesia.imgix.net/media/wysiwyg/reckitt2.png",
+    "https://images.decimas.com/media/wysiwyg/footer/PayPal.png",
+    "https://images.decimas.com/media/wysiwyg/footer/AmericanExpress.png",
+    "https://assets-polinesia.imgix.net/media/wysiwyg/footer/apple-pay_1.png",
+    "https://assets-polinesia.imgix.net/media/wysiwyg/footer/google-pay_1.png"
+  ],
+  "heroImage": "https://images.decimas.com/media/wysiwyg/footer/Visa.png"
+}

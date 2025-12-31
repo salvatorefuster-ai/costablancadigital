@@ -1,0 +1,29 @@
+{
+  "name": "Sabor a España",
+  "originalUrl": "https://www.sabor-espana.com/es/",
+  "category": "supermercados",
+  "title": "Sabor a España - Productos Tradicionales y Artesanales",
+  "description": "",
+  "h1": "Sabor a España",
+  "paragraphs": [
+    "Información detallada sobre nuestros servicios y compromiso con la calidad. Contáctenos para más detalles."
+  ],
+  "headings": [
+    "Calidad Garantizada",
+    "Atención Personalizada",
+    "Experiencia Profesional"
+  ],
+  "images": [
+    "https://sabor-espana.com/wp-content/plugins/revslider/public/assets/assets/dummy.png",
+    "https://sabor-espana.com/wp-content/plugins/revslider/public/assets/assets/dummy.png",
+    "https://sabor-espana.com/wp-content/plugins/revslider/public/assets/assets/dummy.png",
+    "https://sabor-espana.com/wp-content/plugins/revslider/public/assets/assets/dummy.png",
+    "https://sabor-espana.com/wp-content/plugins/revslider/public/assets/assets/dummy.png",
+    "https://sabor-espana.com/wp-content/plugins/revslider/public/assets/assets/dummy.png",
+    "https://sabor-espana.com/wp-content/plugins/revslider/public/assets/assets/dummy.png",
+    "https://sabor-espana.com/wp-content/plugins/revslider/public/assets/assets/dummy.png",
+    "https://sabor-espana.com/wp-content/plugins/revslider/public/assets/assets/dummy.png",
+    "https://sabor-espana.com/wp-content/plugins/revslider/public/assets/assets/dummy.png"
+  ],
+  "heroImage": "https://sabor-espana.com/wp-content/plugins/revslider/public/assets/assets/dummy.png"
+}

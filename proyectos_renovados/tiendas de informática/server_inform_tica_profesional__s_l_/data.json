@@ -1,0 +1,36 @@
+{
+  "name": "Server Informática Profesional, S.L.",
+  "originalUrl": "https://tienda.serverip.es/",
+  "category": "tiendas de informática",
+  "title": "Servicio técnico informático",
+  "description": "Servicio técnico informático",
+  "h1": "Categorías",
+  "paragraphs": [
+    "Contamos con un soporte al cliente abierto las 24 horas los 7 días de la semana.",
+    "En caso de error o producto defectuoso nos haremos cargo de la devolución de los productos.",
+    "Esta web utiliza 'cookies' propias y de terceros para ofrecerle una mejor experiencia y servicio y poder registrar el proceso de compra. Al navegar o utilizar nuestros servicios el usuario acepta el uso que hacemos de las 'cookies'. Más información"
+  ],
+  "headings": [
+    "Soporte 24/7",
+    "Devolución Gratuita",
+    "Portes Gratuitos",
+    "AMD RYZEN 7 8700F BOX+ Disip",
+    "LG 27G610A-B Monitor 27\" IPS QHD 200Hz 1ms AA MM",
+    "VIGI S445(2.8mm) Cámara NW Turret 4MP Full-Color",
+    "Asus F1704VA-AU050 C7-150U 16GB 1TB DOS 17.3\"",
+    "Gigabyte Placa Base B550M DS3H R2 mATX AM4"
+  ],
+  "images": [
+    "https://cdn.i-portal.es/images/manufacturer/00840.jpg",
+    "https://cdn.i-portal.es/images/manufacturer/01450.jpg",
+    "https://cdn.i-portal.es/images/manufacturer/01380.jpg",
+    "https://cdn.i-portal.es/images/manufacturer/00810.jpg",
+    "https://cdn.i-portal.es/images/manufacturer/00190.jpg",
+    "https://cdn.i-portal.es/images/manufacturer/00610.jpg",
+    "https://cdn.i-portal.es/images/banners/menuTamplate1.gif",
+    "https://cdn.i-portal.es/images/manufacturer/00840.jpg",
+    "https://cdn.i-portal.es/images/manufacturer/01450.jpg",
+    "https://cdn.i-portal.es/images/manufacturer/01380.jpg"
+  ],
+  "heroImage": "https://cdn.i-portal.es/images/banners/menuTamplate1.gif"
+}

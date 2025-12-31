@@ -1,0 +1,38 @@
+{
+  "name": "Hotel Bilbaino Benidorm",
+  "originalUrl": "https://www.bilbainohotel.com/es/",
+  "category": "hostales",
+  "title": "Hotel Bilbaíno | Benidorm | Web oficial",
+  "description": "Fantástica localización en primera línea de playa. Hotel Bilbaíno. Benidorm",
+  "h1": "Fantástica localización en primera línea de playa",
+  "paragraphs": [
+    "Calle Virgen del Sufragio, 1 03501 Benidorm (Alicante)",
+    "Actualmente estamos cerrados por reformas para ofrecerte una experiencia aún mejor en el futuro.",
+    "Hora de salida después de las 12h (a las 14h) previa confirmación",
+    "5% de descuento en su próxima estancia con nosotros",
+    "10% de descuento en consumiciones de restaurante y cafetería"
+  ],
+  "headings": [
+    "Introducir fechas y ver precios",
+    "Descubra nuestras promociones",
+    "Habitaciones cómodas y soleadas con vistas al mar",
+    "Fundado en 1926: un hotel con mucha historia",
+    "Click aquí",
+    "En directo desde el hotel",
+    "Motivos para escoger nuestros hoteles",
+    "Gestionar preferencias sobre cookies"
+  ],
+  "images": [
+    "https://js.mirai.com/mirai-engine/be_loading.gif",
+    "https://www.bilbainohotel.com/wp-content/blogs.dir/1303/files/Header-slider/home-1.jpg",
+    "https://www.bilbainohotel.com/wp-content/blogs.dir/1303/files/Header-slider/home-2.jpg",
+    "https://www.bilbainohotel.com/wp-content/blogs.dir/1303/files/Header-slider/home-3.jpg",
+    "https://js.mirai.com/mirai-engine/be_loading.gif",
+    "https://www.bilbainohotel.com/wp-content/blogs.dir/1303/files/Content-home/rooms.jpg",
+    "https://www.bilbainohotel.com/wp-content/blogs.dir/1303/files/Content-home/beach.jpg",
+    "https://www.bilbainohotel.com/wp-content/blogs.dir/1303/files/Content-home/history.jpg",
+    "https://www.bilbainohotel.com/wp-content/blogs.dir/1303/files/Content-home/live.jpg",
+    "https://www.bilbainohotel.com/wp-content/blogs.dir/1303/files/Content-home/home-terrace.jpg"
+  ],
+  "heroImage": "https://js.mirai.com/mirai-engine/be_loading.gif"
+}

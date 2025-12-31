@@ -1,0 +1,36 @@
+{
+  "name": "Punto de carga Iberdrola",
+  "originalUrl": "https://www.iberdrola.es/movilidad-electrica/puntos-de-recarga",
+  "category": "electricistas",
+  "title": "Puntos de Recarga para Coches Eléctricos - Iberdrola",
+  "description": "¿Necesitas recargar tu coche eléctrico fuera de casa? Descubre los tipos de PR y accede a los puntos de recarga pública disponibles.",
+  "h1": "Puntos de Recarga para Coches Eléctricos",
+  "paragraphs": [
+    "Nuestro buscador aprende y mejora continuamente para ofrecerte resultados más precisos y relevantes.",
+    "Con nuestro Buscador, encontrarás lo que buscas. Gracias a su mejora continua, te ofrecemos los resultados más precisos y relevantes",
+    "Gracias a nuestra App de Recarga Pública, podrás encontrar puntos de recarga de acceso público, para que vayas donde vayas, siempre puedas cargar tu vehículo eléctrico.",
+    "Localiza entre más de 8.000 cargadores el más próximo a ti.",
+    "Consulta el número, tipo y precio de los cargadores y resérvalo cuando quieras para evitar esperas."
+  ],
+  "headings": [
+    "Encuentra el punto\nmás cercano",
+    "Elige y reserva el\ncargador que necesitas",
+    "Conoce el estado\nde cada punto",
+    "Planifica tu viaje\neligiendo la mejor ruta",
+    "Precios de recarga",
+    "Recarga fácilmente gracias a nuestra App"
+  ],
+  "images": [
+    "https://www.iberdrola.es/webclipb/gc/prod/adminwcm/img/comunes/menu/flecha-dropdown-negra.svg",
+    "https://www.iberdrola.es/o/iberdrola-es-theme/images/menu/ico-toggler-open.svg",
+    "https://www.iberdrola.es/o/iberdrola-es-theme/images/menu/aspa-negra.svg",
+    "https://www.iberdrola.es/webclipb/gc/prod/adminwcm/img/comunes/menu/flecha-dropdown-negra.svg",
+    "https://www.iberdrola.es/webclipb/gc/prod/adminwcm/img/comunes/menu/flecha-dropdown-negra.svg",
+    "https://www.iberdrola.es/o/iberdrola-es-theme/images/buscador-inteligente/ico-close-mobile.svg",
+    "https://www.iberdrola.es/o/iberdrola-es-theme/images/buscador-inteligente/ico-close.svg",
+    "https://www.iberdrola.es/o/iberdrola-es-theme/images/buscador-inteligente/ico-leaf-ai.svg",
+    "https://www.iberdrola.es/o/iberdrola-es-theme/images/buscador-inteligente/ico-leaf-ai.svg",
+    "https://www.iberdrola.es/o/iberdrola-es-theme/images/buscador-inteligente/ico-search-desktop.svg"
+  ],
+  "heroImage": "https://www.iberdrola.es/webclipb/gc/prod/adminwcm/img/comunes/menu/flecha-dropdown-negra.svg"
+}

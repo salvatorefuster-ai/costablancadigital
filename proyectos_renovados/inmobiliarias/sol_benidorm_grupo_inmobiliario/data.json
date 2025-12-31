@@ -1,0 +1,33 @@
+{
+  "name": "Sol Benidorm Grupo Inmobiliario",
+  "originalUrl": "http://solbenidorm.es/",
+  "category": "inmobiliarias",
+  "title": "Sol Benidorm Inmobiliaria | Inicio",
+  "description": "Inmobiliaria en Benidorm dedicada al sector desde hace 20 años.",
+  "h1": "Sol Benidorm Grupo Inmobiliario",
+  "paragraphs": [
+    "Inmobiliaria en Benidorm dedicada al sector desde hace 20 años.",
+    "Trato personalizado con cada cliente en cualquier gestión que necesite, tramitación, financiación y asesoramiento jurídico. Ponemos a su disposición viviendas de todo tipo, parcelas. Díganos lo que busca y lo encontraremos. Construimos la vivienda de sus sueños.",
+    "Seguimiento hasta que el cliente obtenga el resultado final deseado en cualquier gestión.",
+    "Vivienda todo en una sola planta, lista para entrar a vivir"
+  ],
+  "headings": [
+    "PROPIEDADES DESTACADAS",
+    "Propiedades En Venta",
+    "Propiedades En Alquiler",
+    "PROPIEDADES RECIENTES"
+  ],
+  "images": [
+    "https://solbenidorm.es/images/flags/en.png",
+    "https://solbenidorm.es/images/flags/es.png",
+    "https://solbenidorm.es/images/slider/5.jpg",
+    "https://solbenidorm.es/images/slider/1.jpg",
+    "https://solbenidorm.es/images/slider/2.jpg",
+    "https://solbenidorm.es/images/slider/6.jpg",
+    "https://solbenidorm.es/images/slider/5.jpg",
+    "https://solbenidorm.es/images/slider/1.jpg",
+    "https://solbenidorm.es/img/properties/446/442/fj--1708428239-9238652.jpeg",
+    "https://solbenidorm.es/img/properties/452/442/fj--1710497219-1331201.jpeg"
+  ],
+  "heroImage": "https://solbenidorm.es/images/flags/en.png"
+}

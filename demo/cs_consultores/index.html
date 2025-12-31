@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS Consultores | Web Oficial</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Outfit', 'sans-serif'], serif: ['Playfair Display', 'serif'] },
+                    colors: { primary: '#d4af37', bg: '#050505' }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass { background: rgba(255,255,255,0.03); backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,0.05); }
+        .hero-gradient { background: radial-gradient(circle at 0% 0%, #d4af3722 0%, transparent 50%); }
+    </style>
+</head>
+<body class="bg-bg text-white font-sans">
+    <nav class="fixed w-full z-50 px-10 py-6 flex justify-between items-center glass">
+        <div class="text-xl font-bold tracking-tighter uppercase">CS Consultores</div>
+        <div class="hidden md:flex space-x-10 text-[10px] font-bold uppercase tracking-widest text-gray-400">
+            <a href="#inicio" class="hover:text-primary transition">Inicio</a>
+            <a href="#servicios" class="hover:text-primary transition">Servicios</a>
+            <a href="#contacto" class="hover:text-primary transition">Contacto</a>
+        </div>
+        <a href="#contacto" class="bg-primary text-black px-6 py-2 rounded-full text-[10px] font-bold uppercase tracking-widest hover:scale-105 transition">Reservar</a>
+    </nav>
+
+    <header id="inicio" class="min-h-screen flex flex-col items-center justify-center text-center px-6 hero-gradient pt-20">
+        <h1 class="text-6xl md:text-8xl font-serif italic mb-8 leading-tight animate-fade-in">CS Consultores</h1>
+        <p class="text-xl text-gray-400 max-w-2xl mb-12 font-light">Solicita tu préstamo de capital privado en Benidorm con CS Consultores Financieros. Soluciones rápidas y personalizadas con garantía hipotecaria. Aceptamos perfiles en ASNEF o RAI. Liquidez inmediata y asesoramiento experto. Tu mejor alternativa a la banca tradicional en Benidorm.</p>
+        <div class="flex gap-6">
+            <a href="#servicios" class="bg-primary text-black px-10 py-4 rounded-full font-bold uppercase tracking-widest text-xs">Descubrir Servicios</a>
+            <a href="#contacto" class="glass px-10 py-4 rounded-full font-bold uppercase tracking-widest text-xs hover:bg-white/10 transition">Hablar con nosotros</a>
+        </div>
+    </header>
+
+    <section id="servicios" class="py-32 px-10">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl font-serif mb-20 text-center">Especialidades <span class="text-primary italic">Premium</span></h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                
+                <div class="glass p-12 rounded-[40px] hover:border-primary/50 transition-all duration-500">
+                    <div class="text-primary text-4xl mb-6 font-serif italic">1.</div>
+                    <h3 class="text-2xl font-bold mb-4">Préstamos con Garantía Hipotecaria</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">Ofrecemos soluciones personalizadas enfocadas en maximizar su seguridad y satisfacción.</p>
+                </div>
+                
+                <div class="glass p-12 rounded-[40px] hover:border-primary/50 transition-all duration-500">
+                    <div class="text-primary text-4xl mb-6 font-serif italic">2.</div>
+                    <h3 class="text-2xl font-bold mb-4">Préstamos con ASNEF</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">Ofrecemos soluciones personalizadas enfocadas en maximizar su seguridad y satisfacción.</p>
+                </div>
+                
+                <div class="glass p-12 rounded-[40px] hover:border-primary/50 transition-all duration-500">
+                    <div class="text-primary text-4xl mb-6 font-serif italic">3.</div>
+                    <h3 class="text-2xl font-bold mb-4">Préstamos para Herencias</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">Ofrecemos soluciones personalizadas enfocadas en maximizar su seguridad y satisfacción.</p>
+                </div>
+                
+                <div class="glass p-12 rounded-[40px] hover:border-primary/50 transition-all duration-500">
+                    <div class="text-primary text-4xl mb-6 font-serif italic">4.</div>
+                    <h3 class="text-2xl font-bold mb-4">Préstamo para  Reformas</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">Ofrecemos soluciones personalizadas enfocadas en maximizar su seguridad y satisfacción.</p>
+                </div>
+                
+                <div class="glass p-12 rounded-[40px] hover:border-primary/50 transition-all duration-500">
+                    <div class="text-primary text-4xl mb-6 font-serif italic">5.</div>
+                    <h3 class="text-2xl font-bold mb-4">Préstamo Cancelación Embargos y Subastas</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">Ofrecemos soluciones personalizadas enfocadas en maximizar su seguridad y satisfacción.</p>
+                </div>
+                
+                <div class="glass p-12 rounded-[40px] hover:border-primary/50 transition-all duration-500">
+                    <div class="text-primary text-4xl mb-6 font-serif italic">6.</div>
+                    <h3 class="text-2xl font-bold mb-4">Préstamos para Autónomos</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">Ofrecemos soluciones personalizadas enfocadas en maximizar su seguridad y satisfacción.</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-32 bg-[#080808]">
+        <div class="max-w-7xl mx-auto px-10 grid md:grid-cols-2 gap-20 items-center">
+            <div class="rounded-3xl overflow-hidden glass h-[500px]">
+                <img src="https://impro.usercontent.one/appid/oneComWsb/domain/csconsultoresfinancieros.es/media/csconsultoresfinancieros.es/onewebmedia/Logo%20CS%20HD.png?withoutEnlargement&resize=29,29" class="w-full h-full object-cover">
+            </div>
+            <div>
+                <h2 class="text-4xl font-serif mb-8">Nuestra <span class="text-primary italic">Misión</span></h2>
+                <div class="space-y-6 text-gray-400 font-light text-lg">
+                    <p>Obtén financiación inmediata con nuestros préstamos de capital privado en Benidorm. En CS Consultores Financieros, ofrecemos soluciones rápidas, confiables y adaptadas a tus necesidades financieras, ya seas particular, autónomo o empresa.</p><p>Benidorm, ciudad vibrante con más de 67.000 habitantes y uno de los principales motores turísticos de España, destaca por su dinamismo inmobiliario y su tejido empresarial ligado al turismo, la hostelería y los servicios. Ante necesidades de liquidez rápida, el préstamo de capital privado en Benidorm se presenta como una alternativa sólida frente a la banca tradicional. En CS Consultores Financieros, ofrecemos soluciones con garantía hipotecaria, adaptadas a propietarios, autónomos y empresarios que buscan financiación ágil para invertir, consolidar negocios o afrontar imprevistos con respaldo profesional.</p><p>Los préstamos de capital privado en Benidorm son una alternativa eficiente para obtener liquidez cuando más lo necesitas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="py-32 px-10 text-center">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-5xl font-bold mb-10">¿Hablamos de su <span class="text-primary">Proyecto?</span></h2>
+            <p class="text-gray-400 mb-12">Estamos en Benidorm para ofrecerle la atención que su negocio merece.</p>
+            <form class="glass p-12 rounded-[50px] space-y-6 text-left">
+                <div class="grid md:grid-cols-2 gap-6">
+                    <input type="text" placeholder="Nombre" class="w-full bg-white/5 border border-white/10 p-4 rounded-xl focus:border-primary outline-none">
+                    <input type="email" placeholder="Email" class="w-full bg-white/5 border border-white/10 p-4 rounded-xl focus:border-primary outline-none">
+                </div>
+                <textarea placeholder="Mensaje" rows="5" class="w-full bg-white/5 border border-white/10 p-4 rounded-xl focus:border-primary outline-none"></textarea>
+                <button type="submit" class="w-full bg-primary text-black py-5 rounded-xl font-bold uppercase tracking-widest text-xs hover:scale-[1.02] transition">Enviar Solicitud</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="py-10 border-t border-white/5 text-center text-[10px] text-gray-600 uppercase tracking-[0.5em]">
+        © 2025 CS Consultores &bull; Benidorm, Costa Blanca
+    </footer>
+</body>
+</html>

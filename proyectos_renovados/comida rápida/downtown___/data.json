@@ -1,0 +1,33 @@
+{
+  "name": "DOWNTOWN 🍔",
+  "originalUrl": "https://pistazi.com/cartadowntown",
+  "category": "comida rápida",
+  "title": "Carta - Pistazi",
+  "description": "",
+  "h1": "DOWNTOWN 🍔",
+  "paragraphs": [
+    "Información detallada sobre nuestros servicios y compromiso con la calidad. Contáctenos para más detalles."
+  ],
+  "headings": [
+    "Combos",
+    "ENTRANTES",
+    "COCTELERÍA",
+    "BURGUERS",
+    "PEPITOS",
+    "OTRAS OPCIONES",
+    "POSTRES"
+  ],
+  "images": [
+    "https://pistazi.com/img/Admin/IMG_4323.jpeg",
+    "https://pistazi.com/img/Admin/IMG_4324.jpeg",
+    "https://pistazi.com/img/Admin/IMG_4325_1.jpeg",
+    "https://pistazi.com/img/Admin/Captura%20de%20pantalla%202025-07-16%20221050.png",
+    "https://pistazi.com/img/Admin/",
+    "https://pistazi.com/img/Admin/Captura%20de%20pantalla%202025-07-16%20221050_1.png",
+    "https://pistazi.com/img/Admin/Captura%20de%20pantalla%202025-08-20%20213915.jpg",
+    "https://pistazi.com/img/Admin/Captura%20de%20pantalla%202025-07-16%20205328.png",
+    "https://pistazi.com/img/Admin/P1035381%20(1).jpg",
+    "https://pistazi.com/img/Admin/WhatsApp%20Image%202025-08-20%20at%2020.41.58%20(4)_1.jpeg"
+  ],
+  "heroImage": "https://pistazi.com/img/Admin/IMG_4323.jpeg"
+}

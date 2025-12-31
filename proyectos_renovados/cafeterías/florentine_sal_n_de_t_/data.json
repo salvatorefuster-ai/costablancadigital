@@ -1,0 +1,38 @@
+{
+  "name": "Florentine Salón de Té",
+  "originalUrl": "http://www.florentine.es/",
+  "category": "cafeterías",
+  "title": "Florentine Salón de Té - Café, Tartas Caseras y Ambiente Clásico",
+  "description": "Disfruta de una experiencia única en Florentine Salón de Té, donde servimos deliciosos cafés, tartas caseras y bollería en un ambiente clásico y acogedor. Descubre nuestro menú y relájate con nosotros.",
+  "h1": "FLORENTINE SALÓN DE TÉ",
+  "paragraphs": [
+    "Ofrecemos deliciosos Desayunos y una amplia variedad de tartas caseras:",
+    "Nuestras tartas caseras son preparadas con ingredientes frescos y de alta calidad.",
+    "De intenso sabor, dos tipos de chocolate, dos tipos de arina, un punto afrutado",
+    "Un postre facil, sin azucares, pura fruta y crujiente",
+    "bizcochos de vainilla rellenos de Buttercream al limon, suave y delicada, perfecta para celebración."
+  ],
+  "headings": [
+    "¡Bienvenidos!",
+    "Florentine Salón de Té.",
+    "TARTAS",
+    "ENCARGAR",
+    "CREACIONES",
+    "Chocolate Extremo",
+    "Ligera suave y natural",
+    "Buttercream Cake"
+  ],
+  "images": [
+    "https://www.florentine.es/assets/img/premio_postres.png",
+    "https://www.florentine.es/assets/img/about.webp",
+    "https://www.florentine.es/assets/img/menu/01Zanahoria.webp",
+    "https://www.florentine.es/assets/img/menu/02TartaDeQueso.webp",
+    "https://www.florentine.es/assets/img/menu/03Manzana.webp",
+    "https://www.florentine.es/assets/img/menu/04FrutasBosque.webp",
+    "https://www.florentine.es/assets/img/menu/05SemifrioFresas.webp",
+    "https://www.florentine.es/assets/img/menu/06TartaDeChocolate.webp",
+    "https://www.florentine.es/assets/img/menu/07RedVelvet.webp",
+    "https://www.florentine.es/assets/img/menu/08StrudelManzana.webp"
+  ],
+  "heroImage": "https://www.florentine.es/assets/img/premio_postres.png"
+}

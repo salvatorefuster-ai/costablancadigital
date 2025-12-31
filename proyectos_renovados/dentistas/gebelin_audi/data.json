@@ -1,0 +1,38 @@
+{
+  "name": "Gebelin Audi",
+  "originalUrl": "http://dentistaenbenidorm.es/",
+  "category": "dentistas",
+  "title": "La Clínica Dental Gebelin Audi - Dentista en Benidorm",
+  "description": "Tu dentista en Benidorm con casi 40 años de experiencia. We speak English. Nous parlons français. ¡Pide tu revisión y presupuesto gratis!",
+  "h1": "La Clínica Dental Gebelin Audi",
+  "paragraphs": [
+    "La Clínica Dental Gebelin Audi se estableció en Benidorm en 1995 y contamos con casi 40 años de experiencia en el sector dental. Ofrecemos una amplia gama de servicios, desde implantes dentales hasta estética dental y odontología general, siempre utilizando tecnología avanzada y materiales de alta calidad.",
+    "Nuestro equipo se actualiza constantemente para ofrecer tratamientos modernos y personalizados, con atención en español, inglés y francés para pacientes locales e internacionales.",
+    "Confía en nosotros para mantener tu sonrisa saludable con el mejor cuidado dental en Benidorm.",
+    "¿Qué es la ortodoncia y para que sirve? La ortodoncia estudia, previene y [...]",
+    "¿Qué son los implantes y para qué sirven? Los implantes dentales son estructuras [...]"
+  ],
+  "headings": [
+    "Tratamientos",
+    "Instalaciones",
+    "Nosotros",
+    "Contacto",
+    "40 AÑOS DEDICADOS A TU SONRISA",
+    "TRATAMIENTOS",
+    "Ortodoncia",
+    "Implantología"
+  ],
+  "images": [
+    "https://dentistaenbenidorm.es/wp-content/themes/gebelin_audi/img/header/hora.svg",
+    "https://dentistaenbenidorm.es/wp-content/themes/gebelin_audi/img/header/ubicacion.svg",
+    "https://dentistaenbenidorm.es/wp-content/themes/gebelin_audi/img/header/telefono.svg",
+    "https://dentistaenbenidorm.es/",
+    "https://dentistaenbenidorm.es/wp-content/uploads/2018/12/ortodoncia.png",
+    "https://dentistaenbenidorm.es/wp-content/uploads/2018/12/implantologia.png",
+    "https://dentistaenbenidorm.es/wp-content/uploads/2018/12/periodoncia.png",
+    "https://dentistaenbenidorm.es/wp-content/uploads/2018/12/estetica.png",
+    "https://dentistaenbenidorm.es/wp-content/uploads/2018/12/protesis.png",
+    "https://dentistaenbenidorm.es/wp-content/uploads/2018/12/odontologia-conservadora.png"
+  ],
+  "heroImage": "https://dentistaenbenidorm.es/wp-content/themes/gebelin_audi/img/header/hora.svg"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "CE Colada Exprés Benidorm",
+  "originalUrl": "http://lacoladabenidorm.es/",
+  "category": "lavaderos de coches",
+  "title": "Colada Exprés Benidorm | Lavandería autoservicio",
+  "description": "Lavandería autoservicio en el centro de Benidorm. Tu colada desde 5€.",
+  "h1": "CE Colada Exprés Benidorm!",
+  "paragraphs": [
+    "Maquinaria de lavandería industrial en la puerta de tu casa.\nSimple, rápido y barato.",
+    "Con la garantía de Electrolux, nuestras lavadoras incluyen desinfección automática para ofrecer el mejor resultado. Detergente, suavizante y oxígeno activo incluído.",
+    "Sin preocupaciones. Puedes parar la secadora en cualquier momento para comprobar el estado de tu ropa. Si necesitas más tiempo de secado, simplemente añade 1€ más.",
+    "Llévate la ropa de vuelta a casa y toda seca en menos de una hora! Nuestras lavadoras tienen capacidad de 12 o 15kg, y nuestras secadoras soportan 15kg.",
+    "Encuéntranos en la calle Júpiter, 19 Esq. Maravall."
+  ],
+  "headings": [
+    "Precios populares",
+    "Sólo lavado",
+    "Secado",
+    "Lavado y secado",
+    "Dónde estamos",
+    "Conoce nuestro local",
+    "Ya llevamos...",
+    "¿ALGUNA PREGUNTA?"
+  ],
+  "images": [
+    "https://lacoladabenidorm.com/images/solo-lavado.jpg",
+    "https://lacoladabenidorm.com/images/solo-secado.jpg",
+    "https://lacoladabenidorm.com/images/todo.jpg"
+  ],
+  "heroImage": "https://lacoladabenidorm.com/images/solo-lavado.jpg"
+}

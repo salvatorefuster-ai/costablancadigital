@@ -1,0 +1,27 @@
+{
+  "name": "Santagloria Coffee & Bakery",
+  "originalUrl": "http://www.santagloria.com/",
+  "category": "cafeterías",
+  "title": "Santagloria Coffee Bakery: cafeteria, panadería y pastelería | Santagloria Coffee & Bakery",
+  "description": "    Descubre todos los servicios de restauración de Santagloria Coffee and Bakery: panadería, cafetería y pastelería.\n",
+  "h1": "Servicios de cafetería, panadería y pastelería",
+  "paragraphs": [
+    "Desde 1963, en Santagloria rendimos culto a las cosas bien hechas. Queremos ser tu cafetería de confianza, donde encontrar siempre la mejor selección de panadería y pastelería hecha con cariño, respeto a los ingredientes de calidad y los sabores artesanos.",
+    "Permite las notificaciones para estar al tanto de todas nuestras novedades",
+    "Instala nuestra app en tu dispositivo para una mejor experiencia"
+  ],
+  "headings": [
+    "¡Encuéntranos!",
+    "Elige tu momento"
+  ],
+  "images": [
+    "https://web-santagloria-prod.s3.eu-west-3.amazonaws.com/media/1731/sg-take-away-1440x500-esp.jpg",
+    "https://web-santagloria-prod.s3.eu-west-3.amazonaws.com/media/1887/web-sandwiches-sg-1440x550.jpg",
+    "https://web-santagloria-prod.s3.eu-west-3.amazonaws.com/media/1467/day-parts-esp-01-desayunos-gloria-1-desktop.jpg",
+    "https://web-santagloria-prod.s3.eu-west-3.amazonaws.com/media/1458/day-parts-esp-01-desayunos-estilo-1-desktop.jpg",
+    "https://web-santagloria-prod.s3.eu-west-3.amazonaws.com/media/1871/sg-banner-mediodia1440x500.jpg",
+    "https://web-santagloria-prod.s3.eu-west-3.amazonaws.com/media/1461/day-parts-esp-03-merienda-tortita-1-desktop.jpg",
+    "https://web-santagloria-prod.s3.eu-west-3.amazonaws.com/media/1455/day-parts-esp-03-merienda-dulce-1-desktop.jpg"
+  ],
+  "heroImage": "https://web-santagloria-prod.s3.eu-west-3.amazonaws.com/media/1871/sg-banner-mediodia1440x500.jpg"
+}
