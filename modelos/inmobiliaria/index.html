@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Living | Inmobiliaria de Lujo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Outfit', sans-serif;
+        }
+
+        .hero-zoom {
+            overflow: hidden;
+        }
+
+        .hero-zoom img {
+            transition: transform 20s linear;
+        }
+
+        .hero-zoom:hover img {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+
+<body class="bg-white text-gray-900">
+    <nav
+        class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-gray-100 flex justify-between items-center px-10 py-6">
+        <div class="text-2xl font-bold tracking-tighter">ELITE<span class="text-blue-600">LIVING</span></div>
+        <div class="hidden md:flex space-x-8 font-medium text-sm uppercase tracking-widest">
+            <a href="#" class="hover:text-blue-600 transition">Propiedades</a>
+            <a href="#" class="hover:text-blue-600 transition">Vender</a>
+            <a href="#" class="hover:text-blue-600 transition">Servicios</a>
+        </div>
+        <button
+            class="bg-black text-white px-6 py-2 rounded-full font-bold text-xs uppercase tracking-widest hover:bg-blue-600 transition">Consúltanos</button>
+    </nav>
+
+    <header class="relative h-screen flex items-center justify-center hero-zoom">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6199fbfd0b?auto=format&fit=crop&w=1920&q=80"
+            class="absolute inset-0 w-full h-full object-cover">
+        <div class="absolute inset-0 bg-black/40"></div>
+        <div class="relative z-10 text-center text-white px-6">
+            <h1 class="text-6xl md:text-8xl font-bold mb-6 tracking-tight">Tu refugio de <span
+                    class="italic text-blue-400">exclusividad</span>.</h1>
+            <p class="text-xl md:text-2xl max-w-2xl mx-auto mb-10 font-light">Especialistas en propiedades de alto
+                standing en la Costa Blanca.</p>
+            <div class="bg-white p-2 rounded-2xl shadow-2xl max-w-4xl mx-auto flex flex-col md:flex-row gap-2">
+                <input type="text" placeholder="Ubicación o Tipo de vivienda..."
+                    class="flex-1 px-6 py-4 text-gray-800 outline-none rounded-xl">
+                <button
+                    class="bg-blue-600 text-white px-10 py-4 rounded-xl font-bold hover:bg-blue-700 transition">Buscar
+                    Propiedad</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-24 px-10">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl font-bold mb-16">Propiedades Destacadas</h2>
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="group cursor-pointer">
+                    <div class="rounded-3xl overflow-hidden mb-6 aspect-[4/3] relative">
+                        <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=80"
+                            class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                        <div class="absolute top-4 left-4 bg-white px-4 py-1 rounded-full text-xs font-bold uppercase">
+                            Venta</div>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2">Villa Mediterránea</h3>
+                    <p class="text-gray-500 mb-4">Jávea, Alicante</p>
+                    <div class="flex justify-between items-center border-t border-gray-100 pt-4">
+                        <span class="text-xl font-bold text-blue-600">2.450.000 €</span>
+                        <div class="flex gap-4 text-gray-400 text-sm">
+                            <span>4 Hab</span>
+                            <span>3 Baños</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- ... Repeat for variety ... -->
+                <div class="group cursor-pointer">
+                    <div class="rounded-3xl overflow-hidden mb-6 aspect-[4/3] relative">
+                        <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80"
+                            class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                        <div class="absolute top-4 left-4 bg-white px-4 py-1 rounded-full text-xs font-bold uppercase">
+                            Venta</div>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2">Ático Infinity</h3>
+                    <p class="text-gray-500 mb-4">Benidorm, Alicante</p>
+                    <div class="flex justify-between items-center border-t border-gray-100 pt-4">
+                        <span class="text-xl font-bold text-blue-600">1.100.000 €</span>
+                        <div class="flex gap-4 text-gray-400 text-sm">
+                            <span>2 Hab</span>
+                            <span>2 Baños</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="group cursor-pointer">
+                    <div class="rounded-3xl overflow-hidden mb-6 aspect-[4/3] relative">
+                        <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=80"
+                            class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                        <div class="absolute top-4 left-4 bg-white px-4 py-1 rounded-full text-xs font-bold uppercase">
+                            Venta</div>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2">Mansión Modernista</h3>
+                    <p class="text-gray-500 mb-4">Altea, Alicante</p>
+                    <div class="flex justify-between items-center border-t border-gray-100 pt-4">
+                        <span class="text-xl font-bold text-blue-600">4.800.000 €</span>
+                        <div class="flex gap-4 text-gray-400 text-sm">
+                            <span>6 Hab</span>
+                            <span>5 Baños</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-50 py-20 px-10 border-t border-gray-100">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-10">
+            <div class="text-2xl font-bold uppercase tracking-tighter">ELITE<span class="text-blue-600">LIVING</span>
+            </div>
+            <p class="text-gray-400 text-sm">© 2025 Elite Living Real Estate. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -4,192 +4,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Costa Blanca Digital | Transformación Estratégica</title>
-    <meta name="description"
-        content="Agencia boutique de diseño y automatización web en la Costa Blanca. Elevamos negocios locales a estándares globales.">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@700;800&display=swap"
+    <title>Costa Blanca Digital | Rediseño Estratégico</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Plus+Jakarta+Sans:wght@800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-    <nav id="navbar">
-        <div class="logo">
-            <div class="logo-icon">C</div>
-            <span>Costa Blanca <span style="color: var(--primary)">Digital</span></span>
-        </div>
+    <nav>
+        <div class="logo">Costa Blanca <span style="color: #666">Digital</span></div>
         <ul class="nav-links">
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#proyectos">Prototipos</a></li>
-            <li><a href="#scout">Sistema Scout</a></li>
-            <li><a href="#faq">FAQ</a></li>
-            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#ejemplos">Modelos</a></li>
+            <li><a href="#demo">Solicitar Demo</a></li>
         </ul>
-        <button class="btn-contact">Hablemos</button>
     </nav>
 
-    <header class="hero" id="inicio">
+    <header class="hero">
         <div class="hero-content">
-            <div class="badge">Líderes en Innovación Digital</div>
-            <h1 class="text-gradient">Rediseñamos el futuro de Benidorm.</h1>
-            <p>No creamos simples webs. Desarrollamos activos digitales de alto rendimiento que posicionan su marca por
-                encima de la competencia.</p>
-            <div class="cta-group">
-                <button class="btn-primary" onclick="location.href='#proyectos'">Ver Catálogo de Leads</button>
-                <button class="btn-secondary" id="restricted-trigger">Acceso Restringido</button>
-            </div>
+            <h1 class="text-gradient">Rediseñamos el <br> futuro de tu <br> Negocio.</h1>
         </div>
     </header>
 
-    <section id="servicios">
-        <div class="section-header" data-reveal>
-            <h2>Servicios de <span class="text-gradient">Elite</span></h2>
-            <p>Soluciones diseñadas para el mercado de alto nivel.</p>
-        </div>
-        <div class="services-grid">
-            <div class="service-card glass-effect" data-reveal>
-                <div class="service-icon">✦</div>
-                <h3>Web Design Pro</h3>
-                <p>Interfaces optimizadas para conversión con estéticas premium que capturan la esencia de su marca.</p>
-            </div>
-            <div class="service-card glass-effect" data-reveal style="transition-delay: 0.2s">
-                <div class="service-icon">⚙</div>
-                <h3>Growth Automation</h3>
-                <p>Nuestra tecnología Scout encuentra leads cualificados y genera prototipos automáticamente.</p>
-            </div>
-            <div class="service-card glass-effect" data-reveal style="transition-delay: 0.4s">
-                <div class="service-icon">◈</div>
-                <h3>Brand Strategy</h3>
-                <p>Posicionamiento estratégico para dominar los resultados de búsqueda locales y globales.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="scout" class="scout-section">
-        <div class="scout-feature">
-            <div class="scout-visual" data-reveal>
-                <!-- Visual abstract representing the scanning system -->
-                <div class="scanning-line"></div>
-            </div>
-            <div class="scout-text" data-reveal>
-                <h2 class="text-gradient">Sistema Scout 2025</h2>
-                <h3 style="font-size: 2rem; margin: 1rem 0;">Descubrimiento Inteligente de Oportunidades.</h3>
-                <p>Hemos desarrollado un motor propietario que escanea Google Maps en busca de negocios con alto
-                    potencial pero presencia digital obsoleta. </p>
-                <div class="tech-stat">
-                    <div class="stat-item">
-                        <h4 class="text-gradient">100+</h4>
-                        <span>Leads Analizados</span>
-                    </div>
-                    <div class="stat-item">
-                        <h4 class="text-gradient">0.8s</h4>
-                        <span>Carga Promedio</span>
-                    </div>
-                </div>
-                <button class="btn-primary" style="margin-top: 3rem;">Descargar Whitepaper</button>
-            </div>
-        </div>
-    </section>
-
-    <section id="proyectos" class="portfolio">
-        <div class="section-header" data-reveal>
-            <h2>El Proyecto <span class="text-gradient">100 Escolhidos</span></h2>
-            <p>Seleccionamos los 100 mejores negocios de Benidorm para demostrar nuestro valor.</p>
-        </div>
-        <div class="portfolio-preview">
-            <div class="portfolio-item glass-effect" data-reveal>
-                <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80"
-                    alt="Hotel Luxury">
-                <div class="portfolio-info">
-                    <h4 class="text-gradient">Hoteles & Resorts</h4>
-                    <p>+20 proyectos renovados</p>
+    <section class="ejemplos" id="ejemplos">
+        <h2>Modelos <br> <span style="color: #444">Desarrollados.</span></h2>
+        <div class="modelos-grid">
+            <div class="modelo-card" onclick="window.open('./modelos/inmobiliaria/index.html', '_blank')">
+                <img src="https://images.unsplash.com/photo-1600585154340-be6199fbfd0b?auto=format&fit=crop&w=800&q=80">
+                <div class="modelo-info">
+                    <span>Real Estate</span>
+                    <h3>Inmobiliaria</h3>
                 </div>
             </div>
-            <div class="portfolio-item glass-effect" data-reveal style="transition-delay: 0.2s">
-                <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=80"
-                    alt="Legal">
-                <div class="portfolio-info">
-                    <h4 class="text-gradient">Bufetes de Abogados</h4>
-                    <p>Elegancia & Seguridad</p>
+            <div class="modelo-card" onclick="window.open('./modelos/abogado/index.html', '_blank')">
+                <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=80">
+                <div class="modelo-info">
+                    <span>Legal & Law</span>
+                    <h3>Abogado</h3>
                 </div>
             </div>
-            <div class="portfolio-item glass-effect" data-reveal style="transition-delay: 0.4s">
-                <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80"
-                    alt="Real Estate">
-                <div class="portfolio-info">
-                    <h4 class="text-gradient">Inmobiliaria Premium</h4>
-                    <p>Visuales de Alto Impacto</p>
+            <div class="modelo-card" onclick="window.open('./modelos/asesor/index.html', '_blank')">
+                <img src="https://images.unsplash.com/photo-1554224155-1696413565d3?auto=format&fit=crop&w=800&q=80">
+                <div class="modelo-info">
+                    <span>Corporate</span>
+                    <h3>Asesor</h3>
+                </div>
+            </div>
+            <div class="modelo-card" onclick="window.open('./modelos/eventos/index.html', '_blank')">
+                <img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&w=800&q=80">
+                <div class="modelo-info">
+                    <span>Expirience</span>
+                    <h3>Eventos</h3>
+                </div>
+            </div>
+            <div class="modelo-card" onclick="window.open('./modelos/club-nocturno/index.html', '_blank')">
+                <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=800&q=80">
+                <div class="modelo-info">
+                    <span>Nightlife</span>
+                    <h3>Club Nocturno</h3>
                 </div>
             </div>
         </div>
-        <div style="text-align: center; margin-top: 5rem;" data-reveal>
-            <button class="btn-secondary"
-                onclick="window.open('./Agencia-Costa-Digital/proyectos.html', '_blank')">Explorar Directorio
-                Completo</button>
-        </div>
     </section>
 
-    <section id="faq" class="glass-effect" style="margin: 4rem; padding: 4rem;">
-        <div class="section-header" data-reveal>
-            <h2>Preguntas <span class="text-gradient">Frecuentes</span></h2>
-            <p>Todo lo que necesitas saber sobre nuestra metodología de trabajo.</p>
-        </div>
-        <div class="faq-container" style="max-width: 800px; margin: 0 auto;">
-            <div class="faq-item" style="border-bottom: 1px solid var(--border); padding: 1.5rem 0;">
-                <h4 style="color: var(--primary); margin-bottom: 0.5rem;">¿Por qué habéis creado un prototipo para mi
-                    empresa?</h4>
-                <p style="color: var(--text-muted); font-size: 0.9rem;">Nuestro sistema Scout identificó su negocio como
-                    líder en su sector pero con una presencia digital que no refleja su éxito actual. El prototipo es
-                    nuestra carta de presentación.</p>
-            </div>
-            <div class="faq-item" style="border-bottom: 1px solid var(--border); padding: 1.5rem 0;">
-                <h4 style="color: var(--primary); margin-bottom: 0.5rem;">¿Qué incluye la web final?</h4>
-                <p style="color: var(--text-muted); font-size: 0.9rem;">Optimización SEO total, hosting premium,
-                    dominio, correos corporativos y un diseño exclusivo que no utiliza plantillas genéricas.</p>
-            </div>
+    <section class="demo-section" id="demo">
+        <div class="demo-container">
+            <h2>Recibe una <span class="text-gradient">demo.</span></h2>
+            <p>Analizamos su presencia actual y le enviamos una propuesta de rediseño personalizada en 24h.</p>
+            <form class="demo-form"
+                onsubmit="event.preventDefault(); alert('Solicitud enviada. Nos pondremos en contacto pronto.');">
+                <input type="email" placeholder="Tu Email profesional" required>
+                <input type="text" placeholder="Dominio de tu negocio actual (ej: www.miweb.com)" required>
+                <button type="submit" class="btn-submit">Enviar Solicitud</button>
+            </form>
         </div>
     </section>
-
-    <section id="contacto" style="background: radial-gradient(circle at center, #1e1e3f 0%, #05050a 100%);">
-        <div class="section-header" data-reveal>
-            <h2>Contacto <span class="text-gradient">Directo</span></h2>
-            <p>Agende una consultoría estratégica para activar su nueva plataforma.</p>
-        </div>
-        <div style="max-width: 600px; margin: 0 auto; text-align: center;">
-            <div class="glass-effect" style="padding: 3rem;">
-                <h3 style="margin-bottom: 2rem;">¿Listo para dominar su mercado?</h3>
-                <button class="btn-primary" style="width: 100%; margin-bottom: 1rem;">Llamar Ahora: +34 663 036
-                    070</button>
-                <button class="btn-secondary" style="width: 100%;">Enviar WhatsApp</button>
-            </div>
-        </div>
-    </section>
-
-    <div id="access-modal" class="glass-effect"
-        style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 4rem; z-index: 2000; width: 400px; text-align: center;">
-        <h3 class="text-gradient" style="margin-bottom: 2rem;">Acceso de Cliente</h3>
-        <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 2rem;">Introduzca su código de invitación
-            para ver su demo personalizada.</p>
-        <input type="password" id="access-code" placeholder="CÓDIGO VIP"
-            style="width: 100%; background: rgba(255,255,255,0.05); border: 1px solid var(--border); padding: 1rem; border-radius: 12px; color: white; margin-bottom: 2rem; text-align: center; letter-spacing: 0.5em;">
-        <button class="btn-primary" style="width: 100%;" onclick="verifyAccess()">Validar Acceso</button>
-        <button
-            style="margin-top: 1.5rem; color: var(--text-muted); font-size: 0.7rem; background: none; border: none; cursor: pointer;"
-            onclick="document.getElementById('access-modal').style.display='none'">Cancelar</button>
-    </div>
 
     <footer>
-        <div class="logo">
-            <div class="logo-icon">C</div>
-            <span>Costa Blanca <span style="color: var(--primary)">Digital</span></span>
-        </div>
-        <div class="footer-links">
-            <a href="#">Privacidad</a>
-            <a href="#">Términos</a>
-            <a href="#">LinkedIn</a>
-        </div>
-        <p style="color: var(--text-muted); font-size: 0.75rem;">© 2025 Costa Blanca Digital. Built for Excellence.</p>
+        <div class="logo">CBD <span style="font-size: 0.7rem; color: #333">2025</span></div>
+        <div style="font-size: 0.7rem; uppercase; letter-spacing: 0.2em;">Agencia Costa Blanca Digital</div>
     </footer>
 
     <script src="index.js"></script>
