@@ -7,14 +7,18 @@
     <title>Aura Atelier | Maison de Haute Couture</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300;1,600&family=Tenor+Sans&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&family=Tenor+Sans&display=swap"
         rel="stylesheet">
     <style>
+        :root {
+            --ivory: #fafaf9;
+            --gold: #c5a059;
+        }
+
         body {
             font-family: 'Tenor Sans', sans-serif;
-            background: #fff;
+            background: var(--ivory);
             color: #1a1a1a;
-            letter-spacing: -0.02em;
         }
 
         .serif {
@@ -23,8 +27,8 @@
 
         .reveal {
             opacity: 0;
-            transform: translateY(20px);
-            transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);
+            transform: translateY(30px);
+            transition: all 1.2s cubic-bezier(0.23, 1, 0.32, 1);
         }
 
         .reveal.active {
@@ -32,116 +36,130 @@
             transform: translateY(0);
         }
 
-        .fade-in {
+        .image-reveal {
             opacity: 0;
-            transition: opacity 2s ease;
+            clip-path: inset(0 0 100% 0);
+            transition: all 1.5s cubic-bezier(0.77, 0, 0.175, 1);
         }
 
-        .fade-in.active {
+        .image-reveal.active {
             opacity: 1;
+            clip-path: inset(0 0 0 0);
         }
 
-        .image-container {
-            position: relative;
-            overflow: hidden;
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 1px;
+            bottom: -4px;
+            right: 0;
+            background: #000;
+            transition: width 0.4s;
         }
 
-        .image-container img {
-            transition: transform 2s ease-out;
+        .nav-link:hover::after {
+            width: 100%;
+            left: 0;
         }
 
-        .image-container:hover img {
-            transform: scale(1.05);
+        .letter-spacing-xl {
+            letter-spacing: 1em;
         }
     </style>
 </head>
 
 <body class="overflow-x-hidden">
-    <nav class="fixed top-0 w-full z-50 px-12 py-12 flex justify-between items-center bg-white/10 backdrop-blur-sm">
-        <div class="text-[9px] uppercase tracking-[0.6em] font-bold">Est. 2026</div>
-        <div class="text-4xl tenor uppercase tracking-[0.4em] font-light">AURA</div>
-        <div class="flex gap-10 text-[9px] uppercase tracking-[0.6em] font-bold">
-            <a href="#collection" class="hover:opacity-40 transition">Seul</a>
-            <a href="#atelier" class="hover:opacity-40 transition">Atelier</a>
-            <a href="#cart" class="hover:opacity-40 transition">Cart (0)</a>
+    <nav class="fixed top-0 w-full z-50 px-12 py-16 flex justify-between items-center transition-opacity duration-1000"
+        id="navbar">
+        <div class="text-[10px] uppercase font-bold tracking-[0.6em]">Est. 2026</div>
+        <div class="text-4xl tenor uppercase tracking-[0.5em] font-light">AURA</div>
+        <div class="hidden lg:flex space-x-12 text-[10px] font-bold uppercase tracking-[0.6em] text-gray-400">
+            <a href="#collection" class="nav-link relative hover:text-black transition">Seul</a>
+            <a href="#atelier" class="nav-link relative hover:text-black transition">Atelier</a>
+            <a href="#cart" class="nav-link relative hover:text-black transition">Archive</a>
         </div>
     </nav>
 
-    <header class="h-screen flex items-center justify-center p-6 text-center">
-        <div class="max-w-6xl reveal" id="hero-content">
-            <div class="aspect-[3/4] max-w-sm mx-auto mb-16 image-container grayscale reveal shadow-2xl">
+    <header class="min-h-screen flex flex-col items-center justify-center pt-32 p-12 text-center">
+        <div class="max-w-4xl reveal" id="hero-content">
+            <div class="aspect-[2/3] max-w-sm mx-auto mb-20 overflow-hidden shadow-2xl image-reveal active">
                 <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=800&q=80"
-                    class="w-full h-full object-cover">
-                <div class="absolute inset-0 bg-black/10"></div>
+                    class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-2000">
             </div>
-            <h1 class="text-6xl md:text-[8rem] tenor text-black leading-none uppercase tracking-widest mb-10">L'Esprit
-                <br> <span class="serif italic lowercase font-light text-gray-400">libre.</span></h1>
-            <p class="text-xs uppercase tracking-[0.8em] font-bold opacity-30">Nouvelle Collection '26 &bull; Disponible
-                Maintenant</p>
+            <h1 class="text-7xl md:text-[10rem] tenor leading-none uppercase tracking-[0.2em] mb-12">L'Esprit <br> <span
+                    class="serif italic lowercase font-light text-gray-300">libre.</span></h1>
+            <p class="text-[9px] uppercase tracking-[1em] font-bold opacity-30">Nouvelle Collection '26 &bull;
+                Disponible Maintenant</p>
         </div>
     </header>
 
-    <section id="collection" class="py-40 px-12">
-        <div class="max-w-[1400px] mx-auto grid grid-cols-2 md:grid-cols-4 gap-10">
+    <section id="collection" class="py-60 px-12 bg-white">
+        <div class="max-w-[1600px] mx-auto grid md:grid-cols-12 gap-10">
+            <div class="md:col-span-12 mb-20 reveal">
+                <h2 class="text-6xl md:text-9xl tenor uppercase tracking-tighter">Selected <br> Pieces.</h2>
+            </div>
+
             <!-- Product Item -->
-            <div class="group reveal cursor-pointer">
-                <div class="aspect-[2/3] overflow-hidden bg-gray-50 mb-6 image-container">
-                    <img src="https://images.unsplash.com/photo-1490481651871-ab68624d5517?auto=format&fit=crop&w=800&q=80"
-                        class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition duration-1000">
+            <div class="md:col-span-4 group cursor-pointer reveal">
+                <div class="aspect-[3/4] overflow-hidden bg-gray-50 mb-10 image-reveal active">
+                    <img src="https://images.unsplash.com/photo-1490481651871-ab68624d5517?auto=format&fit=crop&w=1000&q=80"
+                        class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition duration-1000 group-hover:scale-105">
                 </div>
-                <div class="flex flex-col gap-2 text-[10px] uppercase tracking-[0.4em] font-bold">
-                    <span>Manteau d'Hiver</span>
-                    <span class="opacity-30">1.890 €</span>
-                </div>
-            </div>
-            <!-- Item 2 -->
-            <div class="group reveal cursor-pointer delay-100">
-                <div class="aspect-[2/3] overflow-hidden bg-gray-50 mb-6 image-container">
-                    <img src="https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=800&q=80"
-                        class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition duration-1000">
-                </div>
-                <div class="flex flex-col gap-2 text-[10px] uppercase tracking-[0.4em] font-bold">
-                    <span>Robe en Soie</span>
-                    <span class="opacity-30">2.450 €</span>
+                <div class="flex flex-col gap-4 text-[10px] uppercase font-bold tracking-[0.4em]">
+                    <span class="opacity-40">ITEM 01 / COUTURE</span>
+                    <div class="flex justify-between items-end">
+                        <span class="text-lg">Manteau d'Hiver</span>
+                        <span class="opacity-20">1.890 €</span>
+                    </div>
                 </div>
             </div>
+
+            <!-- Item 2 (Offset) -->
+            <div class="md:col-span-4 md:mt-40 group cursor-pointer reveal" style="transition-delay: 0.2s">
+                <div class="aspect-[3/4] overflow-hidden bg-gray-50 mb-10 image-reveal active">
+                    <img src="https://images.unsplash.com/photo-1543076447-215ad9ba6923?auto=format&fit=crop&w=1000&q=80"
+                        class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition duration-1000 group-hover:scale-105">
+                </div>
+                <div class="flex flex-col gap-4 text-[10px] uppercase font-bold tracking-[0.4em]">
+                    <span class="opacity-40">ITEM 02 / ACCESSOIRES</span>
+                    <div class="flex justify-between items-end">
+                        <span class="text-lg">Sac à Main Aura</span>
+                        <span class="opacity-20">3.100 €</span>
+                    </div>
+                </div>
+            </div>
+
             <!-- Item 3 -->
-            <div class="group reveal cursor-pointer delay-200">
-                <div class="aspect-[2/3] overflow-hidden bg-gray-50 mb-6 image-container">
-                    <img src="https://images.unsplash.com/photo-1543076447-215ad9ba6923?auto=format&fit=crop&w=800&q=80"
-                        class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition duration-1000">
+            <div class="md:col-span-4 group cursor-pointer reveal" style="transition-delay: 0.4s">
+                <div class="aspect-[3/4] overflow-hidden bg-gray-50 mb-10 image-reveal active">
+                    <img src="https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1000&q=80"
+                        class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition duration-1000 group-hover:scale-105">
                 </div>
-                <div class="flex flex-col gap-2 text-[10px] uppercase tracking-[0.4em] font-bold">
-                    <span>Sac à Main Aura</span>
-                    <span class="opacity-30">3.100 €</span>
-                </div>
-            </div>
-            <!-- Item 4 -->
-            <div class="group reveal cursor-pointer delay-300">
-                <div class="aspect-[2/3] overflow-hidden bg-gray-50 mb-6 image-container">
-                    <img src="https://images.unsplash.com/photo-1445205170230-053b830c6039?auto=format&fit=crop&w=800&q=80"
-                        class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition duration-1000">
-                </div>
-                <div class="flex flex-col gap-2 text-[10px] uppercase tracking-[0.4em] font-bold">
-                    <span>Lunettes de Soleil</span>
-                    <span class="opacity-30">420 €</span>
+                <div class="flex flex-col gap-4 text-[10px] uppercase font-bold tracking-[0.4em]">
+                    <span class="opacity-40">ITEM 03 / SILK</span>
+                    <div class="flex justify-between items-end">
+                        <span class="text-lg">Robe en Soie Noir</span>
+                        <span class="opacity-20">2.450 €</span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer id="atelier" class="py-40 border-t border-black/5 flex flex-col items-center text-center">
-        <div class="max-w-2xl reveal">
-            <h2 class="text-4xl tenor uppercase tracking-[0.5em] mb-12">L'Atelier Private</h2>
-            <p class="text-sm serif italic text-gray-400 mb-16 leading-relaxed">Nuestra boutique en Benidorm ofrece
-                citas privadas para confección a medida. Una experiencia íntima donde el lujo se encuentra con tu
-                personalidad.</p>
+    <footer id="atelier" class="py-60 px-12 text-center bg-[#1a1a1a] text-white">
+        <div class="max-w-4xl mx-auto reveal">
+            <span class="serif italic text-xl mb-12 block text-gray-500">Privé & Exclusif</span>
+            <h2 class="text-6xl md:text-[8rem] tenor uppercase tracking-widest leading-none mb-16">The <br> Atelier.
+            </h2>
+            <p class="text-[11px] uppercase tracking-[0.6em] font-bold opacity-30 mb-20 max-w-sm mx-auto">Appointments
+                are mandatory for custom fittings.</p>
             <button
-                class="border border-black px-12 py-5 text-[9px] uppercase tracking-[0.8em] font-bold hover:bg-black hover:text-white transition">Reserver
-                un Rendez-vous</button>
+                class="border border-white/20 px-20 py-8 text-[11px] uppercase tracking-[0.8em] font-bold hover:bg-white hover:text-black transition">Reserve
+                your slot</button>
+            <div class="mt-40 text-[8px] uppercase tracking-[1em] font-bold opacity-10">Benidorm &bull; Paris &bull;
+                Archive '26</div>
         </div>
-        <div class="mt-40 text-[8px] uppercase tracking-[1em] font-bold text-gray-200">Benidorm &bull; Paris &bull;
-            Tokyo &bull; 2026</div>
     </footer>
 
     <script>
@@ -150,7 +168,7 @@
                 if (entry.isIntersecting) entry.target.classList.add('active');
             });
         }, { threshold: 0.1 });
-        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+        document.querySelectorAll('.reveal, .image-reveal').forEach(el => observer.observe(el));
         document.getElementById('hero-content').classList.add('active');
     </script>
 </body>

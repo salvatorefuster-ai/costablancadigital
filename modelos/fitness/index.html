@@ -4,29 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forge Studio | Elevando el Rendimiento Humano</title>
+    <title>ForgeLab | Performance & Biohacking Studio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link
-        href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Montserrat:wght@800;900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Montserrat:ital,wght@1,900&family=Inter:wght@300;600&display=swap"
         rel="stylesheet">
     <style>
+        :root {
+            --orange: #f97316;
+        }
+
         body {
             font-family: 'Inter', sans-serif;
             background: #000;
             color: #fff;
         }
 
-        .font-impact {
-            font-family: 'Montserrat', sans-serif;
-        }
-
         .font-sync {
             font-family: 'Syncopate', sans-serif;
         }
 
+        .font-impact {
+            font-family: 'Montserrat', sans-serif;
+        }
+
         .reveal {
             opacity: 0;
-            transform: translateX(-50px);
+            transform: translateX(-40px);
             transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);
         }
 
@@ -35,107 +39,134 @@
             transform: translateX(0);
         }
 
-        .orange-glow {
+        .glow-orange {
             text-shadow: 0 0 20px rgba(249, 115, 22, 0.5);
         }
 
-        .bg-noise {
+        .border-glow {
+            box-shadow: 0 0 30px rgba(249, 115, 22, 0.1);
+        }
+
+        .noise {
             background-image: url('https://www.transparenttextures.com/patterns/black-linen.png');
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 1px;
+            bottom: -4px;
+            right: 0;
+            background: var(--orange);
+            transition: width 0.4s;
+        }
+
+        .nav-link:hover::after {
+            width: 100%;
+            left: 0;
         }
     </style>
 </head>
 
-<body class="overflow-x-hidden bg-noise">
+<body class="noise overflow-x-hidden">
     <nav
-        class="fixed w-full z-50 p-10 flex justify-between items-center bg-black/60 backdrop-blur-3xl border-b border-white/5">
-        <div class="text-3xl font-sync font-bold tracking-tighter italic glow-text">FORGE<span
-                class="text-orange-500">LAB</span></div>
-        <div class="hidden lg:flex space-x-12 font-sync text-[10px] font-bold uppercase tracking-[0.5em] text-white/30">
-            <a href="#metodo" class="hover:text-orange-500 transition">El Método</a>
-            <a href="#stats" class="hover:text-orange-500 transition">Stats</a>
-            <a href="#unirse" class="hover:text-orange-500 transition">Unirse</a>
+        class="fixed top-0 w-full z-50 px-10 py-10 flex justify-between items-center bg-black/60 backdrop-blur-2xl border-b border-white/5">
+        <div class="text-2xl font-sync font-bold tracking-tighter italic">FORGE<span class="text-orange-500">LAB</span>
+        </div>
+        <div class="hidden lg:flex space-x-12 text-[10px] font-sync font-bold uppercase tracking-[0.4em] text-white/30">
+            <a href="#method" class="nav-link relative hover:text-orange-500 transition">Protocol</a>
+            <a href="#stats" class="nav-link relative hover:text-orange-500 transition">Metrics</a>
+            <a href="#join" class="nav-link relative hover:text-orange-500 transition">Access</a>
         </div>
         <button
-            class="bg-orange-600 text-white px-10 py-3 rounded-md font-sync font-bold text-[10px] uppercase tracking-widest hover:bg-white hover:text-black transition shadow-2xl shadow-orange-500/20">Acceso
-            VIP</button>
+            class="bg-orange-600 text-white px-8 py-3 font-sync font-bold text-[9px] uppercase tracking-widest hover:bg-white hover:text-black transition shadow-[0_0_30px_rgba(249,115,22,0.3)]">Join
+            Elite</button>
     </nav>
 
-    <header class="h-screen relative flex items-center justify-center p-6 pt-20 overflow-hidden">
-        <div
-            class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center opacity-40 grayscale animate-[zoom_15s_infinite_alternate]">
+    <header class="min-h-screen relative flex items-center justify-center p-10 overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?auto=format&fit=crop&w=1920&q=80"
+                class="w-full h-full object-cover grayscale opacity-40 scale-110 animate-[pulse_10s_infinite_alternate]">
+            <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-black"></div>
         </div>
-        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-black"></div>
+
         <div class="relative z-10 text-center reveal" id="hero-content">
-            <h1
-                class="text-7xl md:text-[14rem] font-impact leading-none mb-6 uppercase tracking-tighter italic scale-y-110">
-                TRANSFORMA <br> <span class="text-orange-500 font-sync glow-text">TU ADN.</span>
-            </h1>
-            <p class="text-lg md:text-2xl font-sync font-bold tracking-[0.6em] text-gray-400 mb-16 uppercase italic">El
-                fin de las excusas. El inicio de tu legado.</p>
+            <span class="text-[10px] font-sync font-bold text-orange-500 uppercase tracking-[0.8em] mb-10 block">System
+                Upgrade Initiated</span>
+            <h1 class="text-7xl md:text-[15vw] font-impact italic leading-[0.8] mb-10 uppercase tracking-tighter">
+                TRANSFORMA <br> <span class="font-sync text-orange-600 glow-orange">TU ADN.</span></h1>
+            <p
+                class="text-xl md:text-2xl font-sync font-light tracking-[0.3em] text-gray-500 max-w-3xl mx-auto mb-16 italic">
+                No es un gimnasio. Es un laboratorio de rendimiento humano.</p>
             <div class="flex flex-col sm:flex-row justify-center gap-10">
                 <button
-                    class="bg-white text-black px-12 py-5 font-sync font-bold uppercase text-[11px] tracking-widest hover:bg-orange-500 transition shadow-2xl">Prueba
-                    Gratuita</button>
+                    class="bg-white text-black px-12 py-6 font-sync font-bold uppercase text-[11px] tracking-widest hover:bg-orange-500 transition shadow-2xl">Start
+                    Protocol</button>
                 <button
-                    class="border border-white/20 px-12 py-5 font-sync font-bold uppercase text-[11px] tracking-widest hover:bg-white/10 transition italic">Explorar
-                    Studio</button>
+                    class="border border-white/20 px-12 py-6 font-sync font-bold uppercase text-[11px] tracking-widest hover:bg-white/10 transition">Lab
+                    Tour</button>
             </div>
         </div>
     </header>
 
-    <section id="metodo" class="py-40 bg-zinc-950 px-10 overflow-hidden">
+    <section id="method" class="py-60 px-10 bg-zinc-950">
         <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-32 items-center">
             <div class="reveal">
-                <h2
-                    class="text-6xl md:text-8xl font-impact italic uppercase mb-12 tracking-tighter leading-none font-black italic">
-                    Ciencia <br> <span
-                        class="text-orange-500 underline decoration-white/10 underline-offset-8">Aplicada.</span></h2>
-                <div class="space-y-10">
+                <h2 class="text-6xl md:text-8xl font-impact italic uppercase mb-12 leading-none">High-Trust <br> <span
+                        class="text-orange-500 underline decoration-white/10 underline-offset-8">Science.</span></h2>
+                <div class="space-y-12">
                     <div
-                        class="flex items-center gap-10 border-b border-white/5 pb-10 group cursor-pointer hover:border-orange-500 transition duration-700">
-                        <span
-                            class="text-4xl font-sync font-bold text-orange-500 group-hover:scale-125 transition">01</span>
-                        <div>
-                            <h4 class="font-sync font-bold text-sm mb-2 uppercase tracking-widest text-white">BIOMÉTRICA
-                                EN VIVO</h4>
-                            <p class="text-gray-500 text-xs font-light">Monitorización de frecuencia y esfuerzo en
-                                tiempo real durante cada sesión para maximizar el ROI de tu sudor.</p>
+                        class="group border-b border-white/5 pb-10 hover:border-orange-500 transition duration-700 cursor-pointer">
+                        <div class="flex gap-8 items-center mb-4">
+                            <span
+                                class="text-4xl font-sync font-bold opacity-20 group-hover:opacity-100 group-hover:text-orange-500 transition">01</span>
+                            <h3 class="text-2xl font-sync font-bold uppercase tracking-widest">Biometría Real-Time</h3>
                         </div>
+                        <p class="text-gray-500 text-sm leading-relaxed font-light pl-20">Analizamos cada vatio de
+                            potencia y cada latido para ajustar tu intensidad al milisegundo.</p>
                     </div>
-                    <div class="flex items-center gap-10 border-b border-white/5 pb-10 group cursor-pointer hover:border-orange-500 transition duration-700 reveal"
-                        style="transition-delay: 0.2s">
-                        <span
-                            class="text-4xl font-sync font-bold text-stone-700 group-hover:text-orange-500 group-hover:scale-125 transition">02</span>
-                        <div>
-                            <h4 class="font-sync font-bold text-sm mb-2 uppercase tracking-widest text-white">RECOVERY
-                                LAB</h4>
-                            <p class="text-gray-500 text-xs font-light">Crioterapia y sistemas de presoterapia de élite
-                                para asegurar un rendimiento diario inquebrantable.</p>
+                    <div
+                        class="group border-b border-white/5 pb-10 hover:border-orange-500 transition duration-700 cursor-pointer">
+                        <div class="flex gap-8 items-center mb-4">
+                            <span
+                                class="text-4xl font-sync font-bold opacity-20 group-hover:opacity-100 group-hover:text-orange-500 transition">02</span>
+                            <h3 class="text-2xl font-sync font-bold uppercase tracking-widest">Mecánica Neuro-Motriz
+                            </h3>
                         </div>
+                        <p class="text-gray-500 text-sm leading-relaxed font-light pl-20">Protocolos de entrenamiento
+                            diseñados para re-cablear tu sistema nervioso y maximizar la explosividad.</p>
                     </div>
                 </div>
             </div>
-            <div class="relative reveal" style="transition-delay: 0.4s">
-                <div class="absolute -inset-10 bg-orange-500/10 rounded-full blur-[100px] animate-pulse"></div>
-                <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?auto=format&fit=crop&w=1200&q=80"
-                    class="relative rounded-[40px] grayscale hover:grayscale-0 transition duration-1000 shadow-[20px_20px_0px_#f97316]">
+            <div class="reveal relative" style="transition-delay: 0.3s">
+                <div class="absolute -inset-10 bg-orange-600/10 rounded-full blur-[100px] animate-pulse"></div>
+                <div
+                    class="aspect-[4/5] bg-zinc-900 overflow-hidden rounded-[20px] shadow-[0_40px_100px_rgba(0,0,0,0.5)] border border-white/5">
+                    <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=80"
+                        class="w-full h-full object-cover grayscale brightness-50 hover:grayscale-0 hover:brightness-100 transition duration-1000">
+                </div>
+                <div class="absolute -bottom-10 -right-10 bg-orange-600 p-12 rounded-[20px] shadow-2xl reveal"
+                    style="transition-delay: 0.6s">
+                    <div class="text-5xl font-impact italic mb-2 tracking-tighter">98.5%</div>
+                    <div class="text-[9px] font-sync font-bold uppercase tracking-widest">Peak <br> Performance</div>
+                </div>
             </div>
         </div>
     </section>
 
-    <footer id="unirse" class="py-40 bg-black text-center px-10 border-t border-white/5">
+    <footer id="join" class="py-60 px-10 text-center bg-black border-t border-white/5">
         <div class="max-w-4xl mx-auto reveal">
             <h2
-                class="text-5xl md:text-[10rem] font-impact italic font-black mb-16 leading-none tracking-tighter hover:text-orange-500 transition duration-1000">
-                ENTRENA <br> O MUERE.</h2>
-            <p
-                class="text-gray-600 mb-20 max-w-sm mx-auto font-sync text-[10px] tracking-[0.4em] uppercase font-bold italic">
-                LIMITED SLOTS AVAILABLE PER MONTH.</p>
+                class="text-6xl md:text-[10vw] font-impact italic leading-none mb-16 tracking-tighter uppercase grayscale hover:grayscale-0 hover:text-orange-500 transition duration-1000">
+                LIMITS ARE <br> MYTHS.</h2>
+            <p class="text-[10px] font-sync font-bold text-gray-700 uppercase tracking-[0.8em] mb-20 italic">Join the
+                next evolutionary step in training.</p>
             <button
-                class="bg-orange-600 text-white px-20 py-8 rounded-md font-sync font-bold text-xl hover:bg-white hover:text-black transition shadow-[0_0_50px_rgba(249,115,22,0.3)]">RESERVAR
-                MI PUESTO</button>
-            <div class="mt-40 text-gray-800 font-sync text-[10px] uppercase tracking-[0.8em]">Forge Studio &bull; High
-                Performance Center &bull; 2026</div>
+                class="bg-orange-600 text-white px-20 py-8 font-sync font-bold text-xl hover:bg-white hover:text-black hover:scale-105 transition shadow-[0_0_60px_rgba(249,115,22,0.3)]">Secure
+                Membership</button>
+            <div class="mt-40 text-[9px] font-sync font-bold text-gray-800 uppercase tracking-[1em]">ForgeLab 2026
+                &bull; Beyond Fitness</div>
         </div>
     </footer>
 
@@ -148,17 +179,6 @@
         document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
         document.getElementById('hero-content').classList.add('active');
     </script>
-    <style>
-        @keyframes zoom {
-            from {
-                transform: scale(1);
-            }
-
-            to {
-                transform: scale(1.1);
-            }
-        }
-    </style>
 </body>
 
 </html>
