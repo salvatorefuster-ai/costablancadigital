@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forge Studio | Elites Fitness</title>
+    <title>Forge Studio | Elevando el Rendimiento Humano</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Montserrat:wght@800&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Montserrat:wght@800;900&display=swap"
         rel="stylesheet">
     <style>
         body {
@@ -23,85 +24,141 @@
             font-family: 'Syncopate', sans-serif;
         }
 
-        .glow-text {
-            text-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+        .reveal {
+            opacity: 0;
+            transform: translateX(-50px);
+            transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        .orange-glow {
+            text-shadow: 0 0 20px rgba(249, 115, 22, 0.5);
+        }
+
+        .bg-noise {
+            background-image: url('https://www.transparenttextures.com/patterns/black-linen.png');
         }
     </style>
 </head>
 
-<body class="overflow-x-hidden">
+<body class="overflow-x-hidden bg-noise">
     <nav
-        class="fixed w-full z-50 p-10 flex justify-between items-center bg-black/50 backdrop-blur-xl border-b border-white/5">
-        <div class="text-2xl font-sync font-bold tracking-tighter italic">FORGE<span class="text-orange-500">.</span>
-        </div>
-        <div class="hidden lg:flex space-x-12 font-sync text-[10px] font-bold uppercase tracking-[0.4em]">
-            <a href="#" class="hover:text-orange-500 transition">Workouts</a>
-            <a href="#" class="hover:text-orange-500 transition">Membership</a>
-            <a href="#" class="hover:text-orange-500 transition">Coaches</a>
+        class="fixed w-full z-50 p-10 flex justify-between items-center bg-black/60 backdrop-blur-3xl border-b border-white/5">
+        <div class="text-3xl font-sync font-bold tracking-tighter italic glow-text">FORGE<span
+                class="text-orange-500">LAB</span></div>
+        <div class="hidden lg:flex space-x-12 font-sync text-[10px] font-bold uppercase tracking-[0.5em] text-white/30">
+            <a href="#metodo" class="hover:text-orange-500 transition">El Método</a>
+            <a href="#stats" class="hover:text-orange-500 transition">Stats</a>
+            <a href="#unirse" class="hover:text-orange-500 transition">Unirse</a>
         </div>
         <button
-            class="bg-white text-black px-10 py-3 rounded-full font-sync font-bold text-[9px] uppercase tracking-widest hover:bg-orange-500 hover:text-white transition">Join
-            the Tribe</button>
+            class="bg-orange-600 text-white px-10 py-3 rounded-md font-sync font-bold text-[10px] uppercase tracking-widest hover:bg-white hover:text-black transition shadow-2xl shadow-orange-500/20">Acceso
+            VIP</button>
     </nav>
 
-    <header class="h-screen relative flex items-center justify-center p-6 pt-20">
+    <header class="h-screen relative flex items-center justify-center p-6 pt-20 overflow-hidden">
         <div
-            class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center opacity-40">
+            class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center opacity-40 grayscale animate-[zoom_15s_infinite_alternate]">
         </div>
-        <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black"></div>
-        <div class="relative z-10 text-center">
+        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-black"></div>
+        <div class="relative z-10 text-center reveal" id="hero-content">
             <h1
-                class="text-7xl md:text-[12rem] font-impact uppercase leading-none italic scale-y-110 mb-8 overflow-hidden">
-                STRENGTH <br> <span class="text-orange-500 font-sync">BEYOND</span>
+                class="text-7xl md:text-[14rem] font-impact leading-none mb-6 uppercase tracking-tighter italic scale-y-110">
+                TRANSFORMA <br> <span class="text-orange-500 font-sync glow-text">TU ADN.</span>
             </h1>
-            <p class="text-sm md:text-xl font-sync font-bold tracking-[0.6em] text-gray-400 mb-16 uppercase opacity-80">
-                Forging the finest athletes in the coast.</p>
-            <div class="flex flex-col sm:flex-row justify-center gap-8">
+            <p class="text-lg md:text-2xl font-sync font-bold tracking-[0.6em] text-gray-400 mb-16 uppercase italic">El
+                fin de las excusas. El inicio de tu legado.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-10">
                 <button
-                    class="bg-orange-500 text-white px-12 py-5 font-sync font-bold uppercase text-[10px] tracking-widest hover:scale-110 transition shadow-2xl shadow-orange-500/20">Free
-                    Trial Session</button>
+                    class="bg-white text-black px-12 py-5 font-sync font-bold uppercase text-[11px] tracking-widest hover:bg-orange-500 transition shadow-2xl">Prueba
+                    Gratuita</button>
                 <button
-                    class="border border-white/20 px-12 py-5 font-sync font-bold uppercase text-[10px] tracking-widest hover:bg-white hover:text-black transition">Explore
+                    class="border border-white/20 px-12 py-5 font-sync font-bold uppercase text-[11px] tracking-widest hover:bg-white/10 transition italic">Explorar
                     Studio</button>
             </div>
         </div>
     </header>
 
-    <section class="py-40 bg-zinc-950 px-10">
-        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
-            <div>
-                <h2 class="text-5xl font-impact uppercase italic mb-8">NO EXCUSES, <br> <span
-                        class="text-orange-500">ONLY RESULTS.</span></h2>
-                <p class="text-gray-500 text-lg mb-10 leading-relaxed font-light">Nuestro enfoque boutique combina
-                    entrenamiento de alta intensidad con equipamiento premium y monitorización de datos en tiempo real.
-                </p>
-                <div class="space-y-6">
-                    <div class="flex items-center gap-6 border-b border-white/5 pb-6">
-                        <span class="text-3xl text-orange-500">01.</span>
-                        <span class="font-sync text-xs uppercase tracking-widest">HIIT & Strength Training</span>
+    <section id="metodo" class="py-40 bg-zinc-950 px-10 overflow-hidden">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-32 items-center">
+            <div class="reveal">
+                <h2
+                    class="text-6xl md:text-8xl font-impact italic uppercase mb-12 tracking-tighter leading-none font-black italic">
+                    Ciencia <br> <span
+                        class="text-orange-500 underline decoration-white/10 underline-offset-8">Aplicada.</span></h2>
+                <div class="space-y-10">
+                    <div
+                        class="flex items-center gap-10 border-b border-white/5 pb-10 group cursor-pointer hover:border-orange-500 transition duration-700">
+                        <span
+                            class="text-4xl font-sync font-bold text-orange-500 group-hover:scale-125 transition">01</span>
+                        <div>
+                            <h4 class="font-sync font-bold text-sm mb-2 uppercase tracking-widest text-white">BIOMÉTRICA
+                                EN VIVO</h4>
+                            <p class="text-gray-500 text-xs font-light">Monitorización de frecuencia y esfuerzo en
+                                tiempo real durante cada sesión para maximizar el ROI de tu sudor.</p>
+                        </div>
                     </div>
-                    <div class="flex items-center gap-6 border-b border-white/5 pb-6">
-                        <span class="text-3xl text-orange-500">02.</span>
-                        <span class="font-sync text-xs uppercase tracking-widest">Personal Performance Lab</span>
-                    </div>
-                    <div class="flex items-center gap-6">
-                        <span class="text-3xl text-orange-500">03.</span>
-                        <span class="font-sync text-xs uppercase tracking-widest">Post-Workout Recovery</span>
+                    <div class="flex items-center gap-10 border-b border-white/5 pb-10 group cursor-pointer hover:border-orange-500 transition duration-700 reveal"
+                        style="transition-delay: 0.2s">
+                        <span
+                            class="text-4xl font-sync font-bold text-stone-700 group-hover:text-orange-500 group-hover:scale-125 transition">02</span>
+                        <div>
+                            <h4 class="font-sync font-bold text-sm mb-2 uppercase tracking-widest text-white">RECOVERY
+                                LAB</h4>
+                            <p class="text-gray-500 text-xs font-light">Crioterapia y sistemas de presoterapia de élite
+                                para asegurar un rendimiento diario inquebrantable.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div
-                class="aspect-square bg-white/5 rounded-[40px] overflow-hidden rotate-3 hover:rotate-0 transition duration-700 p-4 border border-white/5">
-                <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?auto=format&fit=crop&w=800&q=80"
-                    class="w-full h-full object-cover rounded-[30px] grayscale hover:grayscale-0 transition duration-1000">
+            <div class="relative reveal" style="transition-delay: 0.4s">
+                <div class="absolute -inset-10 bg-orange-500/10 rounded-full blur-[100px] animate-pulse"></div>
+                <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?auto=format&fit=crop&w=1200&q=80"
+                    class="relative rounded-[40px] grayscale hover:grayscale-0 transition duration-1000 shadow-[20px_20px_0px_#f97316]">
             </div>
         </div>
     </section>
 
-    <footer class="py-20 text-center border-t border-white/5">
-        <div class="text-xl font-sync italic mb-8">FORGE STUDIO <span class="text-orange-500">2025</span></div>
-        <p class="text-gray-700 text-[10px] font-sync uppercase tracking-[0.5em]">Forge your Legacy.</p>
+    <footer id="unirse" class="py-40 bg-black text-center px-10 border-t border-white/5">
+        <div class="max-w-4xl mx-auto reveal">
+            <h2
+                class="text-5xl md:text-[10rem] font-impact italic font-black mb-16 leading-none tracking-tighter hover:text-orange-500 transition duration-1000">
+                ENTRENA <br> O MUERE.</h2>
+            <p
+                class="text-gray-600 mb-20 max-w-sm mx-auto font-sync text-[10px] tracking-[0.4em] uppercase font-bold italic">
+                LIMITED SLOTS AVAILABLE PER MONTH.</p>
+            <button
+                class="bg-orange-600 text-white px-20 py-8 rounded-md font-sync font-bold text-xl hover:bg-white hover:text-black transition shadow-[0_0_50px_rgba(249,115,22,0.3)]">RESERVAR
+                MI PUESTO</button>
+            <div class="mt-40 text-gray-800 font-sync text-[10px] uppercase tracking-[0.8em]">Forge Studio &bull; High
+                Performance Center &bull; 2026</div>
+        </div>
     </footer>
+
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('active');
+            });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+        document.getElementById('hero-content').classList.add('active');
+    </script>
+    <style>
+        @keyframes zoom {
+            from {
+                transform: scale(1);
+            }
+
+            to {
+                transform: scale(1.1);
+            }
+        }
+    </style>
 </body>
 
 </html>

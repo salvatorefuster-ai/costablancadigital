@@ -1,124 +1,158 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aura Boutique | Moda Exclusiva</title>
+    <title>Aura Atelier | Maison de Haute Couture</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&family=Inter:wght@300;400&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300;1,600&family=Tenor+Sans&display=swap"
         rel="stylesheet">
     <style>
         body {
-            font-family: 'Inter', sans-serif;
+            font-family: 'Tenor Sans', sans-serif;
             background: #fff;
             color: #1a1a1a;
+            letter-spacing: -0.02em;
         }
 
-        .tenor {
-            font-family: 'Tenor Sans', sans-serif;
+        .serif {
+            font-family: 'Cormorant Garamond', serif;
         }
 
-        .fade-up {
+        .reveal {
             opacity: 0;
             transform: translateY(20px);
-            transition: all 0.8s ease;
+            transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);
         }
 
-        .visible {
+        .reveal.active {
             opacity: 1;
             transform: translateY(0);
+        }
+
+        .fade-in {
+            opacity: 0;
+            transition: opacity 2s ease;
+        }
+
+        .fade-in.active {
+            opacity: 1;
+        }
+
+        .image-container {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .image-container img {
+            transition: transform 2s ease-out;
+        }
+
+        .image-container:hover img {
+            transform: scale(1.05);
         }
     </style>
 </head>
 
 <body class="overflow-x-hidden">
-    <nav class="fixed w-full z-50 px-12 py-10 flex justify-between items-center bg-white/10 backdrop-blur-sm">
-        <div class="text-3xl tenor tracking-widest uppercase">AURA</div>
-        <div class="hidden md:flex space-x-12 text-[10px] uppercase tracking-[0.4em] font-light">
-            <a href="#" class="hover:opacity-50 transition">Colección</a>
-            <a href="#" class="hover:opacity-50 transition">Atelier</a>
-            <a href="#" class="hover:opacity-50 transition">Boutique</a>
-        </div>
-        <div class="flex gap-8 text-[10px] uppercase tracking-widest font-bold">
-            <a href="#" class="border-b border-black">Search</a>
-            <a href="#" class="border-b border-black">Cart (0)</a>
+    <nav class="fixed top-0 w-full z-50 px-12 py-12 flex justify-between items-center bg-white/10 backdrop-blur-sm">
+        <div class="text-[9px] uppercase tracking-[0.6em] font-bold">Est. 2026</div>
+        <div class="text-4xl tenor uppercase tracking-[0.4em] font-light">AURA</div>
+        <div class="flex gap-10 text-[9px] uppercase tracking-[0.6em] font-bold">
+            <a href="#collection" class="hover:opacity-40 transition">Seul</a>
+            <a href="#atelier" class="hover:opacity-40 transition">Atelier</a>
+            <a href="#cart" class="hover:opacity-40 transition">Cart (0)</a>
         </div>
     </nav>
 
-    <header class="h-screen flex items-center justify-center p-6 pt-20">
-        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
-            <div class="aspect-[2/3] overflow-hidden grayscale relative">
+    <header class="h-screen flex items-center justify-center p-6 text-center">
+        <div class="max-w-6xl reveal" id="hero-content">
+            <div class="aspect-[3/4] max-w-sm mx-auto mb-16 image-container grayscale reveal shadow-2xl">
                 <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=800&q=80"
                     class="w-full h-full object-cover">
                 <div class="absolute inset-0 bg-black/10"></div>
             </div>
-            <div class="text-right">
-                <span class="text-[10px] uppercase tracking-[0.6em] mb-8 block font-bold">L'Essence de Style</span>
-                <h1 class="text-6xl md:text-9xl tenor uppercase leading-none mb-12">Pure <br> <span
-                        class="italic lowercase">aura.</span></h1>
-                <p class="text-xl max-w-sm ml-auto font-light leading-relaxed mb-16 italic opacity-70">Piezas únicas
-                    diseñadas para mentes libres. Sostenibilidad y lujo en perfecta armonía.</p>
-                <button
-                    class="bg-black text-white px-16 py-6 font-bold uppercase tracking-widest text-[10px] hover:bg-gray-800 transition">Explorar
-                    Invierno '25</button>
-            </div>
+            <h1 class="text-6xl md:text-[8rem] tenor text-black leading-none uppercase tracking-widest mb-10">L'Esprit
+                <br> <span class="serif italic lowercase font-light text-gray-400">libre.</span></h1>
+            <p class="text-xs uppercase tracking-[0.8em] font-bold opacity-30">Nouvelle Collection '26 &bull; Disponible
+                Maintenant</p>
         </div>
     </header>
 
-    <section class="py-40 px-12">
-        <div class="flex flex-col md:flex-row justify-between items-end gap-10 mb-20 border-b border-black/5 pb-10">
-            <h2 class="text-4xl tenor uppercase">New Arrivals</h2>
-            <a href="#" class="text-[10px] uppercase tracking-widest font-bold border-b border-black">Ver Todo</a>
-        </div>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <div class="flex flex-col gap-4">
-                <div class="aspect-[3/4] overflow-hidden bg-gray-100">
-                    <img src="https://images.unsplash.com/photo-1490481651871-ab68624d5517?auto=format&fit=crop&w=600&q=80"
-                        class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-700">
+    <section id="collection" class="py-40 px-12">
+        <div class="max-w-[1400px] mx-auto grid grid-cols-2 md:grid-cols-4 gap-10">
+            <!-- Product Item -->
+            <div class="group reveal cursor-pointer">
+                <div class="aspect-[2/3] overflow-hidden bg-gray-50 mb-6 image-container">
+                    <img src="https://images.unsplash.com/photo-1490481651871-ab68624d5517?auto=format&fit=crop&w=800&q=80"
+                        class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition duration-1000">
                 </div>
-                <div class="flex justify-between text-[11px] font-bold uppercase tracking-widest">
-                    <span>Abierto Coat</span>
-                    <span>1.250€</span>
+                <div class="flex flex-col gap-2 text-[10px] uppercase tracking-[0.4em] font-bold">
+                    <span>Manteau d'Hiver</span>
+                    <span class="opacity-30">1.890 €</span>
                 </div>
             </div>
-            <div class="flex flex-col gap-4">
-                <div class="aspect-[3/4] overflow-hidden bg-gray-100">
-                    <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80"
-                        class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-700">
+            <!-- Item 2 -->
+            <div class="group reveal cursor-pointer delay-100">
+                <div class="aspect-[2/3] overflow-hidden bg-gray-50 mb-6 image-container">
+                    <img src="https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=800&q=80"
+                        class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition duration-1000">
                 </div>
-                <div class="flex justify-between text-[11px] font-bold uppercase tracking-widest">
-                    <span>Seda Scarf</span>
-                    <span>450€</span>
-                </div>
-            </div>
-            <div class="flex flex-col gap-4">
-                <div class="aspect-[3/4] overflow-hidden bg-gray-100">
-                    <img src="https://images.unsplash.com/photo-1445205170230-053b830c6039?auto=format&fit=crop&w=600&q=80"
-                        class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-700">
-                </div>
-                <div class="flex justify-between text-[11px] font-bold uppercase tracking-widest">
-                    <span>Essential Shirt</span>
-                    <span>890€</span>
+                <div class="flex flex-col gap-2 text-[10px] uppercase tracking-[0.4em] font-bold">
+                    <span>Robe en Soie</span>
+                    <span class="opacity-30">2.450 €</span>
                 </div>
             </div>
-            <div class="flex flex-col gap-4">
-                <div class="aspect-[3/4] overflow-hidden bg-gray-100">
-                    <img src="https://images.unsplash.com/photo-1543076447-215ad9ba6923?auto=format&fit=crop&w=600&q=80"
-                        class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-700">
+            <!-- Item 3 -->
+            <div class="group reveal cursor-pointer delay-200">
+                <div class="aspect-[2/3] overflow-hidden bg-gray-50 mb-6 image-container">
+                    <img src="https://images.unsplash.com/photo-1543076447-215ad9ba6923?auto=format&fit=crop&w=800&q=80"
+                        class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition duration-1000">
                 </div>
-                <div class="flex justify-between text-[11px] font-bold uppercase tracking-widest">
-                    <span>Lino Pants</span>
-                    <span>920€</span>
+                <div class="flex flex-col gap-2 text-[10px] uppercase tracking-[0.4em] font-bold">
+                    <span>Sac à Main Aura</span>
+                    <span class="opacity-30">3.100 €</span>
+                </div>
+            </div>
+            <!-- Item 4 -->
+            <div class="group reveal cursor-pointer delay-300">
+                <div class="aspect-[2/3] overflow-hidden bg-gray-50 mb-6 image-container">
+                    <img src="https://images.unsplash.com/photo-1445205170230-053b830c6039?auto=format&fit=crop&w=800&q=80"
+                        class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition duration-1000">
+                </div>
+                <div class="flex flex-col gap-2 text-[10px] uppercase tracking-[0.4em] font-bold">
+                    <span>Lunettes de Soleil</span>
+                    <span class="opacity-30">420 €</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer
-        class="py-20 text-center border-t border-black/5 text-[10px] uppercase font-bold tracking-[0.5em] text-gray-400">
-        Aura Atelier &bull; Place Vendôme - Benidorm - Paris
+    <footer id="atelier" class="py-40 border-t border-black/5 flex flex-col items-center text-center">
+        <div class="max-w-2xl reveal">
+            <h2 class="text-4xl tenor uppercase tracking-[0.5em] mb-12">L'Atelier Private</h2>
+            <p class="text-sm serif italic text-gray-400 mb-16 leading-relaxed">Nuestra boutique en Benidorm ofrece
+                citas privadas para confección a medida. Una experiencia íntima donde el lujo se encuentra con tu
+                personalidad.</p>
+            <button
+                class="border border-black px-12 py-5 text-[9px] uppercase tracking-[0.8em] font-bold hover:bg-black hover:text-white transition">Reserver
+                un Rendez-vous</button>
+        </div>
+        <div class="mt-40 text-[8px] uppercase tracking-[1em] font-bold text-gray-200">Benidorm &bull; Paris &bull;
+            Tokyo &bull; 2026</div>
     </footer>
+
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('active');
+            });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+        document.getElementById('hero-content').classList.add('active');
+    </script>
 </body>
 
 </html>

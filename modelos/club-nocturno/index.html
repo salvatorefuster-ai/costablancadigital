@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NeonPulse | Exclusive Club</title>
+    <title>NeonPulse | Kingdom of Night</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Inter:wght@400;700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Outfit:wght@200;600&display=swap"
         rel="stylesheet">
     <style>
         body {
-            font-family: 'Inter', sans-serif;
+            font-family: 'Outfit', sans-serif;
             background: #000;
             color: #fff;
         }
@@ -19,111 +19,128 @@
             font-family: 'Syncopate', sans-serif;
         }
 
+        .neon-glow {
+            text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 40px #ff00ff;
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(50px);
+            transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
         .neon-border {
-            box-shadow: 0 0 20px #ff00ff, inset 0 0 10px #ff00ff;
-            border: 2px solid #ff00ff;
+            border: 1px solid #ff00ff;
+            box-shadow: 0 0 15px #ff00ff, inset 0 0 5px #ff00ff;
         }
 
-        .neon-text {
-            text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
-        }
-
-        .hero-video {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            h-full;
-            object-cover: cover;
-            opacity: 0.4;
+        .gradient-dark {
+            background: linear-gradient(to bottom, #000, #0a0a1a);
         }
     </style>
 </head>
 
 <body class="overflow-x-hidden">
     <nav
-        class="fixed w-full z-50 px-10 py-8 flex justify-between items-center bg-black/50 backdrop-blur-md border-b border-white/5">
-        <div class="text-2xl font-sync font-bold tracking-tighter">NEON<span class="text-[#ff00ff]">PULSE</span></div>
-        <div class="hidden lg:flex space-x-12 font-sync text-[10px] font-bold uppercase tracking-[0.3em]">
-            <a href="#" class="hover:text-[#ff00ff] transition">Lineup</a>
-            <a href="#" class="hover:text-[#ff00ff] transition">Tickets</a>
-            <a href="#" class="hover:text-[#ff00ff] transition">VIP Tables</a>
-            <a href="#" class="hover:text-[#ff00ff] transition">Gallery</a>
+        class="fixed w-full z-50 p-10 flex justify-between items-center bg-black/50 backdrop-blur-3xl border-b border-white/5">
+        <div class="text-3xl font-sync font-bold tracking-tighter">NEON<span class="text-[#ff00ff]">PULSE</span></div>
+        <div class="hidden lg:flex space-x-12 font-sync text-[10px] font-bold uppercase tracking-[0.4em]">
+            <a href="#tonight" class="hover:text-[#ff00ff] transition">Tonight</a>
+            <a href="#lineup" class="hover:text-[#ff00ff] transition">Lineup</a>
+            <a href="#vip" class="hover:text-[#ff00ff] transition">VIP Lounge</a>
         </div>
         <button
-            class="neon-border px-8 py-3 rounded-md text-[10px] font-sync font-bold uppercase tracking-widest hover:bg-[#ff00ff] hover:text-black transition duration-500">Book
+            class="neon-border px-8 py-3 rounded-sm font-sync font-bold text-[10px] uppercase tracking-widest hover:bg-[#ff00ff] hover:text-black transition duration-500">Reserva
             VIP</button>
     </nav>
 
-    <header class="h-screen relative flex items-center justify-center pt-20">
-        <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=1920&q=80"
-            class="absolute inset-0 w-full h-full object-cover opacity-50">
+    <header class="h-screen relative flex items-center justify-center text-center overflow-hidden">
+        <div
+            class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center opacity-40 animate-[pulse_8s_infinite]">
+        </div>
         <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black"></div>
-
-        <div class="relative z-10 text-center px-6">
-            <h1 class="text-5xl md:text-9xl font-sync font-bold mb-8 tracking-tighter italic scale-y-110">THE BEAT <br>
-                NEVER <span class="text-[#00ffff] neon-text">STOPS</span>.</h1>
-            <p class="text-lg md:text-xl font-light tracking-[0.2em] max-w-3xl mx-auto mb-16 uppercase">Benidorm's Most
-                Exclusive Underground Experience.</p>
+        <div class="relative z-10 reveal" id="hero-content">
+            <h1
+                class="text-7xl md:text-[14rem] font-sync font-bold leading-none mb-4 lowercase tracking-tighter italic">
+                NEON <br> <span class="text-[#00ffff] neon-glow">NIGHTS</span>.</h1>
+            <p class="text-xl md:text-2xl font-light tracking-[0.4em] uppercase mb-16 italic text-gray-400">Where the
+                music lives and the day dies.</p>
             <div class="flex flex-col sm:flex-row justify-center gap-8">
                 <button
-                    class="bg-[#ff00ff] text-black px-12 py-5 rounded-md font-sync font-bold uppercase tracking-widest text-xs hover:bg-[#00ffff] transition-colors duration-500">See
-                    Tonight's Setup</button>
+                    class="bg-[#ff00ff] text-black px-12 py-5 font-sync font-bold uppercase text-[11px] tracking-widest hover:bg-white transition">Próximos
+                    Eventos</button>
                 <button
-                    class="border border-white/20 px-12 py-5 rounded-md font-sync font-bold uppercase tracking-widest text-xs hover:bg-white hover:text-black transition duration-500">Reservations</button>
+                    class="border border-white/20 px-12 py-5 font-sync font-bold uppercase text-[11px] tracking-widest hover:bg-white/10 transition">Galería</button>
             </div>
         </div>
     </header>
 
-    <section class="py-32 px-10 bg-black">
-        <div class="max-w-7xl mx-auto">
-            <h2 class="text-3xl font-sync font-bold mb-20 text-center uppercase tracking-widest italic">Upcoming <span
-                    class="text-[#ff00ff]">Destruction</span>.</h2>
-            <div class="space-y-4">
-                <div
-                    class="group flex flex-col md:flex-row justify-between items-center p-8 border border-white/5 hover:border-[#00ffff] hover:bg-[#00ffff]/5 transition-all duration-500">
-                    <div class="flex items-center gap-10">
-                        <div class="font-sync text-4xl text-[#ff00ff]">FRI 03</div>
-                        <div class="text-left">
-                            <h3 class="text-2xl font-sync font-bold mb-1">TECHNO INVASION</h3>
-                            <p class="text-gray-500 text-[10px] uppercase font-bold tracking-[0.2em]">International
-                                Guest DJ: BlackVoid</p>
+    <section id="tonight" class="py-40 bg-black px-10">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
+            <div class="reveal">
+                <h2 class="text-5xl font-sync font-bold mb-10 leading-tight uppercase italic"><span
+                        class="text-[#ff00ff]">Destrucción</span> <br> auditiva semanal.</h2>
+                <div class="space-y-4">
+                    <div
+                        class="p-8 border border-white/10 hover:border-[#00ffff] transition-all bg-zinc-950 flex justify-between items-center group cursor-pointer reveal">
+                        <div>
+                            <div class="text-[#00ffff] text-xs font-sync mb-1">VIERNES</div>
+                            <div class="text-2xl font-sync font-bold italic">TECHNO REBIRTH</div>
                         </div>
+                        <span
+                            class="text-[10px] font-bold border border-white/20 px-4 py-2 opacity-0 group-hover:opacity-100 transition">ENTRADAS</span>
                     </div>
-                    <button
-                        class="mt-6 md:mt-0 text-[10px] font-sync font-bold uppercase tracking-widest border border-white px-8 py-3 group-hover:bg-white group-hover:text-black transition">Tickets
-                        Available</button>
-                </div>
-                <div
-                    class="group flex flex-col md:flex-row justify-between items-center p-8 border border-white/5 hover:border-[#ff00ff] hover:bg-[#ff00ff]/5 transition-all duration-500">
-                    <div class="flex items-center gap-10">
-                        <div class="font-sync text-4xl text-[#00ffff]">SAT 04</div>
-                        <div class="text-left">
-                            <h3 class="text-2xl font-sync font-bold mb-1">NEON GALAXY</h3>
-                            <p class="text-gray-500 text-[10px] uppercase font-bold tracking-[0.2em]">Resident Night:
-                                DeepPulse</p>
+                    <div
+                        class="p-8 border border-white/10 hover:border-[#ff00ff] transition-all bg-zinc-950 flex justify-between items-center group cursor-pointer reveal delay-100">
+                        <div>
+                            <div class="text-[#ff00ff] text-xs font-sync mb-1">SÁBADO</div>
+                            <div class="text-2xl font-sync font-bold italic">GALAXY SOUNDS</div>
                         </div>
+                        <span
+                            class="text-[10px] font-bold border border-white/20 px-4 py-2 opacity-0 group-hover:opacity-100 transition">ENTRADAS</span>
                     </div>
-                    <button
-                        class="mt-6 md:mt-0 text-[10px] font-sync font-bold uppercase tracking-widest border border-white px-8 py-3 group-hover:bg-white group-hover:text-black transition">Tickets
-                        Available</button>
                 </div>
+            </div>
+            <div class="aspect-square rounded-full border border-[#ff00ff]/20 p-10 reveal"
+                style="transition-delay: 0.3s">
+                <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=800&q=80"
+                    class="w-full h-full object-cover rounded-full grayscale hover:grayscale-0 transition duration-1000">
             </div>
         </div>
     </section>
 
-    <footer class="py-24 bg-black border-t border-white/5 text-center">
-        <div class="text-3xl font-sync font-bold tracking-tighter mb-12">NEON<span class="text-[#ff00ff]">PULSE</span>
+    <footer id="vip" class="py-40 bg-black border-t border-white/5 text-center px-10">
+        <div class="max-w-4xl mx-auto reveal">
+            <h2 class="text-6xl font-sync font-bold mb-10 italic uppercase">Experiencia <span
+                    class="text-[#00ffff]">Premium.</span></h2>
+            <p class="text-gray-500 mb-16 max-w-lg mx-auto">Zonas reservadas, servicio de botellas y vistas
+                privilegiadas al DJ Booth. Solo para auténticos reyes de la noche.</p>
+            <div
+                class="grid grid-cols-2 md:grid-cols-4 gap-12 text-[9px] font-sync font-bold text-gray-700 uppercase tracking-widest mb-20">
+                <div>+18 Only</div>
+                <div>Dress Code: Chic</div>
+                <div>Main Room: Techno</div>
+                <div>Red Room: House</div>
+            </div>
+            <p class="text-[10px] font-sync text-gray-800 uppercase tracking-[0.6em]">NEONPULSE &copy; 2026 BENIDORM -
+                IBIZA - BERLIN</p>
         </div>
-        <div
-            class="flex justify-center gap-10 text-gray-400 text-[10px] font-sync font-bold uppercase tracking-widest mb-12">
-            <a href="#">Instagram</a>
-            <a href="#">Facebook</a>
-            <a href="#">Tiktok</a>
-        </div>
-        <p class="text-gray-700 text-[9px] font-sync font-bold uppercase tracking-[0.4em]">© 2025 NeonPulse Underground.
-            Entry 18+ only.</p>
     </footer>
+
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('active');
+            });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+        document.getElementById('hero-content').classList.add('active');
+    </script>
 </body>
 
 </html>

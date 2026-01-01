@@ -1,106 +1,156 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Innova Asesores | Consultoría Estratégica</title>
+    <title>Innova Asesores | Consultoría de Alto Rendimiento</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
     <style>
         body {
-            font-family: 'Inter', sans-serif;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background: #fff;
+            color: #020617;
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .grid-mesh {
+            background-image: radial-gradient(#e2e8f0 1.5px, transparent 1.5px);
+            background-size: 40px 40px;
         }
     </style>
 </head>
 
-<body class="bg-slate-50 text-slate-900">
-    <nav class="bg-white border-b border-slate-200 px-10 py-5 flex justify-between items-center fixed w-full z-50">
-        <div class="flex items-center gap-3">
-            <div class="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-xl">
-                I</div>
-            <div class="text-xl font-bold text-slate-800">Innova<span class="text-blue-600">Asesores</span></div>
-        </div>
-        <div class="hidden md:flex space-x-8 font-semibold text-slate-500 text-sm">
-            <a href="#" class="hover:text-blue-600 transition">Servicios</a>
-            <a href="#" class="hover:text-blue-600 transition">Sectores</a>
-            <a href="#" class="hover:text-blue-600 transition">Nosotros</a>
-        </div>
-        <button
-            class="bg-blue-600 text-white px-6 py-2.5 rounded-lg font-bold text-sm hover:bg-blue-700 transition shadow-lg shadow-blue-200">Área
-            Cliente</button>
-    </nav>
-
-    <header class="pt-32 pb-20 px-10 bg-white">
-        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-20">
-            <div class="flex-1">
+<body class="grid-mesh overflow-x-hidden">
+    <nav class="fixed w-full z-50 p-8 flex justify-between items-center transition-all duration-500" id="navbar">
+        <div
+            class="bg-white/90 backdrop-blur-xl border border-slate-200 px-10 py-5 rounded-2xl w-full max-w-7xl mx-auto flex justify-between items-center shadow-sm">
+            <div class="flex items-center gap-3">
                 <div
-                    class="inline-block bg-blue-50 text-blue-600 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest mb-6">
-                    Expertos en Crecimiento</div>
-                <h1 class="text-5xl md:text-7xl font-extrabold text-slate-900 mb-8 leading-tight">Impulsamos su <span
-                        class="text-blue-600">rendimiento</span> empresarial.</h1>
-                <p class="text-xl text-slate-500 mb-10 leading-relaxed font-light">Asesoría contable, fiscal y laboral
-                    con un enfoque digital para que usted se centre en hacer crecer su negocio.</p>
-                <div class="flex gap-4">
-                    <button
-                        class="bg-slate-900 text-white px-8 py-4 rounded-xl font-bold hover:bg-blue-600 transition">Solicitar
-                        Auditoría</button>
-                    <button
-                        class="bg-white border border-slate-200 text-slate-600 px-8 py-4 rounded-xl font-bold hover:bg-slate-50 transition">Ver
-                        Servicios</button>
+                    class="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center text-white font-bold text-xl uppercase">
+                    i</div>
+                <div class="text-xl font-extrabold tracking-tighter">Innova<span class="text-blue-600">Asesores</span>
                 </div>
             </div>
-            <div class="flex-1 relative">
-                <div class="bg-blue-600/5 absolute -inset-10 rounded-full blur-3xl"></div>
-                <img src="https://images.unsplash.com/photo-1554224155-1696413565d3?auto=format&fit=crop&w=800&q=80"
-                    class="relative rounded-3xl shadow-2xl border border-slate-100">
+            <div class="hidden md:flex space-x-12 text-[11px] font-bold uppercase tracking-widest text-slate-400">
+                <a href="#inicio" class="hover:text-blue-600 transition">Estrategia</a>
+                <a href="#servicios" class="hover:text-blue-600 transition">Sectores</a>
+                <a href="#metodo" class="hover:text-blue-600 transition">Método</a>
+            </div>
+            <button
+                class="bg-slate-900 text-white px-8 py-3 rounded-xl text-[10px] font-bold uppercase tracking-widest hover:bg-blue-600 transition shadow-lg">Espacio
+                Cliente</button>
+        </div>
+    </nav>
+
+    <header id="inicio" class="min-h-screen flex items-center pt-32 px-10">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-24 items-center">
+            <div class="reveal" id="hero-text">
+                <div
+                    class="inline-block bg-blue-50 text-blue-600 px-5 py-2 rounded-full text-[10px] font-bold uppercase tracking-widest mb-10">
+                    Líderes en Transformación Digital</div>
+                <h1 class="text-6xl md:text-[5.5rem] font-extrabold leading-[1] mb-10 tracking-tight">Decisiones <span
+                        class="text-blue-600 italic">inteligentes</span> para tiempos complejos.</h1>
+                <p class="text-xl text-slate-500 font-light max-w-lg mb-12">Optimizamos su estructura financiera, fiscal
+                    y laboral con el máximo rigor estratégico y tecnológico.</p>
+                <div class="flex gap-6">
+                    <button
+                        class="bg-blue-600 text-white px-10 py-5 rounded-2xl font-bold uppercase tracking-widest text-[10px] hover:scale-105 transition shadow-2xl shadow-blue-200">Agendar
+                        Auditoría</button>
+                    <button
+                        class="border border-slate-200 bg-white px-10 py-5 rounded-2xl font-bold uppercase tracking-widest text-[10px] hover:bg-slate-50 transition">Ver
+                        Porfolio</button>
+                </div>
+            </div>
+            <div class="relative reveal" style="transition-delay: 0.3s">
+                <div class="absolute -top-10 -right-10 w-64 h-64 bg-blue-600/10 rounded-full blur-3xl animate-pulse">
+                </div>
+                <img src="https://images.unsplash.com/photo-1554224155-1696413565d3?auto=format&fit=crop&w=1200&q=80"
+                    class="rounded-[40px] shadow-2xl relative">
+                <div class="absolute -bottom-10 -left-10 bg-white p-10 rounded-[30px] shadow-2xl border border-slate-100 reveal"
+                    style="transition-delay: 0.6s">
+                    <div class="text-4xl font-extrabold text-blue-600 mb-2">3.5k+</div>
+                    <div class="text-[10px] font-bold uppercase tracking-widest text-slate-400">Proyectos Escalados
+                    </div>
+                </div>
             </div>
         </div>
     </header>
 
-    <section class="py-24 px-10 bg-white">
+    <section id="servicios" class="py-40 px-10">
         <div class="max-w-7xl mx-auto">
-            <div class="grid md:grid-cols-4 gap-10">
+            <div class="grid md:grid-cols-3 gap-12">
                 <div
-                    class="p-8 bg-slate-50 rounded-2xl hover:bg-blue-600 hover:text-white transition group duration-500">
+                    class="p-12 bg-white rounded-[40px] border border-slate-100 hover:border-blue-600 transition-all duration-500 group reveal shadow-sm hover:shadow-2xl">
                     <div
-                        class="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center mb-6 text-2xl text-blue-600 group-hover:scale-110 transition">
+                        class="w-16 h-16 bg-blue-50 rounded-2xl flex items-center justify-center text-3xl mb-8 group-hover:scale-110 transition">
                         📊</div>
-                    <h3 class="text-xl font-bold mb-4">Fiscalidad</h3>
-                    <p class="text-sm opacity-70">Optimización de impuestos y planificación estratégica anual.</p>
+                    <h3 class="text-2xl font-bold mb-6">Eficiencia Fiscal</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed mb-8">Reducimos su carga impositiva cumpliendo
+                        estrictamente con la normativa vigente.</p>
+                    <div class="w-10 h-1 bg-slate-200 group-hover:w-full transition-all duration-700"></div>
                 </div>
-                <div
-                    class="p-8 bg-slate-50 rounded-2xl hover:bg-blue-600 hover:text-white transition group duration-500">
+                <div class="p-12 bg-white rounded-[40px] border border-slate-100 hover:border-blue-600 transition-all duration-500 group reveal shadow-sm hover:shadow-2xl"
+                    style="transition-delay: 0.1s">
                     <div
-                        class="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center mb-6 text-2xl text-blue-600 group-hover:scale-110 transition">
-                        ⚖️</div>
-                    <h3 class="text-xl font-bold mb-4">Laboral</h3>
-                    <p class="text-sm opacity-70">Gestión de nóminas, contratos y resolución de conflictos.</p>
-                </div>
-                <div
-                    class="p-8 bg-slate-50 rounded-2xl hover:bg-blue-600 hover:text-white transition group duration-500">
-                    <div
-                        class="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center mb-6 text-2xl text-blue-600 group-hover:scale-110 transition">
-                        📝</div>
-                    <h3 class="text-xl font-bold mb-4">Contabilidad</h3>
-                    <p class="text-sm opacity-70">Control exhaustivo de sus cuentas y estados financieros.</p>
-                </div>
-                <div
-                    class="p-8 bg-slate-50 rounded-2xl hover:bg-blue-600 hover:text-white transition group duration-500">
-                    <div
-                        class="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center mb-6 text-2xl text-blue-600 group-hover:scale-110 transition">
+                        class="w-16 h-16 bg-blue-50 rounded-2xl flex items-center justify-center text-3xl mb-8 group-hover:scale-110 transition">
                         🚀</div>
-                    <h3 class="text-xl font-bold mb-4">Consultoría</h3>
-                    <p class="text-sm opacity-70">Acompañamiento estratégico en la toma de decisiones.</p>
+                    <h3 class="text-2xl font-bold mb-6">Escalado Lean</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed mb-8">Metodologías ágiles aplicadas a la estructura
+                        financiera de su empresa.</p>
+                    <div class="w-10 h-1 bg-slate-200 group-hover:w-full transition-all duration-700"></div>
+                </div>
+                <div class="p-12 bg-white rounded-[40px] border border-slate-100 hover:border-blue-600 transition-all duration-500 group reveal shadow-sm hover:shadow-2xl"
+                    style="transition-delay: 0.2s">
+                    <div
+                        class="w-16 h-16 bg-blue-50 rounded-2xl flex items-center justify-center text-3xl mb-8 group-hover:scale-110 transition">
+                        ⚖️</div>
+                    <h3 class="text-2xl font-bold mb-6">Laboral 360</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed mb-8">Gestión integral de talento, nóminas y
+                        cumplimiento de convenios.</p>
+                    <div class="w-10 h-1 bg-slate-200 group-hover:w-full transition-all duration-700"></div>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer class="py-16 px-10 border-t border-slate-100 text-center">
-        <div class="text-xl font-bold text-slate-800 mb-6">Innova<span class="text-blue-600">Asesores</span></div>
-        <p class="text-slate-400 text-sm">© 2025 Innova Asesores S.L. - Eficiencia y Confianza Empresarial.</p>
+    <footer class="py-24 bg-slate-900 text-white px-10">
+        <div class="max-w-7xl mx-auto flex flex-col items-center text-center">
+            <div class="text-2xl font-extrabold tracking-tighter mb-12">Innova<span
+                    class="text-blue-500">Asesores</span></div>
+            <div
+                class="grid grid-cols-2 md:grid-cols-4 gap-20 text-left mb-20 opacity-50 text-[10px] font-bold uppercase tracking-widest">
+                <div>Dirección: Centro Financiero A, Benidorm</div>
+                <div>Teléfono: +34 966 00 00 01</div>
+                <div>E-mail: elite@innova.com</div>
+                <div>LinkedIn: /innova-asesores</div>
+            </div>
+            <p class="text-slate-500 text-[10px] uppercase font-bold tracking-[0.5em]">© 2026 Innova Asesores
+                Estratégicos SL</p>
+        </div>
     </footer>
+
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('active');
+            });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+        document.getElementById('hero-text').classList.add('active');
+    </script>
 </body>
 
 </html>
