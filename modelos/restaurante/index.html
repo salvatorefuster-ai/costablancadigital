@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabor & Brasa | Gastronomía de Autor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,400;1,600;1,700&family=Montserrat:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: #0a0a07;
+            color: #e2e2d5;
+        }
+
+        .serif {
+            font-family: 'Cormorant Garamond', serif;
+        }
+
+        .hero-bg {
+            background-image: url('https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .nav-link {
+            position: relative;
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 1px;
+            bottom: -4px;
+            left: 0;
+            background-color: #c5a059;
+            transition: width 0.3s;
+        }
+
+        .nav-link:hover::after {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <nav
+        class="fixed w-full z-50 px-12 py-8 flex justify-between items-center bg-gradient-to-b from-black/80 to-transparent">
+        <div class="text-3xl serif italic tracking-widest text-[#c5a059]">Sabor <span class="text-white">&</span> Brasa
+        </div>
+        <div class="hidden md:flex space-x-12 text-[11px] uppercase tracking-[0.3em] font-light">
+            <a href="#" class="nav-link">La Carta</a>
+            <a href="#" class="nav-link">Experiencia</a>
+            <a href="#" class="nav-link">Reservas</a>
+        </div>
+        <button
+            class="border border-[#c5a059] text-[#c5a059] px-10 py-3 text-[10px] uppercase tracking-widest hover:bg-[#c5a059] hover:text-black transition duration-500">Mesa
+            para Hoy</button>
+    </nav>
+
+    <header class="h-screen relative flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 hero-bg opacity-60 scale-110 animate-[pulse_10s_infinite]"></div>
+        <div class="absolute inset-0 bg-black/40"></div>
+        <div class="relative z-10 text-center px-6">
+            <span class="text-[#c5a059] text-xs uppercase tracking-[0.5em] mb-8 block">Estrella en cada plato</span>
+            <h1 class="text-7xl md:text-9xl serif italic text-white mb-10 leading-none">Arte que <br> se saborea.</h1>
+            <p class="text-lg md:text-xl font-light max-w-xl mx-auto mb-12 italic opacity-80">Cocina mediterránea de
+                vanguardia en el corazón de la Costa Blanca.</p>
+        </div>
+    </header>
+
+    <section class="py-32 px-12">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-24 items-center">
+            <div class="aspect-[4/5] overflow-hidden rounded-sm relative">
+                <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=800&q=80"
+                    class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-1000">
+                <div class="absolute inset-0 border-[20px] border-[#c5a059]/10 m-6"></div>
+            </div>
+            <div>
+                <h2 class="text-5xl serif italic mb-8">Nuestra Filosofía</h2>
+                <p class="text-gray-400 font-light text-lg mb-10 leading-relaxed">Seleccionamos personalmente cada
+                    ingrediente de la lonja de Benidorm y los huertos cercanos para crear una danza de sabores que
+                    respeta la tradición pero abraza el futuro.</p>
+                <button
+                    class="bg-[#c5a059] text-black px-12 py-5 text-sm font-bold uppercase tracking-widest hover:bg-white transition duration-500">Conoce
+                    al Chef</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-20 text-center border-t border-white/5 opacity-50">
+        <div class="text-2xl serif italic mb-6">Sabor & Brasa</div>
+        <p class="text-[10px] uppercase tracking-[0.4em]">Gastronomía de Vanguardia &bull; 2025</p>
+    </footer>
+</body>
+
+</html>

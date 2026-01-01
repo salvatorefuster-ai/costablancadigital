@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pure Balance | Medicina Estética & Bienestar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: #fdfdfd;
+            color: #2d3436;
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+        }
+
+        .soft-shadow {
+            box-shadow: 0 50px 100px -20px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+
+<body class="overflow-x-hidden">
+    <nav class="fixed w-full z-50 px-12 py-6 flex justify-between items-center glass border-b border-gray-100">
+        <div class="text-2xl font-light tracking-[0.2em] uppercase">PURE<span
+                class="font-semibold text-teal-600">BALANCE</span></div>
+        <div class="hidden md:flex space-x-10 text-[11px] font-semibold uppercase tracking-widest text-gray-400">
+            <a href="#" class="hover:text-teal-600 transition">Tratamientos</a>
+            <a href="#" class="hover:text-teal-600 transition">Clínica</a>
+            <a href="#" class="hover:text-teal-600 transition">Diagnóstico</a>
+        </div>
+        <button
+            class="bg-teal-600 text-white px-8 py-3 rounded-full text-[10px] font-bold uppercase tracking-widest hover:bg-slate-900 transition shadow-xl shadow-teal-100">Cita
+            Online</button>
+    </nav>
+
+    <header class="min-h-screen flex items-center px-12 pt-20">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
+            <div>
+                <span class="text-teal-600 text-xs font-bold uppercase tracking-[0.3em] mb-6 block">Rejuvenece tu
+                    esencia</span>
+                <h1 class="text-6xl md:text-8xl font-light leading-tight mb-8">Belleza natural, <br> <span
+                        class="font-semibold italic">ciencia aplicada.</span></h1>
+                <p class="text-xl text-gray-500 font-light max-w-lg mb-12">Expertos en medicina estética avanzada y
+                    bienestar integral. Resultados armoniosos garantizados.</p>
+                <div class="flex gap-6">
+                    <button
+                        class="bg-slate-900 text-white px-10 py-5 rounded-full font-bold uppercase tracking-widest text-[10px] hover:scale-105 transition">Tratamientos
+                        Faciales</button>
+                    <button
+                        class="border border-gray-200 text-gray-400 px-10 py-5 rounded-full font-bold uppercase tracking-widest text-[10px] hover:bg-gray-50 transition">Corporal</button>
+                </div>
+            </div>
+            <div class="relative">
+                <div
+                    class="w-[120%] h-[120%] bg-teal-50 absolute -top-[10%] -left-[10%] rounded-full opacity-50 blur-3xl">
+                </div>
+                <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80"
+                    class="relative rounded-[60px] soft-shadow">
+            </div>
+        </div>
+    </header>
+
+    <section class="py-32 px-12 bg-gray-50/50">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-12">
+            <div
+                class="p-12 bg-white rounded-[40px] border border-gray-100 hover:shadow-2xl hover:shadow-teal-900/5 transition">
+                <h3 class="text-2xl font-semibold mb-6">Medicina Estética</h3>
+                <p class="text-gray-400 text-sm mb-8 leading-relaxed">Ácido hialurónico, toxina botulínica y
+                    bioestimuladores de colágeno.</p>
+                <a href="#" class="text-teal-600 font-bold text-xs uppercase tracking-widest">+ Información</a>
+            </div>
+            <div
+                class="p-12 bg-white rounded-[40px] border border-gray-100 hover:shadow-2xl hover:shadow-teal-900/5 transition">
+                <h3 class="text-2xl font-semibold mb-6">Dermatología</h3>
+                <p class="text-gray-400 text-sm mb-8 leading-relaxed">Diagnóstico y tratamiento de patologías cutáneas
+                    con tecnología láser.</p>
+                <a href="#" class="text-teal-600 font-bold text-xs uppercase tracking-widest">+ Información</a>
+            </div>
+            <div
+                class="p-12 bg-white rounded-[40px] border border-gray-100 hover:shadow-2xl hover:shadow-teal-900/5 transition">
+                <h3 class="text-2xl font-semibold mb-6">Anti-aging</h3>
+                <p class="text-gray-400 text-sm mb-8 leading-relaxed">Programas personalizados de longevidad y nutrición
+                    funcional.</p>
+                <a href="#" class="text-teal-600 font-bold text-xs uppercase tracking-widest">+ Información</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-20 text-center border-t border-gray-100">
+        <p class="text-gray-300 text-[10px] uppercase font-bold tracking-[0.5em]">Pure Balance Clinic &copy; 2025</p>
+    </footer>
+</body>
+
+</html>
