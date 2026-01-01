@@ -4,138 +4,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>García & Asociados | Excelencia Jurídica</title>
+    <title>García-Asociados | High Precedance Law Firm</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400;1,700&family=Inter:wght@300;400;600&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;1,400&family=Montserrat:wght@200;600&display=swap"
         rel="stylesheet">
     <style>
+        :root {
+            --gold: #c5a059;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: #080c14;
+            color: #fff;
+        }
+
         .serif {
-            font-family: 'Playfair Display', serif;
+            font-family: 'Cormorant Garamond', serif;
         }
 
-        .reveal-scroll {
+        .hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: radial-gradient(circle at center, #1a2233 0%, #080c14 100%);
+        }
+
+        .reveal {
             opacity: 0;
-            transform: translateY(40px);
-            transition: all 1s cubic-bezier(0.16, 1, 0.3, 1);
+            transform: translateY(30px);
+            transition: all 1.2s cubic-bezier(0.16, 1, 0.3, 1);
         }
 
-        .reveal-scroll.active {
+        .reveal.active {
             opacity: 1;
             transform: translateY(0);
         }
 
-        .parallax-bg {
-            background-attachment: fixed;
-            background-position: center;
-            background-size: cover;
+        .section-num {
+            font-size: 0.6rem;
+            font-weight: 800;
+            letter-spacing: 0.8em;
+            color: var(--gold);
+            margin-bottom: 2rem;
+            display: block;
+        }
+
+        .luxury-card {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(197, 160, 89, 0.1);
+            padding: 5rem;
+            transition: all 0.6s;
+        }
+
+        .luxury-card:hover {
+            border-color: var(--gold);
         }
     </style>
 </head>
 
-<body class="bg-[#0c0c0c] text-white/90 font-['Inter']">
+<body class="overflow-x-hidden">
     <nav
-        class="fixed w-full z-50 border-b border-white/5 bg-black/80 backdrop-blur-xl px-12 py-8 flex justify-between items-center">
-        <div class="text-2xl serif font-bold tracking-widest text-[#d4af37]">GARCÍA <span class="text-white/20">|</span>
-            <span class="text-white">ASOCIADOS</span></div>
-        <div class="hidden lg:flex space-x-12 text-[10px] font-bold uppercase tracking-[0.4em] text-white/40">
-            <a href="#inicio" class="hover:text-[#d4af37] transition">El Bufete</a>
-            <a href="#areas" class="hover:text-[#d4af37] transition">Áreas de Práctica</a>
-            <a href="#equipo" class="hover:text-[#d4af37] transition">Socios</a>
-            <a href="#contacto" class="hover:text-[#d4af37] transition">Cita</a>
+        class="fixed top-0 w-full z-50 p-12 flex justify-between items-center bg-black/10 backdrop-blur-md border-b border-white/5">
+        <div class="text-3xl serif italic tracking-[0.2em] font-bold">GARCÍA <span class="text-white/20">|</span>
+            ASOCIADOS</div>
+        <div class="hidden lg:flex space-x-12 text-[10px] font-bold uppercase tracking-[0.5em] text-white/40">
+            <a href="#firm" class="hover:text-[#c5a059] transition">The Firm</a>
+            <a href="#areas" class="hover:text-[#c5a059] transition">Precedent</a>
+            <a href="#contact" class="hover:text-[#c5a059] transition">Inquiry</a>
         </div>
         <button
-            class="bg-[#d4af37] text-black px-10 py-3 rounded-sm font-bold text-[10px] uppercase tracking-widest hover:bg-white transition duration-500">Consulta
-            Urgente</button>
+            class="bg-[#c5a059] text-black px-12 py-3 text-[10px] font-bold uppercase tracking-widest hover:bg-white transition duration-700">Private
+            Client</button>
     </nav>
 
-    <header id="inicio" class="relative h-[110vh] flex items-center justify-center overflow-hidden parallax-bg"
-        style="background-image: url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1920&q=80')">
-        <div class="absolute inset-0 bg-black/80"></div>
-        <div class="relative z-10 text-center px-6 max-w-5xl">
-            <div
-                class="mb-10 inline-block px-6 py-2 border border-[#d4af37]/30 text-[#d4af37] text-[11px] font-bold uppercase tracking-[0.5em] reveal-scroll">
-                Prestigio desde 1994</div>
-            <h1 class="text-6xl md:text-[120px] serif leading-none mb-10 text-white reveal-scroll"
-                style="transition-delay: 0.2s">Justicia <br> <span
-                    class="italic font-light text-[#d4af37]">Inquebrantable.</span></h1>
-            <p class="text-xl md:text-2xl font-light text-white/50 max-w-2xl mx-auto mb-16 reveal-scroll"
-                style="transition-delay: 0.4s">Defensa integral de sus intereses con el máximo rigor jurídico y ética
-                profesional.</p>
-            <div class="flex flex-col sm:flex-row justify-center gap-8 reveal-scroll" style="transition-delay: 0.6s">
-                <button
-                    class="bg-white text-black px-12 py-6 font-bold uppercase tracking-widest text-xs hover:bg-[#d4af37] transition">Nuestras
-                    Áreas</button>
-                <button
-                    class="border border-white/20 px-12 py-6 font-bold uppercase tracking-widest text-xs hover:bg-white/10 transition">Ver
-                    Memoria Anual</button>
-            </div>
-        </div>
-        <div class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce opacity-20">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3">
-                </path>
-            </svg>
+    <header class="hero p-10">
+        <div class="max-w-5xl reveal" id="hero-text">
+            <span class="section-num">ESTABLISHED MCMXCIV</span>
+            <h1 class="text-7xl md:text-[10rem] serif font-light leading-none mb-10 tracking-widest uppercase">Justicia
+                <br> <span class="text-[#c5a059] italic lowercase underline decoration-white/10">absoluta.</span></h1>
+            <p class="text-xl md:text-2xl font-light text-white/40 max-w-2xl mx-auto mb-16 italic">Estrategias jurídicas
+                de alto nivel para situaciones excepcionales.</p>
+            <div class="w-1 px-1 bg-[#c5a059] h-20 mx-auto opacity-30 animate-pulse"></div>
         </div>
     </header>
 
-    <section id="areas" class="py-40 px-12 bg-black">
-        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-32 items-center">
-            <div class="reveal-scroll">
-                <h2 class="text-5xl md:text-7xl serif mb-10">Liderazgo en <br> situaciones <span
-                        class="italic text-[#d4af37]">complejas.</span></h2>
-                <div class="space-y-12">
-                    <div
-                        class="group border-b border-white/5 pb-8 hover:border-[#d4af37] transition duration-700 cursor-pointer">
-                        <div class="text-[#d4af37] text-xs font-bold uppercase tracking-widest mb-2">01. Derecho Penal
-                        </div>
-                        <h3 class="text-2xl serif">Estrategias de defensa en delitos económicos y corporativos.</h3>
-                    </div>
-                    <div
-                        class="group border-b border-white/5 pb-8 hover:border-[#d4af37] transition duration-700 cursor-pointer">
-                        <div class="text-[#d4af37] text-xs font-bold uppercase tracking-widest mb-2">02. Derecho de
-                            Familia</div>
-                        <h3 class="text-2xl serif">Mediación y resolución de conflictos matrimoniales complejos.</h3>
-                    </div>
-                    <div
-                        class="group border-b border-white/5 pb-8 hover:border-[#d4af37] transition duration-700 cursor-pointer">
-                        <div class="text-[#d4af37] text-xs font-bold uppercase tracking-widest mb-2">03. Litigación
-                            Civil</div>
-                        <h3 class="text-2xl serif">Representación en tribunales nacionales e internacionales.</h3>
-                    </div>
+    <section id="areas" class="py-60 px-10">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid lg:grid-cols-2 gap-20">
+                <div class="reveal">
+                    <span class="section-num">SECTORES DE PRECEDENCIA</span>
+                    <h2 class="text-6xl serif italic mb-12">Excelencia en <br> cada <span
+                            class="text-[#c5a059]">veredicto.</span></h2>
+                    <ul class="space-y-16">
+                        <li class="border-b border-white/5 pb-10 group">
+                            <h3 class="text-4xl serif group-hover:text-[#c5a059] transition cursor-pointer">Defensa
+                                Penal Corporativa</h3>
+                            <p class="text-white/30 mt-4 font-light italic">Gestión de riesgos penales para altos
+                                ejecutivos y entidades jurídicas.</p>
+                        </li>
+                        <li class="border-b border-white/5 pb-10 group">
+                            <h3 class="text-4xl serif group-hover:text-[#c5a059] transition cursor-pointer">Litigación
+                                Comercial</h3>
+                            <p class="text-white/30 mt-4 font-light italic">Resolución de conflictos societarios de alta
+                                complejidad.</p>
+                        </li>
+                    </ul>
                 </div>
-            </div>
-            <div class="relative reveal-scroll" style="transition-delay: 0.3s">
-                <div class="absolute -top-10 -left-10 w-40 h-40 border-t-2 border-l-2 border-[#d4af37]/40"></div>
-                <img src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&w=800&q=80"
-                    class="grayscale hover:grayscale-0 transition duration-1000 w-full h-full object-cover">
-                <div class="absolute bottom-8 right-8 bg-[#d4af37] text-black px-10 py-10">
-                    <div class="text-5xl font-bold mb-2">98%</div>
-                    <div class="text-[10px] font-bold uppercase tracking-widest">Éxito en <br> Litigios</div>
+                <div class="reveal relative" style="transition-delay: 0.3s">
+                    <div class="aspect-[4/5] bg-zinc-900 border border-white/5 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&w=1200&q=80"
+                            class="w-full h-full object-cover grayscale opacity-50 hover:grayscale-0 transition duration-1000">
+                    </div>
+                    <div class="absolute -bottom-10 -left-10 luxury-card backdrop-blur-3xl bg-black/80">
+                        <div class="text-5xl serif text-[#c5a059] mb-2">98.4%</div>
+                        <div class="text-[9px] font-bold uppercase tracking-widest text-white/50">Succes Rate in <br>
+                            High Court</div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer id="contacto" class="py-40 px-12 bg-[#0c0c0c] text-center border-t border-white/5">
-        <div class="max-w-4xl mx-auto reveal-scroll">
-            <h2 class="text-4xl md:text-6xl serif mb-12">Inicie su defensa <span class="italic text-[#d4af37]">hoy
-                    mismo.</span></h2>
-            <div class="grid sm:grid-cols-2 gap-10">
-                <div class="bg-white/5 p-10 border border-white/5 hover:border-[#d4af37] transition">
-                    <div class="text-[#d4af37] mb-4">Llámenos</div>
-                    <div class="text-2xl serif italic">+34 965 000 000</div>
-                </div>
-                <div class="bg-white/5 p-10 border border-white/5 hover:border-[#d4af37] transition">
-                    <div class="text-[#d4af37] mb-4">Visítenos</div>
-                    <div class="text-2xl serif italic">Benidorm, Av. Mediterráneo</div>
-                </div>
-            </div>
-            <div class="mt-24 text-[10px] font-bold uppercase tracking-[0.6em] text-white/20">
-                © 2026 García & Asociados &bull; Excelencia y Rigor Legal
-            </div>
+    <section id="contact" class="py-60 bg-white text-black text-center px-10">
+        <div class="max-w-3xl mx-auto reveal">
+            <h2 class="text-6xl md:text-8xl serif italic uppercase leading-tight mb-20 italic">Solicite un <br> <span
+                    class="text-[#c5a059]">privilegio</span> legal.</h2>
+            <button
+                class="bg-black text-white px-20 py-8 text-[11px] font-bold uppercase tracking-[0.5em] hover:bg-[#c5a059] transition shadow-2xl">Concierte
+                una Cita Privada</button>
+            <div class="mt-40 text-[9px] font-bold uppercase tracking-[0.8em] text-gray-400">GARCÍA & ASOCIADOS &bull;
+                BENIDORM HQ</div>
         </div>
-    </footer>
+    </section>
 
     <script>
         const observer = new IntersectionObserver((entries) => {
@@ -143,7 +147,8 @@
                 if (entry.isIntersecting) entry.target.classList.add('active');
             });
         }, { threshold: 0.1 });
-        document.querySelectorAll('.reveal-scroll').forEach(el => observer.observe(el));
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+        document.getElementById('hero-text').classList.add('active');
     </script>
 </body>
 

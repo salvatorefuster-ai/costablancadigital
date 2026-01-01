@@ -4,26 +4,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sabor & Brasa | Alta Gastronomía Mediterránea</title>
+    <title>Sabor & Brasa | L'Art de la Cuisine</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,400;1,600;1,700&family=Montserrat:wght@300;400;600&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300;1,600&family=Montserrat:wght@200;600&display=swap"
         rel="stylesheet">
     <style>
+        :root {
+            --ivory: #fafaf7;
+            --gold: #c5a059;
+        }
+
         body {
             font-family: 'Montserrat', sans-serif;
             background: #0a0a07;
-            color: #e2e2d5;
+            color: var(--ivory);
         }
 
         .serif {
             font-family: 'Cormorant Garamond', serif;
         }
 
+        .hero {
+            height: 100vh;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .hero img {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.4;
+        }
+
         .reveal {
             opacity: 0;
             transform: translateY(40px);
-            transition: all 1s cubic-bezier(0.16, 1, 0.3, 1);
+            transition: all 1.2s cubic-bezier(0.16, 1, 0.3, 1);
         }
 
         .reveal.active {
@@ -31,89 +54,107 @@
             transform: translateY(0);
         }
 
-        .parallax {
-            background-attachment: fixed;
-            background-size: cover;
-            background-position: center;
+        .menu-item {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 4rem 0;
+            transition: all 0.4s;
+        }
+
+        .menu-item:hover {
+            border-color: var(--gold);
         }
     </style>
 </head>
 
 <body class="overflow-x-hidden">
-    <nav class="fixed w-full z-50 px-12 py-10 flex justify-between items-center transition-all duration-700"
-        id="navbar">
-        <div class="text-3xl serif italic tracking-widest text-[#c5a059]">SABOR <span class="text-white/20">|</span>
-            <span class="text-white">BRASA</span></div>
+    <nav class="fixed top-0 w-full z-50 p-12 flex justify-between items-center transition-all duration-700" id="navbar">
+        <div class="text-3xl serif italic tracking-[0.4em] font-light">SABOR <span class="text-white/20">|</span> BRASA
+        </div>
         <div class="hidden lg:flex space-x-12 text-[10px] font-bold uppercase tracking-[0.5em] text-white/40">
-            <a href="#experiencia" class="hover:text-[#c5a059] transition">Experiencia</a>
-            <a href="#carta" class="hover:text-[#c5a059] transition">La Carta</a>
-            <a href="#reserva" class="hover:text-[#c5a059] transition">Reserva</a>
+            <a href="#menu" class="hover:text-[#c5a059] transition">The Menu</a>
+            <a href="#philosophy" class="hover:text-[#c5a059] transition">Concept</a>
+            <a href="#reserve" class="hover:text-[#c5a059] transition">Secure Table</a>
         </div>
         <button
-            class="border border-[#c5a059] text-[#c5a059] px-10 py-3 rounded-full text-[10px] font-bold uppercase tracking-widest hover:bg-[#c5a059] hover:text-black transition duration-500">Reservar
-            Mesa</button>
+            class="border border-[#c5a059] text-[#c5a059] px-12 py-3 text-[10px] font-bold uppercase tracking-widest hover:bg-[#c5a059] hover:text-black transition duration-700 rounded-full">Reserve
+            Online</button>
     </nav>
 
-    <header class="h-screen relative flex items-center justify-center text-center overflow-hidden parallax"
-        style="background-image: url('https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=1920&q=80')">
-        <div class="absolute inset-0 bg-black/60"></div>
-        <div class="relative z-10 reveal" id="hero-content">
-            <span class="text-[#c5a059] text-xs uppercase tracking-[0.6em] mb-10 block font-bold">Concepto Gastronómico
-                de Autor</span>
-            <h1 class="text-7xl md:text-[10rem] serif italic text-white leading-none mb-10">La Elegancia <br> del <span
-                    class="text-[#c5a059]">Fuego.</span></h1>
-            <p class="text-xl md:text-2xl font-light text-white/50 italic max-w-2xl mx-auto">Cocina mediterránea
-                reinterpretada en un entorno de sofisticación absoluta.</p>
+    <header class="hero">
+        <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=1920&q=80">
+        <div class="relative z-10 text-center reveal" id="hero-text">
+            <span class="text-[10px] font-bold text-[#c5a059] uppercase tracking-[0.8em] mb-10 block">Fine Dining
+                Experience</span>
+            <h1 class="text-7xl md:text-[12rem] serif italic font-light leading-none mb-10 uppercase tracking-widest">La
+                Elegancia <br> del <span class="text-[#c5a059]">Fuego.</span></h1>
+            <p class="text-xl md:text-2xl font-light text-white/30 italic max-w-2xl mx-auto">Gastronomía mediterránea de
+                autor en el corazón de Benidorm.</p>
         </div>
-        <div
-            class="absolute bottom-10 left-1/2 -translate-x-1/2 opacity-20 text-[10px] tracking-[0.8em] font-bold uppercase">
-            Descender</div>
     </header>
 
-    <section id="experiencia" class="py-40 px-12 bg-[#0d0d0a]">
-        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-32 items-center">
-            <div class="aspect-[3/4] relative reveal">
-                <div class="absolute inset-0 border-[20px] border-[#c5a059]/5 -m-10"></div>
-                <img src="https://images.unsplash.com/photo-1550966841-3ee71038f3f5?auto=format&fit=crop&w=800&q=80"
-                    class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-1000">
-                <div class="absolute -bottom-10 -right-10 glass p-10 bg-black/80 border border-[#c5a059]/20">
-                    <div class="text-4xl serif italic text-[#c5a059] mb-2 font-bold">Slow Food</div>
-                    <div class="text-[10px] uppercase tracking-widest font-bold">Materia prima de lonja</div>
+    <section id="menu" class="py-60 px-10">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid lg:grid-cols-12 gap-20">
+                <div class="lg:col-span-12 reveal mb-32 flex justify-between items-end border-b border-white/10 pb-10">
+                    <h2 class="text-8xl serif italic">L'Menu du Jour.</h2>
+                    <span class="text-[10px] uppercase font-bold tracking-widest text-white/30">Explore our seasonal
+                        highlights &darr;</span>
                 </div>
-            </div>
-            <div class="reveal" style="transition-delay: 0.3s">
-                <h2 class="text-5xl md:text-8xl serif italic mb-10 text-white">Respeto por <br> el <span
-                        class="text-[#c5a059]">producto.</span></h2>
-                <p class="text-gray-500 text-lg mb-12 font-light leading-relaxed">Seleccionamos personalmente cada pieza
-                    de pescado en la lonja de Benidorm y cada corte de carne de ganaderías sostenibles para elevar la
-                    cocina tradicional a cotas artísticas.</p>
-                <div class="space-y-8">
-                    <div class="flex justify-between border-b border-white/5 pb-4">
-                        <span class="text-sm font-bold uppercase tracking-widest text-[#c5a059]">Entrantes</span>
-                        <span class="text-sm text-white/30">De temporada</span>
+
+                <div class="lg:col-span-6 space-y-4">
+                    <div class="menu-item reveal">
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="text-3xl serif italic text-[#c5a059]">Ostras Gillardeau N2</h3>
+                                <p class="text-sm text-white/30 mt-2 font-light italic">Con perlas de yuzu y aire de
+                                    mar.</p>
+                            </div>
+                            <span class="text-xl serif italic">24 €/u</span>
+                        </div>
                     </div>
-                    <div class="flex justify-between border-b border-white/5 pb-4">
-                        <span class="text-sm font-bold uppercase tracking-widest text-[#c5a059]">Arroces</span>
-                        <span class="text-sm text-white/30">Caldoso de Bogavante</span>
+                    <div class="menu-item reveal" style="transition-delay: 0.1s">
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="text-3xl serif italic text-[#c5a059]">Tartar de Atún Rojo</h3>
+                                <p class="text-sm text-white/30 mt-2 font-light italic">Lonja de Benidorm con emulsión
+                                    de wasabi.</p>
+                            </div>
+                            <span class="text-xl serif italic">38 €</span>
+                        </div>
                     </div>
-                    <div class="flex justify-between border-b border-white/5 pb-4">
-                        <span class="text-sm font-bold uppercase tracking-widest text-[#c5a059]">Brasas</span>
-                        <span class="text-sm text-white/30">Cortes Premium</span>
+                    <div class="menu-item reveal" style="transition-delay: 0.2s">
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="text-3xl serif italic text-[#c5a059]">Solomillo de Rubia Gallega</h3>
+                                <p class="text-sm text-white/30 mt-2 font-light italic">60 días de maduración a la brasa
+                                    de encina.</p>
+                            </div>
+                            <span class="text-xl serif italic">52 €</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-6 reveal">
+                    <div class="aspect-[3/4] overflow-hidden border border-white/5">
+                        <img src="https://images.unsplash.com/photo-1550966841-3ee71038f3f5?auto=format&fit=crop&w=1200&q=80"
+                            class="w-full h-full object-cover grayscale opacity-50 hover:grayscale-0 transition duration-1000">
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer id="reserva" class="py-40 bg-black text-center px-10 border-t border-white/5">
+    <footer id="reserve" class="py-60 bg-white text-black text-center px-10">
         <div class="max-w-4xl mx-auto reveal">
-            <h2 class="text-4xl md:text-7xl serif italic mb-16 text-white text-gradient">¿Preparado para una <br>
-                experiencia sensorial?</h2>
+            <h2 class="text-6xl md:text-9xl serif italic leading-none mb-10 tracking-tighter">EL ARTE DE <br> <span
+                    class="text-[#c5a059]">SABOREAR.</span></h2>
+            <p class="text-xl text-gray-500 mb-20 max-w-sm mx-auto italic">Plazas limitadas. Se recomienda reserva con
+                48h de antelación.</p>
             <button
-                class="bg-[#c5a059] text-black px-12 py-6 rounded-full font-bold uppercase tracking-widest text-xs hover:bg-white transition shadow-2xl">SOLICITAR
-                MESA</button>
-            <div class="mt-32 opacity-20 text-[10px] font-bold uppercase tracking-[0.6em]">Sabor & Brasa &bull; Benidorm
-                Skyline &bull; 2026</div>
+                class="bg-black text-white px-20 py-8 rounded-full font-bold uppercase tracking-widest text-[11px] hover:bg-[#c5a059] transition shadow-2xl">Book
+                Private Table</button>
+            <div class="mt-40 text-[9px] font-bold uppercase tracking-[0.8em] text-gray-300">SABOR & BRASA &bull;
+                GASTRONOMY LAB &bull; 2026</div>
         </div>
     </footer>
 
@@ -124,7 +165,7 @@
             });
         }, { threshold: 0.1 });
         document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-        document.getElementById('hero-content').classList.add('active');
+        document.getElementById('hero-text').classList.add('active');
     </script>
 </body>
 

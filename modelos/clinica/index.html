@@ -4,20 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pure Balance | Clínica de Medicina Estética Avanzada</title>
+    <title>Pure Balance | Aesthetic Medicine</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;600&display=swap" rel="stylesheet">
     <style>
+        :root {
+            --teal: #0d9488;
+        }
+
         body {
             font-family: 'Outfit', sans-serif;
-            background: #fafbfc;
+            background: #fff;
             color: #1e293b;
         }
 
         .reveal {
             opacity: 0;
             transform: translateY(30px);
-            transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);
+            transition: all 1.2s cubic-bezier(0.23, 1, 0.32, 1);
         }
 
         .reveal.active {
@@ -26,120 +30,95 @@
         }
 
         .soft-shadow {
-            box-shadow: 0 40px 100px -20px rgba(0, 0, 0, 0.05);
-        }
-
-        .teal-gradient {
-            background: linear-gradient(135deg, #0d9488 0%, #0f766e 100%);
+            box-shadow: 0 40px 100px -20px rgba(0, 0, 0, 0.03);
         }
     </style>
 </head>
 
 <body class="overflow-x-hidden">
     <nav
-        class="fixed w-full z-50 px-12 py-10 flex justify-between items-center bg-white/60 backdrop-blur-xl border-b border-gray-100">
-        <div class="text-2xl font-light tracking-[0.3em] uppercase">PURE<span
+        class="fixed top-0 w-full z-50 px-12 py-10 flex justify-between items-center bg-white/60 backdrop-blur-xl border-b border-gray-50">
+        <div class="text-2xl font-light tracking-[0.4em] uppercase">PURE<span
                 class="font-bold text-teal-600">BALANCE</span></div>
-        <div class="hidden lg:flex space-x-12 text-[10px] font-bold uppercase tracking-[0.4em] text-slate-400">
-            <a href="#inicio" class="hover:text-teal-600 transition">Tratamientos</a>
-            <a href="#clinica" class="hover:text-teal-600 transition">La Clínica</a>
-            <a href="#diagnostico" class="hover:text-teal-600 transition">Diagnóstico</a>
+        <div class="hidden lg:flex space-x-12 text-[9px] font-bold uppercase tracking-[0.6em] text-slate-300">
+            <a href="#treatments" class="hover:text-teal-600 transition">Treatments</a>
+            <a href="#about" class="hover:text-teal-600 transition">Clinic</a>
+            <a href="#contact" class="hover:text-teal-600 transition">Consult</a>
         </div>
         <button
-            class="bg-teal-600 text-white px-10 py-3 rounded-full text-[10px] font-bold uppercase tracking-widest hover:bg-slate-900 transition shadow-xl shadow-teal-100">Cita
+            class="bg-teal-600 text-white px-10 py-3 rounded-full text-[10px] font-bold uppercase tracking-widest hover:bg-slate-900 transition">Book
             Online</button>
     </nav>
 
-    <header id="inicio" class="min-h-screen flex items-center px-12 pt-20">
+    <header class="min-h-screen flex items-center px-12 pt-32">
         <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-24 items-center">
             <div class="reveal" id="hero-content">
-                <span
-                    class="text-teal-600 text-xs font-bold uppercase tracking-[0.4em] mb-8 block font-semibold">Transformación
-                    Natural & Científica</span>
-                <h1 class="text-6xl md:text-[6.5rem] font-light leading-[0.95] mb-12 tracking-tight">Tu esencia, <br>
-                    <span
-                        class="font-bold italic text-slate-800 underline decoration-teal-600/20 underline-offset-8">elevada.</span>
-                </h1>
-                <p class="text-xl text-slate-500 font-light max-w-lg mb-12 leading-relaxed">Combinamos la tecnología
-                    médica más avanzada con una visión artística de la armonía facial y corporal.</p>
-                <div class="flex flex-wrap gap-8">
-                    <div class="flex items-center gap-4">
-                        <div
-                            class="w-12 h-12 rounded-full border border-teal-100 flex items-center justify-center text-teal-600">
-                            ✓</div>
-                        <span class="text-xs font-bold uppercase tracking-widest text-slate-400">FDA Approved</span>
+                <span class="text-teal-600 text-[10px] font-bold uppercase tracking-[0.4em] mb-10 block">The Art of
+                    Science</span>
+                <h1 class="text-6xl md:text-[8rem] font-light leading-[0.9] mb-12 tracking-tighter">Esencia <br> <span
+                        class="font-bold italic text-slate-900">Redefinida.</span></h1>
+                <p class="text-2xl text-slate-400 font-light max-w-lg mb-12">Medicina estética de vanguardia enfocada en
+                    potenciar tu armonía natural.</p>
+                <div class="flex gap-10">
+                    <div class="flex flex-col">
+                        <span class="text-2xl font-bold">12k+</span>
+                        <span class="text-[9px] uppercase font-bold tracking-widest text-slate-300">Patients</span>
                     </div>
-                    <div class="flex items-center gap-4">
-                        <div
-                            class="w-12 h-12 rounded-full border border-teal-100 flex items-center justify-center text-teal-600">
-                            ✓</div>
-                        <span class="text-xs font-bold uppercase tracking-widest text-slate-400">Médicos Expertos</span>
+                    <div class="flex flex-col">
+                        <span class="text-2xl font-bold">25+</span>
+                        <span class="text-[9px] uppercase font-bold tracking-widest text-slate-300">Awards</span>
                     </div>
                 </div>
             </div>
-            <div class="relative reveal" style="transition-delay: 0.3s">
-                <div class="absolute -inset-10 bg-teal-50 rounded-full blur-3xl opacity-60 animate-pulse"></div>
+            <div class="reveal relative" style="transition-delay: 0.3s">
+                <div class="absolute -inset-20 bg-teal-50 rounded-full blur-[120px] opacity-40 animate-pulse"></div>
                 <img src="https://images.unsplash.com/photo-1512677859289-8687229d99cb?auto=format&fit=crop&w=1200&q=80"
-                    class="relative rounded-[80px] soft-shadow w-full h-[600px] object-cover">
-                <div class="absolute -bottom-10 -left-10 bg-white p-12 rounded-[40px] shadow-2xl border border-teal-50 reveal"
-                    style="transition-delay: 0.6s">
-                    <div class="text-5xl font-bold text-teal-600 mb-4 tracking-tighter">15+</div>
-                    <div class="text-[10px] font-bold uppercase tracking-[0.3em] text-slate-400">Años Innovando</div>
-                </div>
+                    class="relative rounded-[100px] soft-shadow w-full h-[700px] object-cover">
             </div>
         </div>
     </header>
 
-    <section id="clinica" class="py-40 px-12 bg-white">
-        <div class="max-w-7xl mx-auto">
-            <div class="grid md:grid-cols-3 gap-16">
-                <!-- Treatment Card -->
+    <section id="treatments" class="py-60 bg-slate-50 px-12">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-20">
+            <div class="reveal group cursor-pointer">
                 <div
-                    class="group reveal p-12 rounded-[50px] bg-slate-50 hover:bg-white transition-all duration-700 hover:soft-shadow border border-slate-50 hover:border-teal-100">
-                    <div class="text-4xl mb-10 group-hover:scale-110 transition inline-block">✨</div>
-                    <h3 class="text-2xl font-bold mb-6">Armonía Facial</h3>
-                    <p class="text-slate-500 text-sm leading-relaxed mb-10">Técnicas mínimamente invasivas para resaltar
-                        tu belleza natural sin perder la expresión.</p>
-                    <a href="#"
-                        class="text-xs font-bold uppercase tracking-widest text-teal-600 border-b border-teal-600/20 pb-2">Ver
-                        Tratamientos</a>
+                    class="aspect-square bg-white rounded-[60px] p-16 soft-shadow border border-gray-100 mb-10 group-hover:scale-105 transition duration-700">
+                    <div class="text-5xl mb-8">✨</div>
+                    <h3 class="text-3xl font-bold mb-4">Facial</h3>
+                    <p class="text-sm text-slate-400 leading-relaxed italic">Harmonizing features with scientific
+                        precision.</p>
                 </div>
-                <!-- Card 2 -->
-                <div class="group reveal p-12 rounded-[50px] bg-slate-50 hover:bg-white transition-all duration-700 hover:soft-shadow border border-slate-50 hover:border-teal-100"
-                    style="transition-delay: 0.1s">
-                    <div class="text-4xl mb-10 group-hover:scale-110 transition inline-block">🔬</div>
-                    <h3 class="text-2xl font-bold mb-6">Tecnología Láser</h3>
-                    <p class="text-slate-500 text-sm leading-relaxed mb-10">Equipamiento de última generación para
-                        tratar manchas, marcas y rejuvenecer la piel.</p>
-                    <a href="#"
-                        class="text-xs font-bold uppercase tracking-widest text-teal-600 border-b border-teal-600/20 pb-2">Ver
-                        Tecnología</a>
+            </div>
+            <div class="reveal group cursor-pointer" style="transition-delay: 0.1s">
+                <div
+                    class="aspect-square bg-white rounded-[60px] p-16 soft-shadow border border-gray-100 mb-10 group-hover:scale-105 transition duration-700">
+                    <div class="text-5xl mb-8">💎</div>
+                    <h3 class="text-3xl font-bold mb-4">Dermal</h3>
+                    <p class="text-sm text-slate-400 leading-relaxed italic">Advanced lasers for perfect skin texture.
+                    </p>
                 </div>
-                <!-- Card 3 -->
-                <div class="group reveal p-12 rounded-[50px] bg-slate-50 hover:bg-white transition-all duration-700 hover:soft-shadow border border-slate-50 hover:border-teal-100"
-                    style="transition-delay: 0.2s">
-                    <div class="text-4xl mb-10 group-hover:scale-110 transition inline-block">🤍</div>
-                    <h3 class="text-2xl font-bold mb-6">Contornado Corporal</h3>
-                    <p class="text-slate-500 text-sm leading-relaxed mb-10">Modelado de la silueta con protocolos
-                        personalizados de alta eficacia.</p>
-                    <a href="#"
-                        class="text-xs font-bold uppercase tracking-widest text-teal-600 border-b border-teal-600/20 pb-2">Ver
-                        Protocolos</a>
+            </div>
+            <div class="reveal group cursor-pointer" style="transition-delay: 0.2s">
+                <div
+                    class="aspect-square bg-white rounded-[60px] p-16 soft-shadow border border-gray-100 mb-10 group-hover:scale-105 transition duration-700">
+                    <div class="text-5xl mb-8">🤍</div>
+                    <h3 class="text-3xl font-bold mb-4">Body</h3>
+                    <p class="text-sm text-slate-400 leading-relaxed italic">Sculpting the silhouette of your dreams.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer class="py-40 bg-slate-900 text-white px-10 text-center">
+    <footer class="py-40 bg-white text-center">
         <div class="max-w-4xl mx-auto reveal">
-            <h2 class="text-4xl md:text-6xl font-light mb-16">El primer paso toward tu <span
-                    class="font-bold text-teal-500 italic">mejor versión.</span></h2>
+            <h2 class="text-5xl md:text-8xl font-light mb-16 tracking-tighter">Start your <br> <span
+                    class="font-bold text-teal-600">Pure Journey.</span></h2>
             <button
-                class="bg-teal-600 text-white px-16 py-6 rounded-full font-bold uppercase tracking-widest text-xs hover:bg-white hover:text-black transition shadow-2xl">SOLICITAR
-                CONSULTA</button>
-            <div class="mt-32 pt-10 border-t border-white/5 opacity-30 text-[9px] font-bold uppercase tracking-[0.5em]">
-                Pure Balance Aesthetic Clinic &bull; Benidorm &bull; 2026
-            </div>
+                class="bg-black text-white px-16 py-6 rounded-full font-bold uppercase tracking-widest text-[10px] hover:bg-teal-600 transition shadow-2xl">Consult
+                our Experts</button>
+            <div class="mt-40 text-[9px] font-bold uppercase tracking-[0.8em] text-slate-200">Pure Balance Clinic &bull;
+                Since 2012</div>
         </div>
     </footer>
 

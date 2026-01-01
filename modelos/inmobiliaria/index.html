@@ -4,18 +4,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elite Living | Inmobiliaria de Lujo</title>
+    <title>Elite Living | Luxury Real Estate</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;700&family=Playfair+Display:ital,wght@1,400&display=swap"
+        rel="stylesheet">
     <style>
+        :root {
+            --accent: #3b82f6;
+        }
+
         body {
             font-family: 'Outfit', sans-serif;
+            background: #000;
+            color: #fff;
+        }
+
+        .serif {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .hero-title {
+            font-size: clamp(3rem, 12vw, 12rem);
+            line-height: 0.8;
+            letter-spacing: -0.05em;
+            margin-bottom: 2rem;
+        }
+
+        .property-grid {
+            display: grid;
+            grid-template-columns: repeat(24, 1fr);
+            gap: 1rem;
+        }
+
+        .property-item {
+            position: relative;
+            overflow: hidden;
+            height: 70vh;
+            grid-column: span 12;
+        }
+
+        .property-item.wide {
+            grid-column: span 18;
+        }
+
+        .property-item.small {
+            grid-column: span 6;
         }
 
         .reveal {
             opacity: 0;
-            transform: translateY(30px);
-            transition: all 1.2s cubic-bezier(0.22, 1, 0.36, 1);
+            transform: translateY(50px);
+            transition: all 1.2s cubic-bezier(0.23, 1, 0.32, 1);
         }
 
         .reveal.active {
@@ -23,130 +63,124 @@
             transform: translateY(0);
         }
 
-        .zoom-effect:hover img {
-            transform: scale(1.1);
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 1px;
+            bottom: -4px;
+            right: 0;
+            background: #fff;
+            transition: width 0.4s;
         }
 
-        .glass {
-            background: rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
+        .nav-link:hover::after {
+            width: 100%;
+            left: 0;
+        }
+
+        .parallax-target {
+            transition: transform 0.1s linear;
         }
     </style>
 </head>
 
-<body class="bg-white text-gray-900 overflow-x-hidden">
-    <nav class="fixed w-full z-50 px-10 py-6 transition-all duration-500" id="navbar">
-        <div
-            class="max-w-7xl mx-auto flex justify-between items-center bg-white/80 backdrop-blur-md rounded-full px-8 py-4 border border-gray-100 shadow-sm">
-            <div class="text-2xl font-bold tracking-tighter">ELITE<span class="text-blue-600">LIVING</span></div>
-            <div class="hidden md:flex space-x-8 font-medium text-[10px] uppercase tracking-[0.3em] text-gray-500">
-                <a href="#hero" class="hover:text-blue-600 transition">Inicio</a>
-                <a href="#properties" class="hover:text-blue-600 transition">Propiedades</a>
-                <a href="#footer" class="hover:text-blue-600 transition">Contacto</a>
-            </div>
-            <button
-                class="bg-black text-white px-6 py-2 rounded-full font-bold text-[10px] uppercase tracking-widest hover:bg-blue-600 transition shadow-lg">Llamar</button>
+<body class="overflow-x-hidden">
+    <nav class="fixed top-0 w-full z-50 px-10 py-8 flex justify-between items-center bg-transparent backdrop-blur-md">
+        <div class="text-2xl font-bold tracking-tighter">ELITE<span class="text-blue-600">LIVING</span></div>
+        <div class="hidden lg:flex space-x-12 text-[10px] font-bold uppercase tracking-[0.4em]">
+            <a href="#properties" class="nav-link relative">Selection</a>
+            <a href="#about" class="nav-link relative">Philosophy</a>
+            <a href="#contact" class="nav-link relative">Connect</a>
         </div>
+        <button
+            class="bg-white text-black px-10 py-3 rounded-full text-[10px] font-bold uppercase tracking-widest hover:bg-blue-600 hover:text-white transition">Book
+            Visit</button>
     </nav>
 
-    <header id="hero" class="relative h-screen flex items-center justify-center overflow-hidden">
-        <img src="https://images.unsplash.com/photo-1600585154340-be6199fbfd0b?auto=format&fit=crop&w=1920&q=80"
-            class="absolute inset-0 w-full h-full object-cover scale-110 animate-[zoom_20s_infinite_alternate]">
-        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-        <div class="relative z-10 text-center text-white px-6 reveal" id="hero-text">
-            <div
-                class="inline-block px-4 py-1 rounded-full border border-white/20 text-[10px] font-bold uppercase tracking-widest mb-6">
-                Exclusividad Garantizada</div>
-            <h1 class="text-6xl md:text-9xl font-bold mb-8 tracking-tighter">Vivir en la <br> <span
-                    class="text-blue-400 italic font-light">Perfección.</span></h1>
-            <p class="text-xl md:text-2xl max-w-2xl mx-auto mb-12 font-light opacity-80">La mayor cartera de propiedades
-                de lujo en la Costa Blanca.</p>
-            <a href="#properties"
-                class="bg-white text-black px-12 py-5 rounded-full font-bold uppercase tracking-widest text-xs hover:scale-110 transition inline-block">Explorar
-                Selección</a>
+    <header class="min-h-screen flex flex-col justify-end p-10 pb-20">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6199fbfd0b?auto=format&fit=crop&w=1920&q=80"
+                class="w-full h-full object-cover opacity-50 parallax-target">
+            <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
+        </div>
+        <div class="relative z-10 max-w-7xl">
+            <div class="reveal">
+                <span class="text-[10px] font-bold text-blue-500 uppercase tracking-[0.6em] mb-4 block">Selection
+                    MMXXVI</span>
+                <h1 class="hero-title font-bold">Vivir en la <br> <span
+                        class="serif font-light text-white underline decoration-blue-600/30">Perfección.</span></h1>
+                <p class="text-xl md:text-2xl font-light text-gray-400 max-w-xl mb-12">Desde villas frente al mar en
+                    Altea hasta áticos exclusivos en el skyline de Benidorm.</p>
+            </div>
         </div>
     </header>
 
-    <section id="properties" class="py-32 px-10">
-        <div class="max-w-7xl mx-auto text-center mb-24 reveal">
-            <h2 class="text-5xl font-bold mb-6 tracking-tight italic">Nuestras Joyas</h2>
-            <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
-        </div>
-
-        <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-12">
-            <!-- Property Card -->
-            <div class="group reveal zoom-effect">
-                <div class="rounded-[40px] overflow-hidden mb-8 aspect-[4/5] relative shadow-2xl">
-                    <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=80"
-                        class="w-full h-full object-cover transition duration-700">
-                    <div
-                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
-                    </div>
-                    <div
-                        class="absolute bottom-8 left-8 text-white translate-y-4 group-hover:translate-y-0 transition-transform">
-                        <div class="text-2xl font-bold">Residencia Azure</div>
-                        <div class="text-sm opacity-80">Altea Hills</div>
-                    </div>
-                </div>
-                <div class="flex justify-between items-center">
-                    <span class="text-2xl font-bold text-blue-600">3.800.000 €</span>
-                    <button class="text-[10px] font-bold uppercase tracking-widest border-b border-black">Ver
-                        Detalles</button>
+    <section id="properties" class="p-10 py-40">
+        <div class="max-w-[1800px] mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-20 reveal">
+                <h2 class="text-6xl font-bold tracking-tighter italic">L'Espace Collection.</h2>
+                <div class="text-[10px] uppercase font-bold tracking-widest text-gray-500">Selected Listings &darr;
                 </div>
             </div>
 
-            <div class="group reveal zoom-effect" style="transition-delay: 0.1s">
-                <div class="rounded-[40px] overflow-hidden mb-8 aspect-[4/5] relative shadow-2xl">
+            <div class="property-grid">
+                <!-- Item 1: Wide -->
+                <div class="property-item wide reveal">
+                    <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80"
+                        class="w-full h-full object-cover">
+                    <div class="absolute bottom-10 left-10">
+                        <span class="text-[10px] text-blue-500 font-bold uppercase tracking-widest">Altea Hills</span>
+                        <h3 class="text-4xl font-bold">Azure Mansion</h3>
+                        <p class="text-2xl serif italic opacity-50">4.200.000 €</p>
+                    </div>
+                </div>
+                <!-- Item 2: Small -->
+                <div class="property-item small reveal">
                     <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80"
-                        class="w-full h-full object-cover transition duration-700">
-                    <div class="absolute bottom-8 left-8 text-white">
-                        <div class="text-2xl font-bold">Penthouse Sky</div>
-                        <div class="text-sm opacity-80">Benidorm Skyline</div>
+                        class="w-full h-full object-cover">
+                    <div class="absolute bottom-10 left-10">
+                        <span class="text-[10px] text-blue-500 font-bold uppercase tracking-widest">Benidorm</span>
+                        <h3 class="text-2xl font-bold">Sky Duplex</h3>
+                        <p class="serif italic opacity-50">1.850.000 €</p>
                     </div>
                 </div>
-                <div class="flex justify-between items-center">
-                    <span class="text-2xl font-bold text-blue-600">1.450.000 €</span>
-                    <button class="text-[10px] font-bold uppercase tracking-widest border-b border-black">Ver
-                        Detalles</button>
-                </div>
-            </div>
-
-            <div class="group reveal zoom-effect" style="transition-delay: 0.2s">
-                <div class="rounded-[40px] overflow-hidden mb-8 aspect-[4/5] relative shadow-2xl">
+                <!-- Row 2 -->
+                <div class="property-item small reveal">
                     <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=80"
-                        class="w-full h-full object-cover transition duration-700">
-                    <div class="absolute bottom-8 left-8 text-white">
-                        <div class="text-2xl font-bold">Mansión Blanca</div>
-                        <div class="text-sm opacity-80">Jávea Coast</div>
+                        class="w-full h-full object-cover">
+                    <div class="absolute bottom-10 left-10">
+                        <h3 class="text-2xl font-bold">Casa Blanca</h3>
+                        <p class="serif italic opacity-50">5.900.000 €</p>
                     </div>
                 </div>
-                <div class="flex justify-between items-center">
-                    <span class="text-2xl font-bold text-blue-600">5.200.000 €</span>
-                    <button class="text-[10px] font-bold uppercase tracking-widest border-b border-black">Ver
-                        Detalles</button>
+                <div class="property-item wide reveal">
+                    <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
+                        class="w-full h-full object-cover">
+                    <div class="absolute bottom-10 left-10">
+                        <h3 class="text-4xl font-bold">Infinity Villa</h3>
+                        <p class="serif italic opacity-50">7.200.000 €</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer id="footer" class="bg-gray-50 py-32 px-10 border-t border-gray-100">
-        <div class="max-w-7xl mx-auto flex flex-col items-center text-center">
-            <h2 class="text-4xl font-bold mb-8">¿Desea una propiedad exclusiva?</h2>
-            <p class="text-gray-400 max-w-xl mb-12">Nuestros agentes personales le encontrarán la casa de sus sueños
-                antes de que salga al mercado.</p>
+    <section id="contact" class="p-10 py-60 text-center bg-white text-black">
+        <div class="max-w-4xl mx-auto reveal">
+            <h2 class="text-6xl md:text-9xl font-bold leading-none tracking-tighter mb-10 italic italic">EL LUJO <br> ES
+                <span class="text-blue-600">SILENCIO.</span></h2>
+            <p class="text-xl text-gray-500 mb-20 max-w-lg mx-auto">Nuestros agentes personales le ofrecen una gestión
+                discreta y exclusiva de su patrimonio inmobiliario.</p>
             <button
-                class="bg-black text-white px-16 py-6 rounded-full font-bold uppercase tracking-widest text-[10px] hover:bg-blue-600 transition shadow-2xl">Contactar
-                Agente Premium</button>
-            <div
-                class="mt-20 pt-10 border-t border-gray-200 w-full flex justify-between items-center text-[10px] uppercase font-bold tracking-widest text-gray-400">
-                <div>ELITE LIVING 2026</div>
-                <div class="flex gap-10">
-                    <a href="#">Instagram</a>
-                    <a href="#">Privacidad</a>
-                </div>
-            </div>
+                class="bg-black text-white px-20 py-8 rounded-full font-bold uppercase tracking-widest text-[11px] hover:scale-110 transition shadow-2xl">Connect
+                Specialist</button>
         </div>
+    </section>
+
+    <footer
+        class="p-10 text-[9px] font-bold uppercase tracking-[0.6em] text-gray-500 text-center border-t border-gray-100">
+        Elite Living &copy; 2026 / Costa Blanca Digital Selection
     </footer>
 
     <script>
@@ -155,28 +189,15 @@
                 if (entry.isIntersecting) entry.target.classList.add('active');
             });
         }, { threshold: 0.1 });
-
         document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
-        window.addEventListener('scroll', () => {
-            const nav = document.getElementById('navbar');
-            if (window.scrollY > 100) nav.style.paddingTop = '1rem';
-            else nav.style.paddingTop = '1.5rem';
+        // Parallax effect
+        document.addEventListener('mousemove', (e) => {
+            const x = (window.innerWidth / 2 - e.pageX) / 50;
+            const y = (window.innerHeight / 2 - e.pageY) / 50;
+            document.querySelector('.parallax-target').style.transform = `translate(${x}px, ${y}px) scale(1.1)`;
         });
-
-        document.getElementById('hero-text').classList.add('active');
     </script>
-    <style>
-        @keyframes zoom {
-            from {
-                transform: scale(1.1);
-            }
-
-            to {
-                transform: scale(1.2);
-            }
-        }
-    </style>
 </body>
 
 </html>
